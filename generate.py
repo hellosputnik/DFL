@@ -427,7 +427,7 @@ def run_history_gen(outdir='.'):
     html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
-    {get_shared_head("Food Log History")}
+    {get_shared_head("History")}
     <style>
         .history-list {{ display: flex; flex-direction: column; gap: 1.25rem; }}
         .history-item {{ background: var(--card); border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); overflow: hidden; border: 1px solid transparent; transition: background 0.3s, border-color 0.2s; }}
@@ -442,14 +442,14 @@ def run_history_gen(outdir='.'):
         .stat-val {{ color: var(--text); font-size: 1.1rem; font-weight: 700; }}
         .over-cut, .under-target {{ color: var(--warning); }}
         .over-maint, .under-maint {{ color: var(--danger); }}
-        .details {{ display: none; padding: 0 1.5rem 1.5rem 1.5rem; border-top: 1px solid var(--border); background: var(--bg); transition: background 0.3s; }}
+        .details {{ display: none; padding: 1.5rem; border-top: 1px solid var(--border); background: var(--bg); transition: background 0.3s; }}
         .history-item.open .details {{ display: block; }}
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <div><h1>Log History</h1><p style="color: var(--muted); margin-top: 0.25rem; font-weight: 500;">Past Daily Records</p></div>
+            <div><h1>History</h1><p style="color: var(--muted); margin-top: 0.25rem; font-weight: 500;">Past Daily Food Logs</p></div>
             <div style="display: flex; gap: 1rem; align-items: center;">
                 <a href="index.html" class="nav-link">← Back to Dashboard</a>
                 {get_theme_toggle_html()}
