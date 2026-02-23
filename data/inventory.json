@@ -1,0 +1,67 @@
+[
+  {
+    "id": "cu_filet_mignon_red_wine_reduction",
+    "quantity": 1,
+    "unit": "meal"
+  },
+  {
+    "id": "cu_smoked_brisket_burrito_bowl",
+    "quantity": 1,
+    "unit": "meal"
+  },
+  {
+    "id": "cu_bbq_shrimp_boil",
+    "quantity": 1,
+    "unit": "meal"
+  },
+  {
+    "id": "cu_mexican_chicken_and_rice_bowl",
+    "quantity": 1,
+    "unit": "meal"
+  },
+  {
+    "id": "cu_sticky_gochujang_harissa_chicken",
+    "quantity": 1,
+    "unit": "meal"
+  },
+  {
+    "id": "cu_parisian_chicken_kebab",
+    "quantity": 1,
+    "unit": "meal"
+  },
+  {
+    "id": "cu_herbed_grilled_skirt_steak_with_chimichurri",
+    "quantity": 1,
+    "unit": "meal"
+  },
+  {
+    "id": "cu_lemon_herb_chicken",
+    "quantity": 1,
+    "unit": "meal"
+  },
+  {
+    "id": "cu_adobo_flat_iron_steak_with_za_atar_rainbow_fingerling_potatoes",
+    "quantity": 1,
+    "unit": "meal"
+  },
+  {
+    "id": "cu_herb_garlic_roasted_surf_turf",
+    "quantity": 1,
+    "unit": "meal"
+  },
+  {
+    "id": "cu_grilled_adobo_salmon",
+    "quantity": 1,
+    "unit": "meal"
+  },
+  {
+    "id": "cu_adobo_flank_steak",
+    "quantity": 1,
+    "unit": "meal"
+  },
+  {
+    "id": "cu_roasted_beef_brisket",
+    "quantity": 1,
+    "unit": "meal"
+  }
+]
