@@ -11,6 +11,9 @@ __pycache__/
 # uv
 .venv/
 
+# Build output (for GitHub Actions)
+dist/
+
 # macOS
 .DS_Store
 .AppleDouble
