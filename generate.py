@@ -443,7 +443,7 @@ def run_database_generation(output_directory: str = ".") -> None:
         <div class="controls">
             <div class="control-group"><label>Search Product</label><input type="text" id="search" placeholder="Search name, ingredients, brand..." oninput="filterTable()"></div>
             <div class="control-group"><label>Filter by Brand</label><select id="brand-filter" onchange="filterTable()"><option value="">All Brands</option>{" ".join([f'<option value="{brand}">{brand}</option>' for brand in sorted(list(set(value.get('brand', 'N/A') for value in database.values())))])}</select></div>
-            <div class="control-group"><label>Sort By</label><select id="sort-by" onchange="sortTable()"><option value="0">Brand</option><option value="1">Product</option><option value="2">Calories</option><option value="3">Protein</option><option value="4">Carbohydrate</option><option value="5">Fat</option></select></div>
+            <div class="control-group"><label>Sort By</label><select id="sort-by" onchange="sortTable()"><option value="0">Brand</option><option value="1">Product</option><option value="2">Calories</option><option value="3" selected>Protein</option><option value="4">Carbohydrate</option><option value="5">Fat</option></select></div>
         </div>
         <table id="food-table"><thead><tr><th class="text-center">Brand</th><th>Product</th><th class="text-center">Calories</th><th class="text-center">Protein</th><th class="text-center">Carbohydrate</th><th class="text-center">Fat</th></tr></thead><tbody>{rows_html}</tbody></table>
         <div id="empty-state" class="empty-state">No items match your search criteria.</div>
