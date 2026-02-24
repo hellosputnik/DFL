@@ -8,21 +8,61 @@ from datetime import datetime
 
 # --- SHARED UTILITIES ---
 
+
 def format_title(text):
-    if not text: return ""
-    lower_words = {'a', 'an', 'the', 'and', 'but', 'for', 'or', 'nor', 'so', 'yet', 'as', 'at', 'by', 'in', 'of', 'on', 'to', 'up', 'with', 'from', 'into', 'onto', 'upon', 'via', 'mid'}
-    upper_acronyms = {'bbq', 'blt', 'usda', 'gmo', 'msg', 'pb&j', 'bpa', 'id', 'p/c/f', 'usa'}
-    units = {'oz', 'fl', 'ml', 'g', 'mg', 'kcal'}
+    if not text:
+        return ""
+    lower_words = {
+        "a",
+        "an",
+        "the",
+        "and",
+        "but",
+        "for",
+        "or",
+        "nor",
+        "so",
+        "yet",
+        "as",
+        "at",
+        "by",
+        "in",
+        "of",
+        "on",
+        "to",
+        "up",
+        "with",
+        "from",
+        "into",
+        "onto",
+        "upon",
+        "via",
+        "mid",
+    }
+    upper_acronyms = {
+        "bbq",
+        "blt",
+        "usda",
+        "gmo",
+        "msg",
+        "pb&j",
+        "bpa",
+        "id",
+        "p/c/f",
+        "usa",
+    }
+    units = {"oz", "fl", "ml", "g", "mg", "kcal"}
     words = str(text).split()
-    if not words: return ""
+    if not words:
+        return ""
     formatted_words = []
     for i, word in enumerate(words):
-        stripped = re.sub(r'^[^a-zA-Z0-9]+|[^a-zA-Z0-9]+$', '', word)
+        stripped = re.sub(r"^[^a-zA-Z0-9]+|[^a-zA-Z0-9]+$", "", word)
         clean = stripped.lower()
-        if '-' in stripped:
-            parts = stripped.split('-')
+        if "-" in stripped:
+            parts = stripped.split("-")
             formatted_parts = [p.capitalize() for p in parts]
-            formatted_main = '-'.join(formatted_parts)
+            formatted_main = "-".join(formatted_parts)
             res = word.replace(stripped, formatted_main)
         elif clean in upper_acronyms:
             res = word.replace(stripped, stripped.upper())
@@ -36,6 +76,7 @@ def format_title(text):
             res = word.replace(stripped, stripped.capitalize())
         formatted_words.append(res)
     return " ".join(formatted_words)
+
 
 def get_shared_head(title):
     return f"""
@@ -93,6 +134,7 @@ def get_shared_head(title):
     </script>
     """
 
+
 def get_theme_toggle_html():
     return """
     <button onclick="toggleTheme()" class="theme-toggle" title="Toggle Dark Mode">
@@ -101,21 +143,39 @@ def get_theme_toggle_html():
     </button>
     """
 
+
 # --- CORE IMPLEMENTATIONS ---
 
-def run_dashboard_gen(date_str=None, outdir='.'):
-    try:
-        with open('data/goals.json', 'r') as f: goals = json.load(f)
-        with open('data/inventory.json', 'r') as f: inventory = json.load(f)
-        with open('data/food_database.json', 'r') as f: db = json.load(f)
-    except FileNotFoundError as e:
-        click.echo(f"Error: Missing data file - {e}"); return
 
-    target_date = date_str if date_str else datetime.now().strftime('%Y-%m-%d')
-    log_path = f'logs/{target_date}.json'
-    daily_log = json.load(open(log_path, 'r')) if os.path.exists(log_path) else {"entries": [], "totals": {"calories_kcal": 0, "protein_g": 0, "carbohydrate_g": 0, "fat_g": 0}}
-    totals = daily_log['totals']
-    
+def run_dashboard_gen(date_str=None, outdir="."):
+    try:
+        with open("data/goals.json", "r") as f:
+            goals = json.load(f)
+        with open("data/inventory.json", "r") as f:
+            inventory = json.load(f)
+        with open("data/food_database.json", "r") as f:
+            db = json.load(f)
+    except FileNotFoundError as e:
+        click.echo(f"Error: Missing data file - {e}")
+        return
+
+    target_date = date_str if date_str else datetime.now().strftime("%Y-%m-%d")
+    log_path = f"logs/{target_date}.json"
+    daily_log = (
+        json.load(open(log_path, "r"))
+        if os.path.exists(log_path)
+        else {
+            "entries": [],
+            "totals": {
+                "calories_kcal": 0,
+                "protein_g": 0,
+                "carbohydrate_g": 0,
+                "fat_g": 0,
+            },
+        }
+    )
+    totals = daily_log["totals"]
+
     def get_pct(current, goal):
         return min(100, int((current / goal) * 100)) if goal and goal > 0 else 0
 
@@ -124,14 +184,23 @@ def run_dashboard_gen(date_str=None, outdir='.'):
 
     inv_rows_html = ""
     for inv_item in inventory:
-        m = db.get(inv_item['id'])
+        m = db.get(inv_item["id"])
         if not m:
             for db_id, db_val in db.items():
-                if inv_item['id'] in db_id: m = db_val; break
-        if not m: continue
-        p, c, f, cal = m.get('protein_g', 0), m.get('carbohydrate_g', 0), m.get('fat_g', 0), m.get('calories_kcal', 0)
-        prod = format_title(m.get('product_name', ''))
-        if m.get('flavor'): prod += f" ({format_title(m['flavor'])})"
+                if inv_item["id"] in db_id:
+                    m = db_val
+                    break
+        if not m:
+            continue
+        p, c, f, cal = (
+            m.get("protein_g", 0),
+            m.get("carbohydrate_g", 0),
+            m.get("fat_g", 0),
+            m.get("calories_kcal", 0),
+        )
+        prod = format_title(m.get("product_name", ""))
+        if m.get("flavor"):
+            prod += f" ({format_title(m['flavor'])})"
         inv_rows_html += f"""
             <tr class='inventory-row' data-cal='{cal}' data-p='{p}' data-c='{c}' data-f='{f}'>
                 <td class='text-center'><input type='checkbox' class='project-toggle' style='width: 18px; height: 18px; cursor: pointer;' onchange='updateProjection()'></td>
@@ -142,16 +211,18 @@ def run_dashboard_gen(date_str=None, outdir='.'):
             </tr>"""
 
     log_rows_html = ""
-    if not daily_log['entries']:
+    if not daily_log["entries"]:
         log_rows_html = "<tr><td colspan='6' style='text-align:center; padding: 2rem; color: #94a3b8;'>No food logged yet today.</td></tr>"
     else:
-        for entry in daily_log['entries']:
-            m = db.get(entry.get('id'), {})
-            brand = m.get('brand', 'N/A')
-            product = format_title(m.get('product_name', entry['display_name']))
-            if m.get('flavor'): product += f" ({format_title(m['flavor'])})"
+        for entry in daily_log["entries"]:
+            m = db.get(entry.get("id"), {})
+            brand = m.get("brand", "N/A")
+            product = format_title(m.get("product_name", entry["display_name"]))
+            if m.get("flavor"):
+                product += f" ({format_title(m['flavor'])})"
             product_html = f"<span style='font-weight: 500;'>{product}</span>"
-            if "(Modified)" in entry.get('display_name', ''): product_html += "<span class='tag-modified'>Modified</span>"
+            if "(Modified)" in entry.get("display_name", ""):
+                product_html += "<span class='tag-modified'>Modified</span>"
             log_rows_html += f"<tr><td class='text-center'><span class='badge'>{brand}</span></td><td>{product_html}</td><td class='text-center'>{entry['calories_kcal']}</td><td class='text-center'>{entry['protein_g']}g</td><td class='text-center'>{entry['carbohydrate_g']}g</td><td class='text-center'>{entry['fat_g']}g</td></tr>"
 
     html = f"""<!DOCTYPE html>
@@ -283,24 +354,37 @@ def run_dashboard_gen(date_str=None, outdir='.'):
     </script>
 </body>
 </html>"""
-    
-    out_path = os.path.join(outdir, 'logs', f"{target_date}.html") if date_str else os.path.join(outdir, "index.html")
-    with open(out_path, 'w') as f: f.write(html)
+
+    out_path = (
+        os.path.join(outdir, "logs", f"{target_date}.html")
+        if date_str
+        else os.path.join(outdir, "index.html")
+    )
+    with open(out_path, "w") as f:
+        f.write(html)
     click.echo(f"Generated: {out_path}")
 
-def run_database_gen(outdir='.'):
+
+def run_database_gen(outdir="."):
     try:
-        with open('data/food_database.json', 'r') as f: db = json.load(f)
-    except FileNotFoundError: return
-    
+        with open("data/food_database.json", "r") as f:
+            db = json.load(f)
+    except FileNotFoundError:
+        return
+
     rows_html = ""
     for v in db.values():
-        brand = v.get('brand', 'N/A')
-        prod = format_title(v.get('product_name', ''))
-        flav = format_title(v.get('flavor', ''))
-        cal, p, c, f = v.get('calories_kcal', 0), v.get('protein_g', 0), v.get('carbohydrate_g', 0), v.get('fat_g', 0)
-        ing = ", ".join(v.get('ingredients', []))
-        
+        brand = v.get("brand", "N/A")
+        prod = format_title(v.get("product_name", ""))
+        flav = format_title(v.get("flavor", ""))
+        cal, p, c, f = (
+            v.get("calories_kcal", 0),
+            v.get("protein_g", 0),
+            v.get("carbohydrate_g", 0),
+            v.get("fat_g", 0),
+        )
+        ing = ", ".join(v.get("ingredients", []))
+
         rows_html += f"""
             <tr class="food-row" data-search="{brand.lower()} {prod.lower()} {flav.lower()} {ing.lower()}">
                 <td class="text-center"><span class="badge">{brand}</span></td>
@@ -371,45 +455,62 @@ def run_database_gen(outdir='.'):
     </script>
 </body>
 </html>"""
-    out_path = os.path.join(outdir, 'food_database.html')
-    with open(out_path, 'w') as f: f.write(html)
+    out_path = os.path.join(outdir, "food_database.html")
+    with open(out_path, "w") as f:
+        f.write(html)
     click.echo(f"Generated: {out_path}")
 
-def run_history_gen(outdir='.'):
-    log_files = sorted(glob.glob('logs/*.json'), reverse=True)
-    try:
-        with open('data/goals.json', 'r') as f: goals = json.load(f)
-        with open('data/food_database.json', 'r') as f: db = json.load(f)
-    except FileNotFoundError: goals = {}; db = {}
 
-    phase = goals.get('phase', 'cut')
-    target = goals.get('calories_target', 1800)
-    maint = goals.get('calories_maintenance', 2300)
+def run_history_gen(outdir="."):
+    log_files = sorted(glob.glob("logs/*.json"), reverse=True)
+    try:
+        with open("data/goals.json", "r") as f:
+            goals = json.load(f)
+        with open("data/food_database.json", "r") as f:
+            db = json.load(f)
+    except FileNotFoundError:
+        goals = {}
+        db = {}
+
+    phase = goals.get("phase", "cut")
+    target = goals.get("calories_target", 1800)
+    maint = goals.get("calories_maintenance", 2300)
 
     items_html = ""
     for log_path in log_files:
-        date_str = os.path.basename(log_path).replace('.json', '')
-        with open(log_path, 'r') as f:
+        date_str = os.path.basename(log_path).replace(".json", "")
+        with open(log_path, "r") as f:
             data = json.load(f)
-        
-        totals = data.get('totals', {})
-        entries = data.get('entries', [])
-        cal, p = totals.get('calories_kcal', 0), totals.get('protein_g', 0)
-        
+
+        totals = data.get("totals", {})
+        entries = data.get("entries", [])
+        cal, p = totals.get("calories_kcal", 0), totals.get("protein_g", 0)
+
         cal_class = ""
-        if phase == 'bulk':
-            if cal < maint: cal_class = "under-maint"
-            elif cal < target: cal_class = "under-target"
+        if phase == "bulk":
+            if cal < maint:
+                cal_class = "under-maint"
+            elif cal < target:
+                cal_class = "under-target"
         else:
-            if cal > maint: cal_class = "over-maint"
-            elif cal > target: cal_class = "over-cut"
-        
+            if cal > maint:
+                cal_class = "over-maint"
+            elif cal > target:
+                cal_class = "over-cut"
+
         table_rows = ""
         for entry in entries:
-            m = db.get(entry.get('id'), {})
-            brand, product = m.get('brand', 'N/A'), format_title(m.get('product_name', entry['display_name']))
-            if m.get('flavor'): product += f" ({format_title(m['flavor'])})"
-            tag = '<span class="tag-modified">Modified</span>' if '(Modified)' in entry.get('display_name','') else ''
+            m = db.get(entry.get("id"), {})
+            brand, product = m.get("brand", "N/A"), format_title(
+                m.get("product_name", entry["display_name"])
+            )
+            if m.get("flavor"):
+                product += f" ({format_title(m['flavor'])})"
+            tag = (
+                '<span class="tag-modified">Modified</span>'
+                if "(Modified)" in entry.get("display_name", "")
+                else ""
+            )
             table_rows += f"<tr><td class='text-center'><span class='badge'>{brand}</span></td><td><span style='font-weight:600'>{product}</span>{tag}</td><td class='text-center'>{entry['calories_kcal']}</td><td class='text-center'>{entry['protein_g']}g</td><td class='text-center'>{entry['carbohydrate_g']}g</td><td class='text-center'>{entry['fat_g']}g</td></tr>"
 
         items_html += f"""
@@ -459,46 +560,65 @@ def run_history_gen(outdir='.'):
     </div>
 </body>
 </html>"""
-    out_path = os.path.join(outdir, 'history.html')
-    with open(out_path, 'w') as f: f.write(html)
+    out_path = os.path.join(outdir, "history.html")
+    with open(out_path, "w") as f:
+        f.write(html)
     click.echo(f"Generated: {out_path}")
+
 
 # --- CLICK CLI ---
 
+
 @click.group()
-def cli(): pass
+def cli():
+    pass
+
 
 @cli.command()
-@click.option('--outdir', default='.', help="Output directory")
-def dashboard(outdir): run_dashboard_gen(outdir=outdir)
+@click.option("--outdir", default=".", help="Output directory")
+def dashboard(outdir):
+    run_dashboard_gen(outdir=outdir)
+
 
 @cli.command()
-@click.option('--date', help="YYYY-MM-DD")
-@click.option('--outdir', default='.', help="Output directory")
-def log(date, outdir): run_dashboard_gen(date, outdir=outdir)
+@click.option("--date", help="YYYY-MM-DD")
+@click.option("--outdir", default=".", help="Output directory")
+def log(date, outdir):
+    run_dashboard_gen(date, outdir=outdir)
+
 
 @cli.command()
-@click.option('--outdir', default='.', help="Output directory")
-def history(outdir): run_history_gen(outdir=outdir)
+@click.option("--outdir", default=".", help="Output directory")
+def history(outdir):
+    run_history_gen(outdir=outdir)
+
 
 @cli.command()
-@click.option('--outdir', default='.', help="Output directory")
-def database(outdir): run_database_gen(outdir=outdir)
+@click.option("--outdir", default=".", help="Output directory")
+def database(outdir):
+    run_database_gen(outdir=outdir)
+
 
 @cli.command()
-@click.option('--outdir', default='.', help="Output directory")
+@click.option("--outdir", default=".", help="Output directory")
 def all(outdir):
-    if outdir != '.':
-        os.makedirs(os.path.join(outdir, 'logs'), exist_ok=True)
-        os.makedirs(os.path.join(outdir, 'data'), exist_ok=True)
-        for f in glob.glob('data/*.json'): shutil.copy(f, os.path.join(outdir, 'data'))
-        for f in glob.glob('logs/*.json'): shutil.copy(f, os.path.join(outdir, 'logs'))
-        if os.path.exists('screenshot.png'): shutil.copy('screenshot.png', outdir)
+    if outdir != ".":
+        os.makedirs(os.path.join(outdir, "logs"), exist_ok=True)
+        os.makedirs(os.path.join(outdir, "data"), exist_ok=True)
+        for f in glob.glob("data/*.json"):
+            shutil.copy(f, os.path.join(outdir, "data"))
+        for f in glob.glob("logs/*.json"):
+            shutil.copy(f, os.path.join(outdir, "logs"))
+        if os.path.exists("screenshot.png"):
+            shutil.copy("screenshot.png", outdir)
     run_dashboard_gen(outdir=outdir)
     run_database_gen(outdir=outdir)
     run_history_gen(outdir=outdir)
-    for log_file in glob.glob('logs/*.json'):
-        run_dashboard_gen(os.path.basename(log_file).replace('.json',''), outdir=outdir)
+    for log_file in glob.glob("logs/*.json"):
+        run_dashboard_gen(
+            os.path.basename(log_file).replace(".json", ""), outdir=outdir
+        )
+
 
 if __name__ == "__main__":
     cli()
