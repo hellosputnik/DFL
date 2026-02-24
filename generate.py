@@ -182,15 +182,28 @@ def run_dashboard_generation(date_str: str = None, output_directory: str = ".") 
         return str(value) if value > 0 else ""
 
     inventory_rows_html = ""
+    # Create a list of pairs (database_entry, inventory_item) for sorting
+    inventory_to_display = []
     for inventory_item in inventory:
         database_entry = database.get(inventory_item["id"])
         if not database_entry:
-            for db_id, db_val in database.items():
-                if inventory_item["id"] in db_id:
-                    database_entry = db_val
+            for database_id, database_value in database.items():
+                if inventory_item["id"] in database_id:
+                    database_entry = database_value
                     break
-        if not database_entry:
-            continue
+        if database_entry:
+            inventory_to_display.append((database_entry, inventory_item))
+
+    # Sort by protein (high to low), then calories (high to low), then product name
+    inventory_to_display.sort(
+        key=lambda pair: (
+            -pair[0].get("protein_g", 0),
+            -pair[0].get("calories_kcal", 0),
+            pair[0].get("product_name", "").lower(),
+        )
+    )
+
+    for database_entry, inventory_item in inventory_to_display:
         protein, carbohydrate, fat, calories = (
             database_entry.get("protein_g", 0),
             database_entry.get("carbohydrate_g", 0),
@@ -374,7 +387,16 @@ def run_database_generation(output_directory: str = ".") -> None:
         return
 
     rows_html = ""
-    for value in database.values():
+    # Sort by protein (high to low), then calories (high to low), then product name
+    sorted_database = sorted(
+        database.values(),
+        key=lambda item: (
+            -item.get("protein_g", 0),
+            -item.get("calories_kcal", 0),
+            item.get("product_name", "").lower(),
+        ),
+    )
+    for value in sorted_database:
         brand = value.get("brand", "N/A")
         product = format_title(value.get("product_name", ""))
         flavor = format_title(value.get("flavor", ""))
