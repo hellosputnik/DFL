@@ -23,6 +23,4 @@ clean:
 
 format:
 	uv run black .
-
-format-html:
 	npx prettier --write "**/*.html"

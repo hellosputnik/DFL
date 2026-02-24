@@ -27,6 +27,9 @@ jobs:
       - name: Install dependencies
         run: make install
 
+      - name: Format
+        run: make format
+
       - name: Build Static Site
         run: make build OUTPUT_DIRECTORY=dist
 
