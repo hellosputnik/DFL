@@ -94,31 +94,31 @@
                     <div style="display: flex; justify-content: space-between;"><span>Goal</span> <b>1800</b></div>
                     <div style="display: flex; justify-content: space-between;"><span>Maintenance</span> <b>2300</b></div>
                 </div></div></div>
-                <div class="stat-val"><span class="current">897</span></div>
+                <div class="stat-val"><span class="current">1707</span></div>
                 <div class="goal-display-container"><input type="number" class="editable-goal" id="goal-cal-input" data-mode="cut" value="1800" placeholder="N/A" oninput="updateProjection()"></div>
-                <div class="progress-bg"><div class="progress-fill" style="width: 49%"></div></div>
+                <div class="progress-bg"><div class="progress-fill" style="width: 94%"></div></div>
             </div>
             <div class="card" id="card-protein">
                 <div class="stat-label">Protein</div>
-                <div class="stat-val"><span class="current">96.7g</span></div>
+                <div class="stat-val"><span class="current">195.7g</span></div>
                 <div class="goal-display-container"><input type="number" class="editable-goal" id="goal-p-input" value="180" placeholder="N/A" oninput="updateProjection()"></div>
-                <div class="progress-bg"><div class="progress-fill" style="width: 53%"></div></div>
+                <div class="progress-bg"><div class="progress-fill" style="width: 100%"></div></div>
             </div>
             <div class="card" id="card-carbs">
                 <div class="stat-label">Carbohydrate</div>
-                <div class="stat-val"><span class="current">12.0g</span></div>
+                <div class="stat-val"><span class="current">36.0g</span></div>
                 <div class="goal-display-container"><input type="number" class="editable-goal" id="goal-c-input" value="" placeholder="N/A" oninput="updateProjection()"></div>
                 <div class="progress-bg"><div class="progress-fill" style="width: 0%"></div></div>
             </div>
             <div class="card" id="card-fat">
                 <div class="stat-label">Fat</div>
-                <div class="stat-val"><span class="current">51.5g</span></div>
+                <div class="stat-val"><span class="current">85.5g</span></div>
                 <div class="goal-display-container"><input type="number" class="editable-goal" id="goal-f-input" value="" placeholder="N/A" oninput="updateProjection()"></div>
                 <div class="progress-bg"><div class="progress-fill" style="width: 0%"></div></div>
             </div>
         </div>
 
-        <section><h2>Today's Log</h2><table id="log-table"><thead><tr><th class="text-center">Brand</th><th>Product</th><th class="text-center">Calories</th><th class="text-center">Protein</th><th class="text-center">Carbohydrate</th><th class="text-center">Fat</th></tr></thead><tbody><tr><td class='text-center'><span class='badge'>Amazon Grocery</span></td><td><span style='font-weight: 500;'>Hot Italian Sausage</span></td><td class='text-center'>560</td><td class='text-center'>28.0g</td><td class='text-center'>4.0g</td><td class='text-center'>48.0g</td></tr><tr><td class='text-center'><span class='badge'>Organic Valley</span></td><td><span style='font-weight: 500;'>Organic Liquid Egg Whites (Pasteurized)</span></td><td class='text-center'>107</td><td class='text-center'>26.7g</td><td class='text-center'>0.0g</td><td class='text-center'>0.0g</td></tr><tr><td class='text-center'><span class='badge'>Fairlife</span></td><td><span style='font-weight: 500;'>Core Power Elite (Vanilla)</span></td><td class='text-center'>230</td><td class='text-center'>42.0g</td><td class='text-center'>8.0g</td><td class='text-center'>3.5g</td></tr></tbody></table></section>
+        <section><h2>Today's Log</h2><table id="log-table"><thead><tr><th class="text-center">Brand</th><th>Product</th><th class="text-center">Calories</th><th class="text-center">Protein</th><th class="text-center">Carbohydrate</th><th class="text-center">Fat</th></tr></thead><tbody><tr><td class='text-center'><span class='badge'>Amazon Grocery</span></td><td><span style='font-weight: 500;'>Hot Italian Sausage</span></td><td class='text-center'>560</td><td class='text-center'>28.0g</td><td class='text-center'>4.0g</td><td class='text-center'>48.0g</td></tr><tr><td class='text-center'><span class='badge'>Organic Valley</span></td><td><span style='font-weight: 500;'>Organic Liquid Egg Whites (Pasteurized)</span></td><td class='text-center'>107</td><td class='text-center'>26.7g</td><td class='text-center'>0.0g</td><td class='text-center'>0.0g</td></tr><tr><td class='text-center'><span class='badge'>Fairlife</span></td><td><span style='font-weight: 500;'>Core Power Elite (Vanilla)</span></td><td class='text-center'>230</td><td class='text-center'>42.0g</td><td class='text-center'>8.0g</td><td class='text-center'>3.5g</td></tr><tr><td class='text-center'><span class='badge'>CookUnity</span></td><td><span style='font-weight: 500;'>Roasted Beef Brisket</span></td><td class='text-center'>680</td><td class='text-center'>69.0g</td><td class='text-center'>22.0g</td><td class='text-center'>34.0g</td></tr><tr><td class='text-center'><span class='badge'>Slate</span></td><td><span style='font-weight: 500;'>Ultra Protein Shake (Vanilla)</span></td><td class='text-center'>130</td><td class='text-center'>30.0g</td><td class='text-center'>2.0g</td><td class='text-center'>0.0g</td></tr></tbody></table></section>
         <section style="margin-top: 2rem;"><h2>Current Inventory</h2><table id="inventory-table"><thead><tr><th style='width: 40px;' class='text-center'>Add</th><th class='text-center'>Brand</th><th>Product</th><th class='text-center'>Quantity</th><th class='text-center'>Macros (P / C / F)</th></tr></thead><tbody>
             <tr class='inventory-row' data-cal='880' data-p='47' data-c='46' data-f='54'>
                 <td class='text-center'><input type='checkbox' class='project-toggle' style='width: 18px; height: 18px; cursor: pointer;' onchange='updateProjection()'></td>
@@ -203,18 +203,11 @@
                 <td style='font-weight: 500;'>Adobo Flank Steak</td>
                 <td class='text-center'>1 meal</td>
                 <td class='text-center'>55g / 40g / 28g</td>
-            </tr>
-            <tr class='inventory-row' data-cal='680' data-p='69' data-c='22' data-f='34'>
-                <td class='text-center'><input type='checkbox' class='project-toggle' style='width: 18px; height: 18px; cursor: pointer;' onchange='updateProjection()'></td>
-                <td class='text-center'><span class='badge'>CookUnity</span></td>
-                <td style='font-weight: 500;'>Roasted Beef Brisket</td>
-                <td class='text-center'>1 meal</td>
-                <td class='text-center'>69g / 22g / 34g</td>
             </tr></tbody></table></section>
     </div>
 
     <script>
-        const currentTotals = { cal: 897, p: 96.7, c: 12.0, f: 51.5 };
+        const currentTotals = { cal: 1707, p: 195.7, c: 36.0, f: 85.5 };
         const maintCal = 2300;
 
         function updateProjection() {

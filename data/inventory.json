@@ -58,10 +58,5 @@
     "id": "cu_adobo_flank_steak",
     "quantity": 1,
     "unit": "meal"
-  },
-  {
-    "id": "cu_roasted_beef_brisket",
-    "quantity": 1,
-    "unit": "meal"
   }
 ]
