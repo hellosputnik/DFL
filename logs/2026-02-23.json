@@ -1,0 +1,37 @@
+{
+  "entries": [
+    {
+      "id": "amazon_grocery_hot_italian_sausage",
+      "display_name": "Amazon Grocery - Hot Italian Sausage",
+      "amount": "2 links",
+      "calories_kcal": 560,
+      "protein_g": 28.0,
+      "carbohydrate_g": 4.0,
+      "fat_g": 48.0
+    },
+    {
+      "id": "organic_valley_liquid_egg_whites",
+      "display_name": "Organic Valley - Organic Liquid Egg Whites (Pasteurized)",
+      "amount": "1 cup",
+      "calories_kcal": 107,
+      "protein_g": 26.7,
+      "carbohydrate_g": 0.0,
+      "fat_g": 0.0
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": "1 bottle",
+      "calories_kcal": 230,
+      "protein_g": 42.0,
+      "carbohydrate_g": 8.0,
+      "fat_g": 3.5
+    }
+  ],
+  "totals": {
+    "calories_kcal": 897,
+    "protein_g": 96.7,
+    "carbohydrate_g": 12.0,
+    "fat_g": 51.5
+  }
+}
