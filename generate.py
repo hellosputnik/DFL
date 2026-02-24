@@ -4,7 +4,8 @@ import re
 import glob
 import click
 import shutil
-from datetime import datetime
+import datetime
+import time
 
 # --- SHARED UTILITIES ---
 
@@ -159,7 +160,10 @@ def run_dashboard_gen(date_str=None, outdir="."):
         click.echo(f"Error: Missing data file - {e}")
         return
 
-    target_date = date_str if date_str else datetime.now().strftime("%Y-%m-%d")
+    # Respect TZ env var, default to Pacific for CI consistency
+    os.environ["TZ"] = os.environ.get("TZ", "America/Los_Angeles")
+    time.tzset()
+    target_date = date_str if date_str else datetime.datetime.now().strftime("%Y-%m-%d")
     log_path = f"logs/{target_date}.json"
     daily_log = (
         json.load(open(log_path, "r"))
