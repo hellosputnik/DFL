@@ -962,5 +962,43 @@
       "Vitamin A Palmitate",
       "Vitamin D3"
     ]
+  },
+  "caffe_macs_bang_bang_chicken_bowl": {
+    "brand": "Caffe Macs",
+    "product_name": "Bang Bang Chicken Bowl",
+    "flavor": null,
+    "calories_kcal": 680,
+    "protein_g": 34,
+    "carbohydrate_g": 52,
+    "fat_g": 35,
+    "total_fat_g": 35,
+    "serving_size": 1,
+    "serving_unit": "bowl",
+    "servings_per_container": 1,
+    "ingredients": [
+      "Chicken Thighs",
+      "Rice Noodles",
+      "Bang Bang Sauce (Lime Juice, Mayonnaise, Sriracha, Mae Ploy Sweet Chili Sauce)",
+      "Crispy Wontons",
+      "Scallions",
+      "Garlic",
+      "Tamari",
+      "Brown Sugar",
+      "Sunflower Oil",
+      "Sesame Oil",
+      "Pepper",
+      "Cucumbers",
+      "Red Cabbage",
+      "Green Cabbage",
+      "Mung Beans",
+      "Carrots",
+      "Avocados",
+      "Mizuna Greens",
+      "Romaine Lettuce",
+      "Rice Vinegar",
+      "Extra-Virgin Olive Oil",
+      "Salt",
+      "Cilantro"
+    ]
   }
 }

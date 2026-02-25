@@ -355,7 +355,7 @@
               </div>
             </div>
           </div>
-          <div class="stat-val"><span class="current">0</span></div>
+          <div class="stat-val"><span class="current">680</span></div>
           <div class="goal-display-container">
             <input
               type="number"
@@ -367,11 +367,11 @@
               oninput="updateProjection()"
             />
           </div>
-          <div class="progress-bg"><div class="progress-fill" style="width: 0%"></div></div>
+          <div class="progress-bg"><div class="progress-fill" style="width: 37%"></div></div>
         </div>
         <div class="card" id="card-protein">
           <div class="stat-label">Protein</div>
-          <div class="stat-val"><span class="current">0g</span></div>
+          <div class="stat-val"><span class="current">34g</span></div>
           <div class="goal-display-container">
             <input
               type="number"
@@ -382,11 +382,11 @@
               oninput="updateProjection()"
             />
           </div>
-          <div class="progress-bg"><div class="progress-fill" style="width: 0%"></div></div>
+          <div class="progress-bg"><div class="progress-fill" style="width: 18%"></div></div>
         </div>
         <div class="card" id="card-carbohydrate">
           <div class="stat-label">Carbohydrate</div>
-          <div class="stat-val"><span class="current">0g</span></div>
+          <div class="stat-val"><span class="current">52g</span></div>
           <div class="goal-display-container">
             <input
               type="number"
@@ -401,7 +401,7 @@
         </div>
         <div class="card" id="card-fat">
           <div class="stat-label">Fat</div>
-          <div class="stat-val"><span class="current">0g</span></div>
+          <div class="stat-val"><span class="current">35g</span></div>
           <div class="goal-display-container">
             <input
               type="number"
@@ -431,9 +431,12 @@
           </thead>
           <tbody>
             <tr>
-              <td colspan="6" style="text-align: center; padding: 2rem; color: #94a3b8">
-                No food logged yet today.
-              </td>
+              <td class="text-center"><span class="badge">Caffe Macs</span></td>
+              <td><span style="font-weight: 500">Bang Bang Chicken Bowl</span></td>
+              <td class="text-center">680</td>
+              <td class="text-center">34g</td>
+              <td class="text-center">52g</td>
+              <td class="text-center">35g</td>
             </tr>
           </tbody>
         </table>
@@ -699,7 +702,7 @@
     </div>
 
     <script>
-      const currentTotals = { calories: 0, protein: 0, carbohydrate: 0, fat: 0 };
+      const currentTotals = { calories: 680, protein: 34, carbohydrate: 52, fat: 35 };
       const maintenanceCalories = 2300;
 
       function updateProjection() {
