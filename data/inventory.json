@@ -1,5 +1,10 @@
 [
   {
+    "id": "fairlife_core_power_elite_vanilla",
+    "quantity": 12,
+    "unit": "bottle"
+  },
+  {
     "id": "cu_filet_mignon_red_wine_reduction",
     "quantity": 1,
     "unit": "meal"
