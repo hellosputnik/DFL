@@ -1,0 +1,28 @@
+{
+  "entries": [
+    {
+      "id": "cu_grilled_adobo_salmon",
+      "display_name": "CookUnity - Grilled Adobo Salmon",
+      "amount": 2,
+      "calories_kcal": 660,
+      "protein_g": 68,
+      "carbohydrate_g": 10,
+      "fat_g": 38
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    }
+  ],
+  "totals": {
+    "calories_kcal": 890,
+    "protein_g": 110,
+    "carbohydrate_g": 18,
+    "fat_g": 41.5
+  }
+}

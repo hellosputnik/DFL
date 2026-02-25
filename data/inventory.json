@@ -1,7 +1,7 @@
 [
   {
     "id": "fairlife_core_power_elite_vanilla",
-    "quantity": 11
+    "quantity": 10
   },
   {
     "id": "cu_filet_mignon_red_wine_reduction",
@@ -41,10 +41,6 @@
   },
   {
     "id": "cu_herb_garlic_roasted_surf_turf",
-    "quantity": 1
-  },
-  {
-    "id": "cu_grilled_adobo_salmon",
     "quantity": 1
   }
 ]

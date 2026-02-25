@@ -4,7 +4,7 @@
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food Log Dashboard - 2026-02-24</title>
+    <title>Food Log Dashboard - 2026-02-25</title>
     <style>
         :root {
             --primary: #2563eb; --bg: #f8fafc; --card: #ffffff; --text: #1e293b;
@@ -76,7 +76,7 @@
 <body>
     <div class="container">
         <header>
-            <div><h1>Daily Food Log</h1><p style="color: var(--muted); margin-top: 0.25rem; font-weight: 500;">2026-02-24</p></div>
+            <div><h1>Daily Food Log</h1><p style="color: var(--muted); margin-top: 0.25rem; font-weight: 500;">2026-02-25</p></div>
             <div style="display: flex; gap: 1rem; align-items: center;">
                 <a href="history.html" class="nav-link" style="color: var(--muted)">View History</a>
                 <a href="food_database.html" class="nav-link">View Food Database →</a>
@@ -96,31 +96,31 @@
                     <div style="display: flex; justify-content: space-between;"><span>Goal</span> <b>1800</b></div>
                     <div style="display: flex; justify-content: space-between;"><span>Maintenance</span> <b>2300</b></div>
                 </div></div></div>
-                <div class="stat-val"><span class="current">2217</span></div>
+                <div class="stat-val"><span class="current">890</span></div>
                 <div class="goal-display-container"><input type="number" class="editable-goal" id="goal-calories-input" data-mode="cut" value="1800" placeholder="N/A" oninput="updateProjection()"></div>
-                <div class="progress-bg"><div class="progress-fill" style="width: 100%"></div></div>
+                <div class="progress-bg"><div class="progress-fill" style="width: 49%"></div></div>
             </div>
             <div class="card" id="card-protein">
                 <div class="stat-label">Protein</div>
-                <div class="stat-val"><span class="current">174g</span></div>
+                <div class="stat-val"><span class="current">110g</span></div>
                 <div class="goal-display-container"><input type="number" class="editable-goal" id="goal-protein-input" value="180" placeholder="N/A" oninput="updateProjection()"></div>
-                <div class="progress-bg"><div class="progress-fill" style="width: 96%"></div></div>
+                <div class="progress-bg"><div class="progress-fill" style="width: 61%"></div></div>
             </div>
             <div class="card" id="card-carbohydrate">
                 <div class="stat-label">Carbohydrate</div>
-                <div class="stat-val"><span class="current">150g</span></div>
+                <div class="stat-val"><span class="current">18g</span></div>
                 <div class="goal-display-container"><input type="number" class="editable-goal" id="goal-carbohydrate-input" value="" placeholder="N/A" oninput="updateProjection()"></div>
                 <div class="progress-bg"><div class="progress-fill" style="width: 0%"></div></div>
             </div>
             <div class="card" id="card-fat">
                 <div class="stat-label">Fat</div>
-                <div class="stat-val"><span class="current">103.5g</span></div>
+                <div class="stat-val"><span class="current">41.5g</span></div>
                 <div class="goal-display-container"><input type="number" class="editable-goal" id="goal-fat-input" value="" placeholder="N/A" oninput="updateProjection()"></div>
                 <div class="progress-bg"><div class="progress-fill" style="width: 0%"></div></div>
             </div>
         </div>
 
-        <section><h2>Today's Log</h2><table id="log-table"><thead><tr><th class="text-center">Brand</th><th>Product</th><th class="text-center">Calories</th><th class="text-center">Protein</th><th class="text-center">Carbohydrate</th><th class="text-center">Fat</th></tr></thead><tbody><tr><td class='text-center'><span class='badge'>Caffe Macs</span></td><td><span style='font-weight: 500;'>Bang Bang Chicken Bowl</span></td><td class='text-center'>680</td><td class='text-center'>34g</td><td class='text-center'>52g</td><td class='text-center'>35g</td></tr><tr><td class='text-center'><span class='badge'>CookUnity</span></td><td><span style='font-weight: 500;'>Adobo Flank Steak</span><span class='tag-modified'>Modified</span></td><td class='text-center'>450</td><td class='text-center'>55g</td><td class='text-center'>5g</td><td class='text-center'>25g</td></tr><tr><td class='text-center'><span class='badge'>Fairlife</span></td><td><span style='font-weight: 500;'>Core Power Elite (Vanilla)</span></td><td class='text-center'>230</td><td class='text-center'>42g</td><td class='text-center'>8g</td><td class='text-center'>3.5g</td></tr><tr><td class='text-center'><span class='badge'>The Only Bean</span></td><td><span style='font-weight: 500;'>Crunchy Roasted Edamame (Sriracha)</span></td><td class='text-center'>117</td><td class='text-center'>11g</td><td class='text-center'>7g</td><td class='text-center'>6g</td></tr><tr><td class='text-center'><span class='badge'>Pizza Hut</span></td><td><span style='font-weight: 500;'>Personal Pan Pizza (Supreme)</span></td><td class='text-center'>740</td><td class='text-center'>32g</td><td class='text-center'>78g</td><td class='text-center'>34g</td></tr></tbody></table></section>
+        <section><h2>Today's Log</h2><table id="log-table"><thead><tr><th class="text-center">Brand</th><th>Product</th><th class="text-center">Calories</th><th class="text-center">Protein</th><th class="text-center">Carbohydrate</th><th class="text-center">Fat</th></tr></thead><tbody><tr><td class='text-center'><span class='badge'>CookUnity</span></td><td><span style='font-weight: 500;'>Grilled Adobo Salmon</span></td><td class='text-center'>660</td><td class='text-center'>68g</td><td class='text-center'>10g</td><td class='text-center'>38g</td></tr><tr><td class='text-center'><span class='badge'>Fairlife</span></td><td><span style='font-weight: 500;'>Core Power Elite (Vanilla)</span></td><td class='text-center'>230</td><td class='text-center'>42g</td><td class='text-center'>8g</td><td class='text-center'>3.5g</td></tr></tbody></table></section>
         <section style="margin-top: 2rem;"><h2>Current Inventory</h2><table id="inventory-table"><thead><tr><th class='text-center'>Brand</th><th>Product</th><th class='text-center'>Qty</th><th class='text-center'>Calories</th><th class='text-center'>Macros (P / C / F)</th></tr></thead><tbody>
             <tr class='inventory-row' data-calories='930' data-protein='71' data-carbohydrate='59' data-fat='44' onclick='toggleProjection(this)' style='cursor: pointer;'>
                 <td class='text-center'><span class='badge'>CookUnity</span></td>
@@ -174,16 +174,9 @@
             <tr class='inventory-row' data-calories='230' data-protein='42' data-carbohydrate='8' data-fat='3.5' onclick='toggleProjection(this)' style='cursor: pointer;'>
                 <td class='text-center'><span class='badge'>Fairlife</span></td>
                 <td style='font-weight: 500;'>Core Power Elite (Vanilla)</td>
-                <td class='text-center'>11</td>
+                <td class='text-center'>10</td>
                 <td class='text-center'>230</td>
                 <td class='text-center'>42g / 8g / 3.5g</td>
-            </tr>
-            <tr class='inventory-row' data-calories='590' data-protein='41' data-carbohydrate='47' data-fat='27' onclick='toggleProjection(this)' style='cursor: pointer;'>
-                <td class='text-center'><span class='badge'>CookUnity</span></td>
-                <td style='font-weight: 500;'>Grilled Adobo Salmon</td>
-                <td class='text-center'>1</td>
-                <td class='text-center'>590</td>
-                <td class='text-center'>41g / 47g / 27g</td>
             </tr>
             <tr class='inventory-row' data-calories='440' data-protein='40' data-carbohydrate='3' data-fat='31' onclick='toggleProjection(this)' style='cursor: pointer;'>
                 <td class='text-center'><span class='badge'>CookUnity</span></td>
@@ -209,7 +202,7 @@
     </div>
 
     <script>
-        const currentTotals = { calories: 2217, protein: 174, carbohydrate: 150, fat: 103.5 };
+        const currentTotals = { calories: 890, protein: 110, carbohydrate: 18, fat: 41.5 };
         const maintenanceCalories = 2300;
 
         function toggleProjection(row) {
