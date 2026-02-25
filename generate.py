@@ -228,11 +228,11 @@ def run_dashboard_generation(date_str: str = None, output_directory: str = ".") 
         if database_entry.get("flavor"):
             product += f" ({format_title(database_entry['flavor'])})"
         inventory_rows_html += f"""
-            <tr class='inventory-row' data-calories='{calories}' data-protein='{protein}' data-carbohydrate='{carbohydrate}' data-fat='{fat}'>
-                <td class='text-center'><input type='checkbox' class='project-toggle' style='width: 18px; height: 18px; cursor: pointer;' onchange='updateProjection()'></td>
+            <tr class='inventory-row' data-calories='{calories}' data-protein='{protein}' data-carbohydrate='{carbohydrate}' data-fat='{fat}' onclick='toggleProjection(this)' style='cursor: pointer;'>
                 <td class='text-center'><span class='badge'>{database_entry.get('brand')}</span></td>
                 <td style='font-weight: 500;'>{product}</td>
-                <td class='text-center'>{inventory_item['quantity']} {inventory_item['unit']}</td>
+                <td class='text-center'>{inventory_item['quantity']}</td>
+                <td class='text-center'>{calories}</td>
                 <td class='text-center'>{protein}g / {carbohydrate}g / {fat}g</td>
             </tr>"""
 
@@ -271,6 +271,8 @@ def run_dashboard_generation(date_str: str = None, output_directory: str = ".") 
         .editable-goal {{ border: 1px solid transparent; background: transparent; color: inherit; font: inherit; width: 100%; padding: 0; margin: 0; text-align: left; cursor: pointer; }}
         .editable-goal:hover {{ color: var(--primary); }}
         .editable-goal:focus {{ border-bottom: 1px solid var(--primary); outline: none; cursor: text; color: var(--text); }}
+        tr.selected {{ background: #bfdbfe !important; }}
+        body.dark-mode tr.selected {{ background: #1e40af !important; }}
     </style>
 </head>
 <body>
@@ -316,12 +318,17 @@ def run_dashboard_generation(date_str: str = None, output_directory: str = ".") 
         </div>
 
         <section><h2>Today's Log</h2><table id="log-table"><thead><tr><th class="text-center">Brand</th><th>Product</th><th class="text-center">Calories</th><th class="text-center">Protein</th><th class="text-center">Carbohydrate</th><th class="text-center">Fat</th></tr></thead><tbody>{log_rows_html}</tbody></table></section>
-        <section style="margin-top: 2rem;"><h2>Current Inventory</h2><table id="inventory-table"><thead><tr><th style='width: 40px;' class='text-center'>Add</th><th class='text-center'>Brand</th><th>Product</th><th class='text-center'>Quantity</th><th class='text-center'>Macros (P / C / F)</th></tr></thead><tbody>{inventory_rows_html}</tbody></table></section>
+        <section style="margin-top: 2rem;"><h2>Current Inventory</h2><table id="inventory-table"><thead><tr><th class='text-center'>Brand</th><th>Product</th><th class='text-center'>Qty</th><th class='text-center'>Calories</th><th class='text-center'>Macros (P / C / F)</th></tr></thead><tbody>{inventory_rows_html}</tbody></table></section>
     </div>
 
     <script>
         const currentTotals = {{ calories: {totals['calories_kcal']}, protein: {totals['protein_g']}, carbohydrate: {totals['carbohydrate_g']}, fat: {totals['fat_g']} }};
         const maintenanceCalories = {goals['calories_maintenance']};
+
+        function toggleProjection(row) {{
+            row.classList.toggle('selected');
+            updateProjection();
+        }}
 
         function updateProjection() {{
             const goals = {{
@@ -331,10 +338,11 @@ def run_dashboard_generation(date_str: str = None, output_directory: str = ".") 
                 fat: parseFloat(document.getElementById('goal-fat-input').value) || 0
             }};
             let projectedCalories = 0, projectedProtein = 0, projectedCarbohydrate = 0, projectedFat = 0;
-            document.querySelectorAll('.inventory-row').forEach(row => {{
-                if (row.querySelector('.project-toggle').checked) {{
-                    projectedCalories += parseFloat(row.dataset.calories); projectedProtein += parseFloat(row.dataset.protein); projectedCarbohydrate += parseFloat(row.dataset.carbohydrate); projectedFat += parseFloat(row.dataset.fat);
-                }}
+            document.querySelectorAll('.inventory-row.selected').forEach(row => {{
+                projectedCalories += parseFloat(row.dataset.calories);
+                projectedProtein += parseFloat(row.dataset.protein);
+                projectedCarbohydrate += parseFloat(row.dataset.carbohydrate);
+                projectedFat += parseFloat(row.dataset.fat);
             }});
             updateCardCalories(currentTotals.calories + projectedCalories, projectedCalories, goals.target, maintenanceCalories);
             updateCardMacro('protein', currentTotals.protein + projectedProtein, projectedProtein, goals.protein, 'g', false);

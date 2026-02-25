@@ -8,12 +8,48 @@
       "protein_g": 34,
       "carbohydrate_g": 52,
       "fat_g": 35
+    },
+    {
+      "id": "cu_adobo_flank_steak",
+      "display_name": "CookUnity - Adobo Flank Steak (Modified)",
+      "amount": 1,
+      "calories_kcal": 450,
+      "protein_g": 55,
+      "carbohydrate_g": 5,
+      "fat_g": 25
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    },
+    {
+      "id": "tob_edamame_sriracha",
+      "display_name": "The Only Bean - Crunchy Roasted Edamame (Sriracha)",
+      "amount": 1,
+      "calories_kcal": 117,
+      "protein_g": 11,
+      "carbohydrate_g": 7,
+      "fat_g": 6
+    },
+    {
+      "id": "ph_personal_pan_supreme",
+      "display_name": "Pizza Hut - Personal Pan (Supreme)",
+      "amount": 1,
+      "calories_kcal": 740,
+      "protein_g": 32,
+      "carbohydrate_g": 78,
+      "fat_g": 34
     }
   ],
   "totals": {
-    "calories_kcal": 680,
-    "protein_g": 34,
-    "carbohydrate_g": 52,
-    "fat_g": 35
+    "calories_kcal": 2217,
+    "protein_g": 174,
+    "carbohydrate_g": 150,
+    "fat_g": 103.5
   }
 }

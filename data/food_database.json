@@ -1,4 +1,26 @@
 {
+  "ph_personal_pan_supreme": {
+    "brand": "Pizza Hut",
+    "product_name": "Personal Pan Pizza",
+    "flavor": "Supreme",
+    "calories_kcal": 740,
+    "protein_g": 32,
+    "carbohydrate_g": 78,
+    "fat_g": 34,
+    "total_fat_g": 34,
+    "saturated_fat_g": 14,
+    "trans_fat_g": 0,
+    "cholesterol_mg": 70,
+    "sodium_mg": 1680,
+    "dietary_fiber_g": 4,
+    "total_sugars_g": 8,
+    "added_sugars_g": 2,
+    "serving_size": 1,
+    "serving_unit": "pizza",
+    "servings_per_container": 1,
+    "total_weight_oz": 11.0,
+    "ingredients": []
+  },
   "cu_adobo_flank_steak": {
     "brand": "CookUnity",
     "product_name": "Adobo Flank Steak",
