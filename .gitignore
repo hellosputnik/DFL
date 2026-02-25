@@ -13,7 +13,7 @@ __pycache__/
 
 # Build output (for GitHub Actions)
 dist/
-logs/
+logs/**/*.html
 
 # macOS
 .DS_Store

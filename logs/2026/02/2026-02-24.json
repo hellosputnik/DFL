@@ -1,0 +1,19 @@
+{
+  "entries": [
+    {
+      "id": "caffe_macs_bang_bang_chicken_bowl",
+      "display_name": "Caffe Macs - Bang Bang Chicken Bowl",
+      "amount": 1,
+      "calories_kcal": 680,
+      "protein_g": 34,
+      "carbohydrate_g": 52,
+      "fat_g": 35
+    }
+  ],
+  "totals": {
+    "calories_kcal": 680,
+    "protein_g": 34,
+    "carbohydrate_g": 52,
+    "fat_g": 35
+  }
+}

@@ -144,6 +144,20 @@ def get_theme_toggle_html() -> str:
     """
 
 
+def get_log_path(base_dir: str, date_str: str, create_dirs: bool = False) -> str:
+    """Constructs the path to a log file, sharded by year and month."""
+    try:
+        date_obj = datetime.datetime.strptime(date_str, "%Y-%m-%d")
+        year, month = str(date_obj.year), f"{date_obj.month:02d}"
+        log_dir = os.path.join(base_dir, year, month)
+        if create_dirs:
+            os.makedirs(log_dir, exist_ok=True)
+        return os.path.join(log_dir, f"{date_str}.json")
+    except ValueError:
+        # Fallback for non-date strings or different formats if any
+        return os.path.join(base_dir, f"{date_str}.json")
+
+
 def run_dashboard_generation(date_str: str = None, output_directory: str = ".") -> None:
     try:
         with open("data/goals.json", "r") as goals_file:
@@ -159,7 +173,7 @@ def run_dashboard_generation(date_str: str = None, output_directory: str = ".") 
     os.environ["TZ"] = os.environ.get("TZ", "America/Los_Angeles")
     time.tzset()
     target_date = date_str if date_str else datetime.datetime.now().strftime("%Y-%m-%d")
-    log_path = f"logs/{target_date}.json"
+    log_path = get_log_path("logs", target_date)
     daily_log = (
         json.load(open(log_path, "r"))
         if os.path.exists(log_path)
@@ -485,7 +499,7 @@ def run_database_generation(output_directory: str = ".") -> None:
 
 
 def run_history_generation(output_directory: str = ".") -> None:
-    log_files = sorted(glob.glob("logs/*.json"), reverse=True)
+    log_files = sorted(glob.glob("logs/**/*.json", recursive=True), reverse=True)
     try:
         with open("data/goals.json", "r") as goals_file:
             goals = json.load(goals_file)
@@ -623,18 +637,27 @@ def database(output_directory: str):
 @click.option("--output-directory", default=".", help="Output directory")
 def all(output_directory: str):
     if output_directory != ".":
-        os.makedirs(os.path.join(output_directory, "logs"), exist_ok=True)
         os.makedirs(os.path.join(output_directory, "data"), exist_ok=True)
         for data_file in glob.glob("data/*.json"):
             shutil.copy(data_file, os.path.join(output_directory, "data"))
-        for log_file in glob.glob("logs/*.json"):
-            shutil.copy(log_file, os.path.join(output_directory, "logs"))
+        
+        # Handle sharded logs
+        log_files = glob.glob("logs/**/*.json", recursive=True)
+        for log_file in log_files:
+            # Create corresponding directories in the output
+            dest_dir = os.path.join(output_directory, os.path.dirname(log_file))
+            os.makedirs(dest_dir, exist_ok=True)
+            shutil.copy(log_file, dest_dir)
+            
         if os.path.exists("screenshot.png"):
             shutil.copy("screenshot.png", output_directory)
+            
     run_dashboard_generation(output_directory=output_directory)
     run_database_generation(output_directory=output_directory)
     run_history_generation(output_directory=output_directory)
-    for log_file in glob.glob("logs/*.json"):
+    
+    log_files = glob.glob("logs/**/*.json", recursive=True)
+    for log_file in log_files:
         run_dashboard_generation(
             os.path.basename(log_file).replace(".json", ""),
             output_directory=output_directory,
