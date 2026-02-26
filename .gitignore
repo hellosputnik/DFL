@@ -10,6 +10,7 @@ __pycache__/
 
 # uv
 .venv/
+uv.lock
 
 # Build output (for GitHub Actions)
 dist/

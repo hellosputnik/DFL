@@ -17,12 +17,30 @@
       "protein_g": 42,
       "carbohydrate_g": 8,
       "fat_g": 3.5
+    },
+    {
+      "id": "cu_sticky_gochujang_harissa_chicken",
+      "display_name": "CookUnity - Sticky Gochujang-Harissa Chicken",
+      "amount": 1,
+      "calories_kcal": 500,
+      "protein_g": 38,
+      "carbohydrate_g": 10,
+      "fat_g": 33
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
     }
   ],
   "totals": {
-    "calories_kcal": 890,
-    "protein_g": 110,
-    "carbohydrate_g": 18,
-    "fat_g": 41.5
+    "calories_kcal": 1620,
+    "protein_g": 190,
+    "carbohydrate_g": 36,
+    "fat_g": 78
   }
 }

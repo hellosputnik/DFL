@@ -1,7 +1,7 @@
 [
   {
     "id": "fairlife_core_power_elite_vanilla",
-    "quantity": 10
+    "quantity": 9
   },
   {
     "id": "cu_filet_mignon_red_wine_reduction",
@@ -17,10 +17,6 @@
   },
   {
     "id": "cu_mexican_chicken_and_rice_bowl",
-    "quantity": 1
-  },
-  {
-    "id": "cu_sticky_gochujang_harissa_chicken",
     "quantity": 1
   },
   {
