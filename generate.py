@@ -195,7 +195,7 @@ def run_dashboard_generation(date_str: str = None, output_directory: str = ".") 
     def get_goal_value(value: float) -> str:
         return str(value) if value > 0 else ""
 
-    inventory_rows_html = ""
+    inventory_rows_list = []
     # Create a list of pairs (database_entry, inventory_item) for sorting
     inventory_to_display = []
     for inventory_item in inventory:
@@ -227,16 +227,17 @@ def run_dashboard_generation(date_str: str = None, output_directory: str = ".") 
         product = format_title(database_entry.get("product_name", ""))
         if database_entry.get("flavor"):
             product += f" ({format_title(database_entry['flavor'])})"
-        inventory_rows_html += f"""
+        inventory_rows_list.append(f"""
             <tr class='inventory-row' data-calories='{calories}' data-protein='{protein}' data-carbohydrate='{carbohydrate}' data-fat='{fat}' onclick='toggleProjection(this)' style='cursor: pointer;'>
                 <td class='text-center'><span class='badge'>{database_entry.get('brand')}</span></td>
                 <td style='font-weight: 500;'>{product}</td>
                 <td class='text-center'>{inventory_item['quantity']}</td>
                 <td class='text-center'>{calories}</td>
                 <td class='text-center'>{protein}g / {carbohydrate}g / {fat}g</td>
-            </tr>"""
+            </tr>""")
+    inventory_rows_html = "\n".join(inventory_rows_list)
 
-    log_rows_html = ""
+    log_rows_list = []
     if not daily_log["entries"]:
         log_rows_html = "<tr><td colspan='6' style='text-align:center; padding: 2rem; color: #94a3b8;'>No food logged yet today.</td></tr>"
     else:
@@ -251,7 +252,10 @@ def run_dashboard_generation(date_str: str = None, output_directory: str = ".") 
             product_html = f"<span style='font-weight: 500;'>{product}</span>"
             if "(Modified)" in entry.get("display_name", ""):
                 product_html += "<span class='tag-modified'>Modified</span>"
-            log_rows_html += f"<tr><td class='text-center'><span class='badge'>{brand}</span></td><td>{product_html}</td><td class='text-center'>{entry['calories_kcal']}</td><td class='text-center'>{entry['protein_g']}g</td><td class='text-center'>{entry['carbohydrate_g']}g</td><td class='text-center'>{entry['fat_g']}g</td></tr>"
+            log_rows_list.append(
+                f"<tr><td class='text-center'><span class='badge'>{brand}</span></td><td>{product_html}</td><td class='text-center'>{entry['calories_kcal']}</td><td class='text-center'>{entry['protein_g']}g</td><td class='text-center'>{entry['carbohydrate_g']}g</td><td class='text-center'>{entry['fat_g']}g</td></tr>"
+            )
+        log_rows_html = "\n".join(log_rows_list)
 
     html = f"""<!DOCTYPE html>
 <html lang="en">
@@ -391,11 +395,12 @@ def run_dashboard_generation(date_str: str = None, output_directory: str = ".") 
 </body>
 </html>"""
 
-    out_path = (
-        os.path.join(output_directory, "logs", f"{target_date}.html")
-        if date_str
-        else os.path.join(output_directory, "index.html")
-    )
+    if date_str:
+        out_path = get_log_path(
+            os.path.join(output_directory, "logs"), date_str, create_dirs=True
+        ).replace(".json", ".html")
+    else:
+        out_path = os.path.join(output_directory, "index.html")
     with open(out_path, "w") as output_file:
         output_file.write(html)
     click.echo(f"Generated: {out_path}")
@@ -408,7 +413,7 @@ def run_database_generation(output_directory: str = ".") -> None:
     except FileNotFoundError:
         return
 
-    rows_html = ""
+    rows_list = []
     # Sort by protein (high to low), then calories (high to low), then product name
     sorted_database = sorted(
         database.values(),
@@ -430,7 +435,7 @@ def run_database_generation(output_directory: str = ".") -> None:
         )
         ingredients = ", ".join(value.get("ingredients", []))
 
-        rows_html += f"""
+        rows_list.append(f"""
             <tr class="food-row" data-search="{brand.lower()} {product.lower()} {flavor.lower()} {ingredients.lower()}">
                 <td class="text-center"><span class="badge">{brand}</span></td>
                 <td><div style="font-weight: 600;">{product}</div>{f'<div style="font-size: 0.75rem; color: var(--muted);">{flavor}</div>' if flavor else ''}</td>
@@ -438,7 +443,8 @@ def run_database_generation(output_directory: str = ".") -> None:
                 <td class="text-center">{protein}g</td>
                 <td class="text-center">{carbohydrate}g</td>
                 <td class="text-center">{fat}g</td>
-            </tr>"""
+            </tr>""")
+    rows_html = "\n".join(rows_list)
 
     html = f"""<!DOCTYPE html>
 <html lang="en">
@@ -521,7 +527,7 @@ def run_history_generation(output_directory: str = ".") -> None:
     target = goals.get("calories_target", 1800)
     maintenance = goals.get("calories_maintenance", 2300)
 
-    items_html = ""
+    items_list = []
     for log_path in log_files:
         date_str = os.path.basename(log_path).replace(".json", "")
         with open(log_path, "r") as log_file:
@@ -543,7 +549,7 @@ def run_history_generation(output_directory: str = ".") -> None:
             elif calories > target:
                 calories_class = "over-cut"
 
-        table_rows = ""
+        table_rows_list = []
         for entry in entries:
             database_entry = database.get(entry.get("id"), {})
             brand, product = database_entry.get("brand", "N/A"), format_title(
@@ -556,19 +562,23 @@ def run_history_generation(output_directory: str = ".") -> None:
                 if "(Modified)" in entry.get("display_name", "")
                 else ""
             )
-            table_rows += f"<tr><td class='text-center'><span class='badge'>{brand}</span></td><td><span style='font-weight:600'>{product}</span>{tag}</td><td class='text-center'>{entry['calories_kcal']}</td><td class='text-center'>{entry['protein_g']}g</td><td class='text-center'>{entry['carbohydrate_g']}g</td><td class='text-center'>{entry['fat_g']}g</td></tr>"
+            table_rows_list.append(
+                f"<tr><td class='text-center'><span class='badge'>{brand}</span></td><td><span style='font-weight:600'>{product}</span>{tag}</td><td class='text-center'>{entry['calories_kcal']}</td><td class='text-center'>{entry['protein_g']}g</td><td class='text-center'>{entry['carbohydrate_g']}g</td><td class='text-center'>{entry['fat_g']}g</td></tr>"
+            )
+        table_rows = "\n".join(table_rows_list)
 
-        items_html += f"""
+        items_list.append(f"""
             <div class="history-item">
                 <div class="history-header" onclick="this.parentElement.classList.toggle('open')">
                     <div class="date-label"><span class="chevron">▶</span>{date_str}</div>
                     <div class="summary-stats">
                         <div class="stat-group"><span class="stat-label">Calories</span><span class="stat-val {calories_class}">{calories}</span></div>
-                        <div class="stat-group"><span class="stat-label">Protein</span><span class="stat-val">{protein}g</span></div>
+                        <div class="stat-group"><span class="stat-label">Protein</span><span class="stat-label">{protein}g</span></div>
                     </div>
                 </div>
                 <div class="details"><table><thead><tr><th class="text-center">Brand</th><th>Product</th><th class="text-center">Calories</th><th class="text-center">Protein</th><th class="text-center">Carbohydrate</th><th class="text-center">Fat</th></tr></thead><tbody>{table_rows}</tbody></table></div>
-            </div>"""
+            </div>""")
+    items_html = "\n".join(items_list)
 
     html = f"""<!DOCTYPE html>
 <html lang="en">
@@ -648,7 +658,7 @@ def all(output_directory: str):
         os.makedirs(os.path.join(output_directory, "data"), exist_ok=True)
         for data_file in glob.glob("data/*.json"):
             shutil.copy(data_file, os.path.join(output_directory, "data"))
-        
+
         # Handle sharded logs
         log_files = glob.glob("logs/**/*.json", recursive=True)
         for log_file in log_files:
@@ -656,14 +666,14 @@ def all(output_directory: str):
             dest_dir = os.path.join(output_directory, os.path.dirname(log_file))
             os.makedirs(dest_dir, exist_ok=True)
             shutil.copy(log_file, dest_dir)
-            
+
         if os.path.exists("screenshot.png"):
             shutil.copy("screenshot.png", output_directory)
-            
+
     run_dashboard_generation(output_directory=output_directory)
     run_database_generation(output_directory=output_directory)
     run_history_generation(output_directory=output_directory)
-    
+
     log_files = glob.glob("logs/**/*.json", recursive=True)
     for log_file in log_files:
         run_dashboard_generation(
