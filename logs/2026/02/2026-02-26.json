@@ -1,0 +1,28 @@
+{
+  "entries": [
+    {
+      "id": "slate_ultra_chocolate",
+      "display_name": "Slate - Ultra Protein Shake (Chocolate)",
+      "amount": 1,
+      "calories_kcal": 130,
+      "protein_g": 30,
+      "carbohydrate_g": 3,
+      "fat_g": 0.5
+    },
+    {
+      "id": "caffe_macs_bulgogi_pork",
+      "display_name": "Caffe Macs - Bulgogi Pork (Sweet Soy Garlic Sauce, Jasmine Rice, Kimchi)",
+      "amount": 1,
+      "calories_kcal": 700,
+      "protein_g": 39,
+      "carbohydrate_g": 63,
+      "fat_g": 26
+    }
+  ],
+  "totals": {
+    "calories_kcal": 830,
+    "protein_g": 69,
+    "carbohydrate_g": 66,
+    "fat_g": 26.5
+  }
+}

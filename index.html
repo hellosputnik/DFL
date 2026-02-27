@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Food Log Dashboard - 2026-02-25</title>
+    <title>Food Log Dashboard - 2026-02-26</title>
     <style>
       :root {
         --primary: #2563eb;
@@ -286,7 +286,7 @@
       <header>
         <div>
           <h1>Daily Food Log</h1>
-          <p style="color: var(--muted); margin-top: 0.25rem; font-weight: 500">2026-02-25</p>
+          <p style="color: var(--muted); margin-top: 0.25rem; font-weight: 500">2026-02-26</p>
         </div>
         <div style="display: flex; gap: 1rem; align-items: center">
           <a href="history.html" class="nav-link" style="color: var(--muted)">View History</a>
@@ -361,7 +361,7 @@
               </div>
             </div>
           </div>
-          <div class="stat-val"><span class="current">1620</span></div>
+          <div class="stat-val"><span class="current">830</span></div>
           <div class="goal-display-container">
             <input
               type="number"
@@ -373,11 +373,11 @@
               oninput="updateProjection()"
             />
           </div>
-          <div class="progress-bg"><div class="progress-fill" style="width: 90%"></div></div>
+          <div class="progress-bg"><div class="progress-fill" style="width: 46%"></div></div>
         </div>
         <div class="card" id="card-protein">
           <div class="stat-label">Protein</div>
-          <div class="stat-val"><span class="current">190g</span></div>
+          <div class="stat-val"><span class="current">69g</span></div>
           <div class="goal-display-container">
             <input
               type="number"
@@ -388,11 +388,11 @@
               oninput="updateProjection()"
             />
           </div>
-          <div class="progress-bg"><div class="progress-fill" style="width: 100%"></div></div>
+          <div class="progress-bg"><div class="progress-fill" style="width: 38%"></div></div>
         </div>
         <div class="card" id="card-carbohydrate">
           <div class="stat-label">Carbohydrate</div>
-          <div class="stat-val"><span class="current">36g</span></div>
+          <div class="stat-val"><span class="current">66g</span></div>
           <div class="goal-display-container">
             <input
               type="number"
@@ -407,7 +407,7 @@
         </div>
         <div class="card" id="card-fat">
           <div class="stat-label">Fat</div>
-          <div class="stat-val"><span class="current">78g</span></div>
+          <div class="stat-val"><span class="current">26.5g</span></div>
           <div class="goal-display-container">
             <input
               type="number"
@@ -437,36 +437,20 @@
           </thead>
           <tbody>
             <tr>
-              <td class="text-center"><span class="badge">CookUnity</span></td>
-              <td><span style="font-weight: 500">Grilled Adobo Salmon</span></td>
-              <td class="text-center">660</td>
-              <td class="text-center">68g</td>
-              <td class="text-center">10g</td>
-              <td class="text-center">38g</td>
+              <td class="text-center"><span class="badge">Slate</span></td>
+              <td><span style="font-weight: 500">Ultra Protein Shake (Chocolate)</span></td>
+              <td class="text-center">130</td>
+              <td class="text-center">30g</td>
+              <td class="text-center">3g</td>
+              <td class="text-center">0.5g</td>
             </tr>
             <tr>
-              <td class="text-center"><span class="badge">Fairlife</span></td>
-              <td><span style="font-weight: 500">Core Power Elite (Vanilla)</span></td>
-              <td class="text-center">230</td>
-              <td class="text-center">42g</td>
-              <td class="text-center">8g</td>
-              <td class="text-center">3.5g</td>
-            </tr>
-            <tr>
-              <td class="text-center"><span class="badge">CookUnity</span></td>
-              <td><span style="font-weight: 500">Sticky Gochujang-Harissa Chicken</span></td>
-              <td class="text-center">500</td>
-              <td class="text-center">38g</td>
-              <td class="text-center">10g</td>
-              <td class="text-center">33g</td>
-            </tr>
-            <tr>
-              <td class="text-center"><span class="badge">Fairlife</span></td>
-              <td><span style="font-weight: 500">Core Power Elite (Vanilla)</span></td>
-              <td class="text-center">230</td>
-              <td class="text-center">42g</td>
-              <td class="text-center">8g</td>
-              <td class="text-center">3.5g</td>
+              <td class="text-center"><span class="badge">Caffe Macs</span></td>
+              <td><span style="font-weight: 500">Bulgogi Pork</span></td>
+              <td class="text-center">700</td>
+              <td class="text-center">39g</td>
+              <td class="text-center">63g</td>
+              <td class="text-center">26g</td>
             </tr>
           </tbody>
         </table>
@@ -642,7 +626,7 @@
     </div>
 
     <script>
-      const currentTotals = { calories: 1620, protein: 190, carbohydrate: 36, fat: 78 };
+      const currentTotals = { calories: 830, protein: 69, carbohydrate: 66, fat: 26.5 };
       const maintenanceCalories = 2300;
 
       function toggleProjection(row) {

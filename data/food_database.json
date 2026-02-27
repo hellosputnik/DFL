@@ -958,6 +958,39 @@
       "Organic Egg Whites"
     ]
   },
+  "caffe_macs_bulgogi_pork": {
+    "brand": "Caffe Macs",
+    "product_name": "Bulgogi Pork",
+    "flavor": null,
+    "calories_kcal": 700,
+    "protein_g": 39,
+    "carbohydrate_g": 63,
+    "fat_g": 26,
+    "total_fat_g": 26,
+    "serving_size": 1,
+    "serving_unit": "meal",
+    "servings_per_container": 1,
+    "ingredients": [
+      "pork shoulder",
+      "ginger",
+      "garlic",
+      "tamari",
+      "mirin",
+      "organic cane sugar",
+      "baking soda",
+      "gochujang",
+      "sunflower oil",
+      "salt",
+      "black pepper",
+      "honey",
+      "yellow onions",
+      "jasmine rice",
+      "pan spray",
+      "English cucumbers",
+      "red lettuce leaf",
+      "kimchi"
+    ]
+  },
   "slate_ultra_vanilla": {
     "brand": "Slate",
     "product_name": "Ultra Protein Shake",
