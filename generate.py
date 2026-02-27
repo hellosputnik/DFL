@@ -146,16 +146,12 @@ def get_theme_toggle_html() -> str:
 
 def get_log_path(base_dir: str, date_str: str, create_dirs: bool = False) -> str:
     """Constructs the path to a log file, sharded by year and month."""
-    try:
-        date_obj = datetime.datetime.strptime(date_str, "%Y-%m-%d")
-        year, month = str(date_obj.year), f"{date_obj.month:02d}"
-        log_dir = os.path.join(base_dir, year, month)
-        if create_dirs:
-            os.makedirs(log_dir, exist_ok=True)
-        return os.path.join(log_dir, f"{date_str}.json")
-    except ValueError:
-        # Fallback for non-date strings or different formats if any
-        return os.path.join(base_dir, f"{date_str}.json")
+    date_obj = datetime.datetime.strptime(date_str, "%Y-%m-%d")
+    year, month = str(date_obj.year), f"{date_obj.month:02d}"
+    log_dir = os.path.join(base_dir, year, month)
+    if create_dirs:
+        os.makedirs(log_dir, exist_ok=True)
+    return os.path.join(log_dir, f"{date_str}.json")
 
 
 def run_dashboard_generation(date_str: str = None, output_directory: str = ".") -> None:
