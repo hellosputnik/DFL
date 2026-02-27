@@ -17,12 +17,21 @@
       "protein_g": 39,
       "carbohydrate_g": 63,
       "fat_g": 26
+    },
+    {
+      "id": "nem_nuong_nha_trang_roll",
+      "display_name": "Nem Nướng Nha Trang - Nem Nướng Roll (6 rolls)",
+      "amount": 6,
+      "calories_kcal": 1260,
+      "protein_g": 54,
+      "carbohydrate_g": 132,
+      "fat_g": 60
     }
   ],
   "totals": {
-    "calories_kcal": 830,
-    "protein_g": 69,
-    "carbohydrate_g": 66,
-    "fat_g": 26.5
+    "calories_kcal": 2090,
+    "protein_g": 123,
+    "carbohydrate_g": 198,
+    "fat_g": 86.5
   }
 }

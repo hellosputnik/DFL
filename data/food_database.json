@@ -1055,5 +1055,35 @@
       "Salt",
       "Cilantro"
     ]
+  },
+  "nem_nuong_nha_trang_roll": {
+    "brand": "Nem Nướng Nha Trang",
+    "product_name": "Nem Nướng Roll",
+    "flavor": null,
+    "calories_kcal": 210,
+    "protein_g": 9,
+    "carbohydrate_g": 22,
+    "fat_g": 10,
+    "total_fat_g": 10,
+    "saturated_fat_g": 3,
+    "trans_fat_g": 0,
+    "cholesterol_mg": 25,
+    "sodium_mg": 450,
+    "dietary_fiber_g": 2,
+    "total_sugars_g": 5,
+    "added_sugars_g": 3,
+    "serving_size": 1,
+    "serving_unit": "roll",
+    "servings_per_container": 1,
+    "total_weight_oz": 3.5,
+    "ingredients": [
+      "Pork",
+      "Rice Paper",
+      "Vermicelli Noodles",
+      "Lettuce",
+      "Herbs",
+      "Crispy Wrapper",
+      "Peanut/Liver Sauce (for dipping)"
+    ]
   }
 }
