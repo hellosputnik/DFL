@@ -26,12 +26,30 @@
       "protein_g": 42,
       "carbohydrate_g": 8,
       "fat_g": 3.5
+    },
+    {
+      "id": "cu_herbed_grilled_skirt_steak_with_chimichurri",
+      "display_name": "CookUnity - Herbed Grilled Skirt Steak With Chimichurri",
+      "amount": "2 meals",
+      "calories_kcal": 880,
+      "protein_g": 80,
+      "carbohydrate_g": 6,
+      "fat_g": 62
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": "1 bottle",
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
     }
   ],
   "totals": {
-    "calories_kcal": 1150,
-    "protein_g": 104,
-    "carbohydrate_g": 14,
-    "fat_g": 75.5
+    "calories_kcal": 2260,
+    "protein_g": 226,
+    "carbohydrate_g": 28,
+    "fat_g": 141.0
   }
 }
