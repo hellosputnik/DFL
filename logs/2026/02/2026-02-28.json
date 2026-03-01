@@ -26,12 +26,30 @@
       "protein_g": 7,
       "carbohydrate_g": 30,
       "fat_g": 3.5
+    },
+    {
+      "id": "cu_herb_garlic_roasted_surf_turf",
+      "display_name": "CookUnity - Herb & Garlic Roasted Surf & Turf",
+      "amount": 1,
+      "calories_kcal": 830,
+      "protein_g": 61,
+      "carbohydrate_g": 37,
+      "fat_g": 49
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
     }
   ],
   "totals": {
-    "calories_kcal": 910,
-    "protein_g": 80,
-    "carbohydrate_g": 89,
-    "fat_g": 27
+    "calories_kcal": 1970,
+    "protein_g": 183,
+    "carbohydrate_g": 134,
+    "fat_g": 79.5
   }
 }

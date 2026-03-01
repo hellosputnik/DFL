@@ -1,7 +1,7 @@
 [
   {
     "id": "fairlife_core_power_elite_vanilla",
-    "quantity": 6
+    "quantity": 5
   },
   {
     "id": "cu_filet_mignon_red_wine_reduction",
@@ -25,10 +25,6 @@
   },
   {
     "id": "cu_adobo_flat_iron_steak_with_za_atar_rainbow_fingerling_potatoes",
-    "quantity": 1
-  },
-  {
-    "id": "cu_herb_garlic_roasted_surf_turf",
     "quantity": 1
   }
 ]
