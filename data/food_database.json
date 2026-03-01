@@ -1120,5 +1120,41 @@
       "Glycerin Esters of Fatty Acids",
       "Salt"
     ]
+  },
+  "protein_pints_coffee": {
+    "brand": "Protein Pints",
+    "product_name": "Ice Cream",
+    "flavor": "Coffee",
+    "calories_kcal": 120,
+    "protein_g": 10,
+    "carbohydrate_g": 15,
+    "fat_g": 7,
+    "total_fat_g": 7,
+    "saturated_fat_g": 4,
+    "trans_fat_g": 0,
+    "cholesterol_mg": 51,
+    "sodium_mg": 110,
+    "dietary_fiber_g": 0,
+    "total_sugars_g": 3,
+    "added_sugars_g": 1,
+    "vitamin_d_mcg": 1,
+    "calcium_mg": 100,
+    "iron_mg": 0.3,
+    "potassium_mg": 90,
+    "serving_size": 90,
+    "serving_unit": "g",
+    "servings_per_container": 3,
+    "ingredients": [
+      "Milk",
+      "Cream",
+      "Allulose",
+      "Whey Protein Isolate",
+      "Tapioca Syrup",
+      "Egg Yolk",
+      "Coffee",
+      "Guar Gum",
+      "Salt",
+      "Monk Fruit"
+    ]
   }
 }

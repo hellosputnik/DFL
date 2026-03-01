@@ -1,0 +1,37 @@
+{
+  "entries": [
+    {
+      "id": "cu_adobo_flat_iron_steak_with_za_atar_rainbow_fingerling_potatoes",
+      "display_name": "CookUnity - Adobo Flat Iron Steak (No Potatoes)",
+      "amount": 1,
+      "calories_kcal": 450,
+      "protein_g": 50,
+      "carbohydrate_g": 13,
+      "fat_g": 21
+    },
+    {
+      "id": "protein_pints_coffee",
+      "display_name": "Protein Pints - Coffee (Ice Cream)",
+      "amount": 1.5,
+      "calories_kcal": 180,
+      "protein_g": 15,
+      "carbohydrate_g": 22.5,
+      "fat_g": 10.5
+    },
+    {
+      "id": "tob_edamame_ranch",
+      "display_name": "The Only Bean - Crunchy Roasted Edamame (Ranch)",
+      "amount": 1,
+      "calories_kcal": 125,
+      "protein_g": 11,
+      "carbohydrate_g": 7,
+      "fat_g": 6
+    }
+  ],
+  "totals": {
+    "calories_kcal": 755,
+    "protein_g": 76,
+    "carbohydrate_g": 42.5,
+    "fat_g": 37.5
+  }
+}
