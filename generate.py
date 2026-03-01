@@ -92,7 +92,7 @@ def get_shared_head(title: str) -> str:
             --bg: #0f172a; --card: #1e293b; --text: #f8fafc; --muted: #94a3b8; --border: #334155;
         }}
         body {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); line-height: 1.5; margin: 0; padding: 2rem; transition: background 0.3s, color 0.3s; }}
-        .container {{ max-width: 1000px; margin: 0 auto; }}
+        .container {{ max-width: 1200px; margin: 0 auto; }}
         header {{ margin-bottom: 2rem; display: flex; justify-content: space-between; align-items: center; }}
         h1, h2 {{ color: var(--text); margin: 0; }}
         h2 {{ margin-top: 2rem; margin-bottom: 1rem; }}
@@ -227,9 +227,10 @@ def run_dashboard_generation(date_str: str = None, output_directory: str = ".") 
             <tr class='inventory-row' data-calories='{calories}' data-protein='{protein}' data-carbohydrate='{carbohydrate}' data-fat='{fat}' onclick='toggleProjection(this)' style='cursor: pointer;'>
                 <td class='text-center'><span class='badge'>{database_entry.get('brand')}</span></td>
                 <td style='font-weight: 500;'>{product}</td>
-                <td class='text-center'>{inventory_item['quantity']}</td>
                 <td class='text-center'>{calories}</td>
-                <td class='text-center'>{protein}g / {carbohydrate}g / {fat}g</td>
+                <td class='text-center'>{protein}g</td>
+                <td class='text-center'>{carbohydrate}g</td>
+                <td class='text-center'>{fat}g</td>
             </tr>""")
     inventory_rows_html = "\n".join(inventory_rows_list)
 
@@ -240,13 +241,33 @@ def run_dashboard_generation(date_str: str = None, output_directory: str = ".") 
         for entry in daily_log["entries"]:
             database_entry = database.get(entry.get("id"), {})
             brand = database_entry.get("brand", "N/A")
-            product = format_title(
-                database_entry.get("product_name", entry["display_name"])
+
+            # Detect modification from the log entry's display_name
+            is_modified = "(Modified)" in entry.get("display_name", "")
+
+            # Always prefer the database's canonical product name if available
+            product_name = database_entry.get(
+                "product_name", entry.get("display_name", "")
             )
-            if database_entry.get("flavor"):
+
+            # If we're using the display_name from the log (no DB entry), strip prefixes/tags
+            if not database_entry.get("product_name"):
+                if brand != "N/A":
+                    if product_name.startswith(f"{brand} - "):
+                        product_name = product_name[len(brand) + 3 :]
+                    elif product_name.startswith(brand):
+                        product_name = product_name[len(brand) :].lstrip(" -")
+                product_name = product_name.replace("(Modified)", "").strip()
+
+            product = format_title(product_name)
+            if (
+                database_entry.get("flavor")
+                and database_entry.get("flavor").lower() not in product.lower()
+            ):
                 product += f" ({format_title(database_entry['flavor'])})"
+
             product_html = f"<span style='font-weight: 500;'>{product}</span>"
-            if "(Modified)" in entry.get("display_name", ""):
+            if is_modified:
                 product_html += "<span class='tag-modified'>Modified</span>"
             log_rows_list.append(
                 f"<tr><td class='text-center'><span class='badge'>{brand}</span></td><td>{product_html}</td><td class='text-center'>{entry['calories_kcal']}</td><td class='text-center'>{entry['protein_g']}g</td><td class='text-center'>{entry['carbohydrate_g']}g</td><td class='text-center'>{entry['fat_g']}g</td></tr>"
@@ -318,7 +339,7 @@ def run_dashboard_generation(date_str: str = None, output_directory: str = ".") 
         </div>
 
         <section><h2>Today's Log</h2><table id="log-table"><thead><tr><th class="text-center">Brand</th><th>Product</th><th class="text-center">Calories</th><th class="text-center">Protein</th><th class="text-center">Carbohydrate</th><th class="text-center">Fat</th></tr></thead><tbody>{log_rows_html}</tbody></table></section>
-        <section style="margin-top: 2rem;"><h2>Current Inventory</h2><table id="inventory-table"><thead><tr><th class='text-center'>Brand</th><th>Product</th><th class='text-center'>Qty</th><th class='text-center'>Calories</th><th class='text-center'>Macros (P / C / F)</th></tr></thead><tbody>{inventory_rows_html}</tbody></table></section>
+        <section style="margin-top: 2rem;"><h2>Current Inventory</h2><table id="inventory-table"><thead><tr><th class='text-center'>Brand</th><th>Product</th><th class='text-center'>Calories</th><th class='text-center'>Protein</th><th class='text-center'>Carbohydrate</th><th class='text-center'>Fat</th></tr></thead><tbody>{inventory_rows_html}</tbody></table></section>
     </div>
 
     <script>
@@ -548,16 +569,29 @@ def run_history_generation(output_directory: str = ".") -> None:
         table_rows_list = []
         for entry in entries:
             database_entry = database.get(entry.get("id"), {})
-            brand, product = database_entry.get("brand", "N/A"), format_title(
-                database_entry.get("product_name", entry["display_name"])
+            brand = database_entry.get("brand", "N/A")
+
+            is_modified = "(Modified)" in entry.get("display_name", "")
+            product_name = database_entry.get(
+                "product_name", entry.get("display_name", "")
             )
-            if database_entry.get("flavor"):
+
+            if not database_entry.get("product_name"):
+                if brand != "N/A":
+                    if product_name.startswith(f"{brand} - "):
+                        product_name = product_name[len(brand) + 3 :]
+                    elif product_name.startswith(brand):
+                        product_name = product_name[len(brand) :].lstrip(" -")
+                product_name = product_name.replace("(Modified)", "").strip()
+
+            product = format_title(product_name)
+            if (
+                database_entry.get("flavor")
+                and database_entry.get("flavor").lower() not in product.lower()
+            ):
                 product += f" ({format_title(database_entry['flavor'])})"
-            tag = (
-                '<span class="tag-modified">Modified</span>'
-                if "(Modified)" in entry.get("display_name", "")
-                else ""
-            )
+
+            tag = '<span class="tag-modified">Modified</span>' if is_modified else ""
             table_rows_list.append(
                 f"<tr><td class='text-center'><span class='badge'>{brand}</span></td><td><span style='font-weight:600'>{product}</span>{tag}</td><td class='text-center'>{entry['calories_kcal']}</td><td class='text-center'>{entry['protein_g']}g</td><td class='text-center'>{entry['carbohydrate_g']}g</td><td class='text-center'>{entry['fat_g']}g</td></tr>"
             )
