@@ -1,7 +1,7 @@
 [
   {
     "id": "fairlife_core_power_elite_vanilla",
-    "quantity": 7
+    "quantity": 6
   },
   {
     "id": "cu_filet_mignon_red_wine_reduction",
@@ -9,10 +9,6 @@
   },
   {
     "id": "cu_smoked_brisket_burrito_bowl",
-    "quantity": 1
-  },
-  {
-    "id": "cu_bbq_shrimp_boil",
     "quantity": 1
   },
   {

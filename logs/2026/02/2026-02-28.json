@@ -1,0 +1,37 @@
+{
+  "entries": [
+    {
+      "id": "cu_bbq_shrimp_boil",
+      "display_name": "CookUnity - Bbq Shrimp Boil",
+      "amount": 1,
+      "calories_kcal": 500,
+      "protein_g": 31,
+      "carbohydrate_g": 51,
+      "fat_g": 20
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    },
+    {
+      "id": "kc_teatime_extra_rich_coffee_latte",
+      "display_name": "Kuang Chuan (Tea Time) - Extra Rich Latte (Coffee)",
+      "amount": 1,
+      "calories_kcal": 180,
+      "protein_g": 7,
+      "carbohydrate_g": 30,
+      "fat_g": 3.5
+    }
+  ],
+  "totals": {
+    "calories_kcal": 910,
+    "protein_g": 80,
+    "carbohydrate_g": 89,
+    "fat_g": 27
+  }
+}

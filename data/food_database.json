@@ -1085,5 +1085,40 @@
       "Crispy Wrapper",
       "Peanut/Liver Sauce (for dipping)"
     ]
+  },
+  "kc_teatime_extra_rich_coffee_latte": {
+    "brand": "Kuang Chuan (Tea Time)",
+    "product_name": "Extra Rich Latte",
+    "flavor": "Coffee",
+    "calories_kcal": 180,
+    "protein_g": 7,
+    "carbohydrate_g": 30,
+    "fat_g": 3.5,
+    "total_fat_g": 3.5,
+    "saturated_fat_g": 2,
+    "trans_fat_g": 0,
+    "cholesterol_mg": 0,
+    "sodium_mg": 290,
+    "dietary_fiber_g": 0,
+    "total_sugars_g": 26,
+    "added_sugars_g": 15,
+    "vitamin_d_mcg": 0,
+    "calcium_mg": 0,
+    "iron_mg": 0,
+    "potassium_mg": 360,
+    "serving_size": 11.1,
+    "serving_unit": "fl oz",
+    "servings_per_container": 1,
+    "total_weight_oz": 11.1,
+    "ingredients": [
+      "Water",
+      "Milk Powder",
+      "Sucrose",
+      "Coffee Powder (coffee, Chicory)",
+      "Milk",
+      "Sodium Bicarbonate",
+      "Glycerin Esters of Fatty Acids",
+      "Salt"
+    ]
   }
 }
