@@ -26,12 +26,39 @@
       "protein_g": 11,
       "carbohydrate_g": 7,
       "fat_g": 6
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    },
+    {
+      "id": "cu_mexican_chicken_and_rice_bowl",
+      "display_name": "CookUnity - Mexican Chicken And Rice Bowl",
+      "amount": 1,
+      "calories_kcal": 580,
+      "protein_g": 45,
+      "carbohydrate_g": 58,
+      "fat_g": 19
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
     }
   ],
   "totals": {
-    "calories_kcal": 755,
-    "protein_g": 76,
-    "carbohydrate_g": 42.5,
-    "fat_g": 37.5
+    "calories_kcal": 1795,
+    "protein_g": 205,
+    "carbohydrate_g": 116.5,
+    "fat_g": 63.5
   }
 }
