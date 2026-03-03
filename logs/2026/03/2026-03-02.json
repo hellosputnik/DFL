@@ -17,12 +17,30 @@
       "protein_g": 42,
       "carbohydrate_g": 8,
       "fat_g": 3.5
+    },
+    {
+      "id": "tob_edamame_wasabi_soy_sauce",
+      "display_name": "The Only Bean - Crunchy Roasted Edamame (Wasabi Soy Sauce)",
+      "amount": 1,
+      "calories_kcal": 124,
+      "protein_g": 11,
+      "carbohydrate_g": 7,
+      "fat_g": 6
+    },
+    {
+      "id": "cu_lime_herb_chicken",
+      "display_name": "CookUnity - Lime Herb Chicken",
+      "amount": 1,
+      "calories_kcal": 480,
+      "protein_g": 50,
+      "carbohydrate_g": 32,
+      "fat_g": 17
     }
   ],
   "totals": {
-    "calories_kcal": 1160,
-    "protein_g": 113,
-    "carbohydrate_g": 67,
-    "fat_g": 47.5
+    "calories_kcal": 1764,
+    "protein_g": 174,
+    "carbohydrate_g": 106,
+    "fat_g": 70.5
   }
 }

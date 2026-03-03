@@ -1,26 +1,14 @@
 [
   {
     "id": "fairlife_core_power_elite_vanilla",
-    "quantity": 2
+    "quantity": 1
   },
   {
     "id": "cu_filet_mignon_red_wine_reduction",
     "quantity": 1
   },
   {
-    "id": "cu_smoked_brisket_burrito_bowl",
-    "quantity": 0
-  },
-  {
-    "id": "cu_mexican_chicken_and_rice_bowl",
-    "quantity": 0
-  },
-  {
     "id": "cu_parisian_chicken_kebab",
-    "quantity": 1
-  },
-  {
-    "id": "cu_lemon_herb_chicken",
     "quantity": 1
   },
   {

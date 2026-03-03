@@ -679,19 +679,33 @@
     "servings_per_container": 1,
     "ingredients": []
   },
-  "cu_lemon_herb_chicken": {
+  "cu_lime_herb_chicken": {
     "brand": "CookUnity",
-    "product_name": "Lemon Herb Chicken",
+    "product_name": "Lime Herb Chicken",
     "flavor": null,
-    "calories_kcal": 670,
-    "protein_g": 53,
-    "carbohydrate_g": 23,
-    "fat_g": 40,
-    "total_fat_g": 40,
+    "calories_kcal": 480,
+    "protein_g": 50,
+    "carbohydrate_g": 32,
+    "fat_g": 17,
+    "total_fat_g": 17,
     "serving_size": 1,
     "serving_unit": "meal",
     "servings_per_container": 1,
-    "ingredients": []
+    "ingredients": [
+      "Organic Chicken Breast",
+      "Potato",
+      "Carrots",
+      "Zucchini",
+      "Organic Yellow Onions",
+      "Lime",
+      "Extra Virgin Olive Oil",
+      "Organic Garlic",
+      "Lime Juice",
+      "Black Pepper",
+      "Kosher Salt",
+      "Italian Parsley",
+      "Thyme"
+    ]
   },
   "cu_adobo_flat_iron_steak_with_za_atar_rainbow_fingerling_potatoes": {
     "brand": "CookUnity",

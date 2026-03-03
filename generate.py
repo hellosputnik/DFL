@@ -195,6 +195,8 @@ def run_dashboard_generation(date_str: str = None, output_directory: str = ".") 
     # Create a list of pairs (database_entry, inventory_item) for sorting
     inventory_to_display = []
     for inventory_item in inventory:
+        if inventory_item.get("quantity", 0) <= 0:
+            continue
         database_entry = database.get(inventory_item["id"])
         if not database_entry:
             for database_id, database_value in database.items():
