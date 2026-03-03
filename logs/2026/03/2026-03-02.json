@@ -1,0 +1,28 @@
+{
+  "entries": [
+    {
+      "id": "cu_smoked_brisket_burrito_bowl",
+      "display_name": "CookUnity - Smoked Brisket Burrito Bowl",
+      "amount": 1,
+      "calories_kcal": 930,
+      "protein_g": 71,
+      "carbohydrate_g": 59,
+      "fat_g": 44
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    }
+  ],
+  "totals": {
+    "calories_kcal": 1160,
+    "protein_g": 113,
+    "carbohydrate_g": 67,
+    "fat_g": 47.5
+  }
+}
