@@ -60,11 +60,11 @@ Daily consumption records.
     - If I am modifying the item (e.g., "half sauce"), calculate the new macros based on the "pure" database entry and my description.
     - Log the entry with a descriptive `display_name` (e.g., "Bibigo - Crunchy Chicken (1/2 Sauce)").
     - Decrement the quantity from `data/inventory.json` by the ID. If the quantity reaches 0, remove the item from the list entirely.
-    - Update or create the daily log file in `logs/` and regenerate the dashboard using `generate.py`.
+    - Update or create the daily log file in `logs/` and regenerate the dashboard using `make build`.
 
 2.  **Inventory Management**:
     - When adding to inventory, always use existing IDs from `food_database.json`.
     - If a new product arrives, add the "pure" data to the database first.
 
 3.  **Dashboards**:
-    - Always run `python3 generate_dashboard.py` after any data modification to keep `dashboard.html` up to date.
+    - Always run `make build` after any data modification to keep the dashboard up to date.

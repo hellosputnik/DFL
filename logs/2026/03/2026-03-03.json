@@ -17,12 +17,30 @@
       "protein_g": 48,
       "carbohydrate_g": 25,
       "fat_g": 52
+    },
+    {
+      "id": "mcdonalds_big_arch",
+      "display_name": "McDonald's - Big Arch",
+      "amount": 1,
+      "calories_kcal": 1020,
+      "protein_g": 53,
+      "carbohydrate_g": 59,
+      "fat_g": 65
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
     }
   ],
   "totals": {
-    "calories_kcal": 1010,
-    "protein_g": 90,
-    "carbohydrate_g": 33,
-    "fat_g": 55.5
+    "calories_kcal": 2260,
+    "protein_g": 185,
+    "carbohydrate_g": 100,
+    "fat_g": 124.0
   }
 }

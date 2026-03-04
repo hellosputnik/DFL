@@ -1192,5 +1192,41 @@
       "Salt",
       "Monk Fruit"
     ]
+  },
+  "mcdonalds_big_arch": {
+    "brand": "McDonald's",
+    "product_name": "Big Arch",
+    "flavor": null,
+    "calories_kcal": 1020,
+    "protein_g": 53,
+    "carbohydrate_g": 59,
+    "fat_g": 65,
+    "total_fat_g": 65,
+    "saturated_fat_g": 25,
+    "trans_fat_g": 3,
+    "cholesterol_mg": 175,
+    "sodium_mg": 1760,
+    "dietary_fiber_g": 3,
+    "total_sugars_g": 15,
+    "added_sugars_g": 10,
+    "vitamin_d_mcg": 0,
+    "calcium_mg": 290,
+    "iron_mg": 7,
+    "potassium_mg": 810,
+    "serving_size": 1,
+    "serving_unit": "burger",
+    "servings_per_container": 1,
+    "ingredients": [
+      "100% Pure USDA Inspected Beef",
+      "Salt",
+      "Black Pepper",
+      "Big Arch Bun",
+      "Pasteurized Process Cheddar Cheese",
+      "Big Arch Sauce",
+      "Shredded Lettuce",
+      "Crispy Onions",
+      "Pickle Slices",
+      "Onions"
+    ]
   }
 }
