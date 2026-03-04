@@ -1070,6 +1070,28 @@
       "Cilantro"
     ]
   },
+  "caffe_macs_beef_burger": {
+    "brand": "Caffe Macs",
+    "product_name": "Beef Burger",
+    "flavor": null,
+    "calories_kcal": 860,
+    "protein_g": 50,
+    "carbohydrate_g": 45,
+    "fat_g": 53,
+    "total_fat_g": 53,
+    "serving_size": 1,
+    "serving_unit": "burger",
+    "servings_per_container": 1,
+    "ingredients": [
+      "ground beef",
+      "red leaf lettuce",
+      "tomatoes",
+      "onions",
+      "pickle spear",
+      "sunflower oil",
+      "American bun"
+    ]
+  },
   "nem_nuong_nha_trang_roll": {
     "brand": "Nem Nướng Nha Trang",
     "product_name": "Nem Nướng Roll",
