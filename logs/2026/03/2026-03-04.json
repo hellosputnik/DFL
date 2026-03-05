@@ -7,13 +7,31 @@
       "calories_kcal": 230,
       "protein_g": 42,
       "carbohydrate_g": 8,
-      "fat_g": 3.5
+      "fat_g": 4
+    },
+    {
+      "id": "caffe_macs_chicken_adobo",
+      "display_name": "Caffe Macs - Chicken Adobo",
+      "amount": 1,
+      "calories_kcal": 609,
+      "protein_g": 34,
+      "carbohydrate_g": 57,
+      "fat_g": 28
+    },
+    {
+      "id": "caffe_macs_americano",
+      "display_name": "Caffe Macs - Iced Americano (Black)",
+      "amount": 1,
+      "calories_kcal": 5,
+      "protein_g": 0,
+      "carbohydrate_g": 0,
+      "fat_g": 0
     }
   ],
   "totals": {
-    "calories_kcal": 230,
-    "protein_g": 42,
-    "carbohydrate_g": 8,
-    "fat_g": 3.5
+    "calories_kcal": 844,
+    "protein_g": 76,
+    "carbohydrate_g": 65,
+    "fat_g": 32
   }
 }

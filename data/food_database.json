@@ -1005,6 +1005,49 @@
       "kimchi"
     ]
   },
+  "caffe_macs_chicken_adobo": {
+    "brand": "Caffe Macs",
+    "product_name": "Chicken Adobo",
+    "calories_kcal": 609,
+    "protein_g": 34,
+    "carbohydrate_g": 57,
+    "fat_g": 28,
+    "serving_size": 1,
+    "serving_unit": "meal",
+    "ingredients": [
+      "chicken thighs",
+      "garlic",
+      "yellow onions",
+      "bay leaves",
+      "peppercorns",
+      "white vinegar",
+      "dark soy sauce (soy, wheat, gluten)",
+      "sunflower oil",
+      "salt",
+      "pepper",
+      "tamari (soy)",
+      "baby bok choy",
+      "jasmine rice",
+      "pan spray (soy)",
+      "eggs"
+    ]
+  },
+  "caffe_macs_americano": {
+    "brand": "Caffe Macs",
+    "product_name": "Iced Americano",
+    "flavor": "Black",
+    "calories_kcal": 5,
+    "protein_g": 0,
+    "carbohydrate_g": 0,
+    "fat_g": 0,
+    "serving_size": 1,
+    "serving_unit": "drink",
+    "ingredients": [
+      "espresso",
+      "water",
+      "ice"
+    ]
+  },
   "slate_ultra_vanilla": {
     "brand": "Slate",
     "product_name": "Ultra Protein Shake",
