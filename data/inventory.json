@@ -10,5 +10,9 @@
   {
     "id": "protein_pints_coffee",
     "quantity": 1.5
+  },
+  {
+    "id": "fairlife_core_power_elite_vanilla",
+    "quantity": 11
   }
 ]
