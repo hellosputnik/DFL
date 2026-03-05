@@ -26,12 +26,39 @@
       "protein_g": 0,
       "carbohydrate_g": 0,
       "fat_g": 0
+    },
+    {
+      "id": "cu_parisian_chicken_kebab",
+      "display_name": "CookUnity - Parisian Chicken Kebab (Modified)",
+      "amount": 0.5,
+      "calories_kcal": 288,
+      "protein_g": 26,
+      "carbohydrate_g": 0,
+      "fat_g": 12
+    },
+    {
+      "id": "cu_filet_mignon_red_wine_reduction",
+      "display_name": "CookUnity - Filet Mignon & Red Wine Reduction (Modified)",
+      "amount": 1,
+      "calories_kcal": 657,
+      "protein_g": 43,
+      "carbohydrate_g": 14,
+      "fat_g": 48
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 4
     }
   ],
   "totals": {
-    "calories_kcal": 844,
-    "protein_g": 76,
-    "carbohydrate_g": 65,
-    "fat_g": 32
+    "calories_kcal": 2019,
+    "protein_g": 187,
+    "carbohydrate_g": 87,
+    "fat_g": 96
   }
 }

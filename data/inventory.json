@@ -1,18 +1,10 @@
 [
   {
-    "id": "cu_filet_mignon_red_wine_reduction",
-    "quantity": 1
-  },
-  {
-    "id": "cu_parisian_chicken_kebab",
-    "quantity": 1
-  },
-  {
     "id": "protein_pints_coffee",
     "quantity": 1.5
   },
   {
     "id": "fairlife_core_power_elite_vanilla",
-    "quantity": 11
+    "quantity": 10
   }
 ]
