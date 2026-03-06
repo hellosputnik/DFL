@@ -31,9 +31,9 @@
       "id": "tarami_konjac_jelly_grape",
       "display_name": "Tarami - Konjac Jelly (Grape)",
       "amount": 1,
-      "calories_kcal": 44,
-      "protein_g": 0.1,
-      "carbohydrate_g": 12.8,
+      "calories_kcal": 45,
+      "protein_g": 0,
+      "carbohydrate_g": 13,
       "fat_g": 0
     },
     {
@@ -56,9 +56,9 @@
     }
   ],
   "totals": {
-    "calories_kcal": 2069,
-    "protein_g": 197.1,
-    "carbohydrate_g": 76.8,
+    "calories_kcal": 2070,
+    "protein_g": 197,
+    "carbohydrate_g": 77,
     "fat_g": 106
   }
 }
