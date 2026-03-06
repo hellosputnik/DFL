@@ -8,12 +8,39 @@
       "protein_g": 42,
       "carbohydrate_g": 8,
       "fat_g": 3.5
+    },
+    {
+      "id": "caffe_macs_beef_burger",
+      "display_name": "Caffe Macs - Beef Burger (Modified: No Top Bun, Add Cheese, Add Ketchup, 2 Patties Total)",
+      "amount": 1,
+      "calories_kcal": 700,
+      "protein_g": 51,
+      "carbohydrate_g": 28,
+      "fat_g": 43
+    },
+    {
+      "id": "caffe_macs_americano",
+      "display_name": "Caffe Macs - Iced Americano",
+      "amount": 1,
+      "calories_kcal": 5,
+      "protein_g": 0,
+      "carbohydrate_g": 0,
+      "fat_g": 0
+    },
+    {
+      "id": "tarami_konjac_jelly_grape",
+      "display_name": "Tarami - Konjac Jelly (Grape)",
+      "amount": 1,
+      "calories_kcal": 44,
+      "protein_g": 0.1,
+      "carbohydrate_g": 12.8,
+      "fat_g": 0
     }
   ],
   "totals": {
-    "calories_kcal": 230,
-    "protein_g": 42,
-    "carbohydrate_g": 8,
-    "fat_g": 3.5
+    "calories_kcal": 979,
+    "protein_g": 93.1,
+    "carbohydrate_g": 48.8,
+    "fat_g": 46.5
   }
 }
