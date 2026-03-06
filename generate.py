@@ -1,5 +1,6 @@
 import datetime
 import glob
+import html
 import json
 import os
 import re
@@ -225,10 +226,12 @@ def run_dashboard_generation(date_str: str = None, output_directory: str = ".") 
         product = format_title(database_entry.get("product_name", ""))
         if database_entry.get("flavor"):
             product += f" ({format_title(database_entry['flavor'])})"
+        escaped_brand = html.escape(str(database_entry.get("brand", "")))
+        escaped_product = html.escape(product)
         inventory_rows_list.append(f"""
             <tr class='inventory-row' data-calories='{calories}' data-protein='{protein}' data-carbohydrate='{carbohydrate}' data-fat='{fat}' onclick='toggleProjection(this)' style='cursor: pointer;'>
-                <td class='text-center'><span class='badge'>{database_entry.get('brand')}</span></td>
-                <td style='font-weight: 500;'>{product}</td>
+                <td class='text-center'><span class='badge'>{escaped_brand}</span></td>
+                <td style='font-weight: 500;'>{escaped_product}</td>
                 <td class='text-center'>{calories}</td>
                 <td class='text-center'>{protein}g</td>
                 <td class='text-center'>{carbohydrate}g</td>
@@ -268,15 +271,17 @@ def run_dashboard_generation(date_str: str = None, output_directory: str = ".") 
             ):
                 product += f" ({format_title(database_entry['flavor'])})"
 
-            product_html = f"<span style='font-weight: 500;'>{product}</span>"
+            escaped_brand = html.escape(str(brand))
+            escaped_product = html.escape(product)
+            product_html = f"<span style='font-weight: 500;'>{escaped_product}</span>"
             if is_modified:
                 product_html += "<span class='tag-modified'>Modified</span>"
             log_rows_list.append(
-                f"<tr><td class='text-center'><span class='badge'>{brand}</span></td><td>{product_html}</td><td class='text-center'>{entry['calories_kcal']}</td><td class='text-center'>{entry['protein_g']}g</td><td class='text-center'>{entry['carbohydrate_g']}g</td><td class='text-center'>{entry['fat_g']}g</td></tr>"
+                f"<tr><td class='text-center'><span class='badge'>{escaped_brand}</span></td><td>{product_html}</td><td class='text-center'>{entry['calories_kcal']}</td><td class='text-center'>{entry['protein_g']}g</td><td class='text-center'>{entry['carbohydrate_g']}g</td><td class='text-center'>{entry['fat_g']}g</td></tr>"
             )
         log_rows_html = "\n".join(log_rows_list)
 
-    html = f"""<!DOCTYPE html>
+    html_output = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
     {get_shared_head(f"Food Log Dashboard - {target_date}")}
@@ -421,7 +426,7 @@ def run_dashboard_generation(date_str: str = None, output_directory: str = ".") 
     else:
         out_path = os.path.join(output_directory, "index.html")
     with open(out_path, "w") as output_file:
-        output_file.write(html)
+        output_file.write(html_output)
     click.echo(f"Generated: {out_path}")
 
 
@@ -443,7 +448,7 @@ def run_database_generation(output_directory: str = ".") -> None:
         ),
     )
     for value in sorted_database:
-        brand = value.get("brand", "N/A")
+        brand = str(value.get("brand", "N/A"))
         product = format_title(value.get("product_name", ""))
         flavor = format_title(value.get("flavor", ""))
         calories, protein, carbohydrate, fat = (
@@ -453,11 +458,18 @@ def run_database_generation(output_directory: str = ".") -> None:
             value.get("fat_g", 0),
         )
         ingredients = ", ".join(value.get("ingredients", []))
+        escaped_brand = html.escape(brand)
+        escaped_product = html.escape(product)
+        escaped_flavor = html.escape(flavor)
+        escaped_search = html.escape(
+            f"{brand.lower()} {product.lower()} {flavor.lower()} {ingredients.lower()}",
+            quote=True,
+        )
 
         rows_list.append(f"""
-            <tr class="food-row" data-search="{brand.lower()} {product.lower()} {flavor.lower()} {ingredients.lower()}">
-                <td class="text-center"><span class="badge">{brand}</span></td>
-                <td><div style="font-weight: 600;">{product}</div>{f'<div style="font-size: 0.75rem; color: var(--muted);">{flavor}</div>' if flavor else ''}</td>
+            <tr class="food-row" data-search="{escaped_search}">
+                <td class="text-center"><span class="badge">{escaped_brand}</span></td>
+                <td><div style="font-weight: 600;">{escaped_product}</div>{f'<div style="font-size: 0.75rem; color: var(--muted);">{escaped_flavor}</div>' if flavor else ''}</td>
                 <td class="text-center">{calories}</td>
                 <td class="text-center">{protein}g</td>
                 <td class="text-center">{carbohydrate}g</td>
@@ -465,7 +477,7 @@ def run_database_generation(output_directory: str = ".") -> None:
             </tr>""")
     rows_html = "\n".join(rows_list)
 
-    html = f"""<!DOCTYPE html>
+    html_output = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
     {get_shared_head("Food Database")}
@@ -527,7 +539,7 @@ def run_database_generation(output_directory: str = ".") -> None:
 </html>"""
     out_path = os.path.join(output_directory, "food_database.html")
     with open(out_path, "w") as output_file:
-        output_file.write(html)
+        output_file.write(html_output)
     click.echo(f"Generated: {out_path}")
 
 
@@ -612,7 +624,7 @@ def run_history_generation(output_directory: str = ".") -> None:
             </div>""")
     items_html = "\n".join(items_list)
 
-    html = f"""<!DOCTYPE html>
+    html_output = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
     {get_shared_head("History")}
@@ -649,7 +661,7 @@ def run_history_generation(output_directory: str = ".") -> None:
 </html>"""
     out_path = os.path.join(output_directory, "history.html")
     with open(out_path, "w") as output_file:
-        output_file.write(html)
+        output_file.write(html_output)
     click.echo(f"Generated: {out_path}")
 
 
