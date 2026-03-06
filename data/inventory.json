@@ -5,6 +5,34 @@
   },
   {
     "id": "fairlife_core_power_elite_vanilla",
-    "quantity": 9
+    "quantity": 8
+  },
+  {
+    "id": "cu_thai_red_curry_shrimp_crab",
+    "quantity": 1
+  },
+  {
+    "id": "cu_tellicherry_pepper_filet_mignon",
+    "quantity": 1
+  },
+  {
+    "id": "cu_smoky_tandoori_chicken",
+    "quantity": 1
+  },
+  {
+    "id": "cu_mexican_chicken_bowl",
+    "quantity": 1
+  },
+  {
+    "id": "cu_chicken_barbacoa_bowl",
+    "quantity": 1
+  },
+  {
+    "id": "cu_herb_grilled_chicken_breasts",
+    "quantity": 1
+  },
+  {
+    "id": "cu_pakistani_braised_short_ribs",
+    "quantity": 1
   }
 ]

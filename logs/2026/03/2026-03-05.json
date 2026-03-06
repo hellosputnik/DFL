@@ -35,12 +35,30 @@
       "protein_g": 0.1,
       "carbohydrate_g": 12.8,
       "fat_g": 0
+    },
+    {
+      "id": "cu_italian_meatballs",
+      "display_name": "CookUnity - Italian Meatballs with Homemade Tomato Sauce (Full Container - 2 Servings)",
+      "amount": 1,
+      "calories_kcal": 860,
+      "protein_g": 62,
+      "carbohydrate_g": 20,
+      "fat_g": 56
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
     }
   ],
   "totals": {
-    "calories_kcal": 979,
-    "protein_g": 93.1,
-    "carbohydrate_g": 48.8,
-    "fat_g": 46.5
+    "calories_kcal": 2069,
+    "protein_g": 197.1,
+    "carbohydrate_g": 76.8,
+    "fat_g": 106
   }
 }
