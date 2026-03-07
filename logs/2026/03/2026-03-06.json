@@ -35,12 +35,39 @@
       "protein_g": 11,
       "carbohydrate_g": 7,
       "fat_g": 6
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    },
+    {
+      "id": "nestle_kitkat_mini_japan_white",
+      "display_name": "Nestle - KitKat Mini (White Chocolate)",
+      "amount": 1,
+      "calories_kcal": 68,
+      "protein_g": 0.3,
+      "carbohydrate_g": 7.8,
+      "fat_g": 4.2
+    },
+    {
+      "id": "nestle_kitkat_mini_japan_white",
+      "display_name": "Nestle - KitKat Mini (White Chocolate)",
+      "amount": 1,
+      "calories_kcal": 68,
+      "protein_g": 0.3,
+      "carbohydrate_g": 7.8,
+      "fat_g": 4.2
     }
   ],
   "totals": {
-    "calories_kcal": 1052,
-    "protein_g": 145,
-    "carbohydrate_g": 34.8,
-    "fat_g": 35.5
+    "calories_kcal": 1418,
+    "protein_g": 187.6,
+    "carbohydrate_g": 58.2,
+    "fat_g": 47.4
   }
 }
