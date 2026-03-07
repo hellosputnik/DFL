@@ -17,12 +17,30 @@
       "protein_g": 42,
       "carbohydrate_g": 8,
       "fat_g": 3.5
+    },
+    {
+      "id": "tarami_konjac_jelly_peach",
+      "display_name": "Tarami - Konjac Jelly (Peach)",
+      "amount": 1,
+      "calories_kcal": 37,
+      "protein_g": 0,
+      "carbohydrate_g": 11.8,
+      "fat_g": 0
+    },
+    {
+      "id": "tob_edamame_ranch",
+      "display_name": "The Only Bean - Crunchy Roasted Edamame (Ranch)",
+      "amount": 1,
+      "calories_kcal": 125,
+      "protein_g": 11,
+      "carbohydrate_g": 7,
+      "fat_g": 6
     }
   ],
   "totals": {
-    "calories_kcal": 890,
-    "protein_g": 134,
-    "carbohydrate_g": 16,
-    "fat_g": 29.5
+    "calories_kcal": 1052,
+    "protein_g": 145,
+    "carbohydrate_g": 34.8,
+    "fat_g": 35.5
   }
 }
