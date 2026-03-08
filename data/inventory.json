@@ -8,10 +8,6 @@
     "quantity": 5
   },
   {
-    "id": "cu_thai_red_curry_shrimp_crab",
-    "quantity": 1
-  },
-  {
     "id": "cu_tellicherry_pepper_filet_mignon",
     "quantity": 1
   },
@@ -28,7 +24,11 @@
     "quantity": 1
   },
   {
-    "id": "cu_pakistani_braised_short_ribs",
+    "id": "korkio_chicken_breast_secret_bbq",
+    "quantity": 1
+  },
+  {
+    "id": "korkio_chicken_breast_ancient_herb",
     "quantity": 1
   }
 ]

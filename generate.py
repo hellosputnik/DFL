@@ -53,6 +53,7 @@ def format_title(text: str) -> str:
         "usa",
     }
     units = {"oz", "fl", "ml", "g", "mg", "kcal"}
+    special_cases = {"kitkat": "KitKat"}
     words = str(text).split()
     if not words:
         return ""
@@ -62,9 +63,13 @@ def format_title(text: str) -> str:
         clean = stripped.lower()
         if "-" in stripped:
             parts = stripped.split("-")
-            formatted_parts = [part.capitalize() for part in parts]
+            formatted_parts = [
+                special_cases.get(part.lower(), part.capitalize()) for part in parts
+            ]
             formatted_main = "-".join(formatted_parts)
             result = word.replace(stripped, formatted_main)
+        elif clean in special_cases:
+            result = word.replace(stripped, special_cases[clean])
         elif clean in upper_acronyms:
             result = word.replace(stripped, stripped.upper())
         elif clean in units:
