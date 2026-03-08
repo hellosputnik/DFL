@@ -1,0 +1,28 @@
+{
+  "entries": [
+    {
+      "id": "ajinomoto_karaage_fried_chicken",
+      "display_name": "Ajinomoto - Karaage",
+      "amount": 2,
+      "calories_kcal": 340,
+      "protein_g": 24,
+      "carbohydrate_g": 20,
+      "fat_g": 18
+    },
+    {
+      "id": "cu_pakistani_braised_short_ribs",
+      "display_name": "CookUnity - Pakistani Braised Short Ribs",
+      "amount": 2,
+      "calories_kcal": 980,
+      "protein_g": 78,
+      "carbohydrate_g": 24,
+      "fat_g": 66
+    }
+  ],
+  "totals": {
+    "calories_kcal": 1320,
+    "protein_g": 102,
+    "carbohydrate_g": 44,
+    "fat_g": 84
+  }
+}
