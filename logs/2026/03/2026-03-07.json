@@ -44,12 +44,48 @@
       "protein_g": 28,
       "carbohydrate_g": 1,
       "fat_g": 1.5
+    },
+    {
+      "id": "korkio_chicken_breast_ancient_herb",
+      "display_name": "Korkio - Chicken Breast (Ancient Herb)",
+      "amount": 1,
+      "calories_kcal": 124,
+      "protein_g": 25,
+      "carbohydrate_g": 4,
+      "fat_g": 1.4
+    },
+    {
+      "id": "korkio_chicken_breast_secret_bbq",
+      "display_name": "Korkio - Chicken Breast (Secret BBQ)",
+      "amount": 1,
+      "calories_kcal": 124,
+      "protein_g": 25,
+      "carbohydrate_g": 4,
+      "fat_g": 1.4
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    },
+    {
+      "id": "protein_pints_coffee",
+      "display_name": "Protein Pints - Ice Cream (Coffee)",
+      "amount": 1.5,
+      "calories_kcal": 180,
+      "protein_g": 15,
+      "carbohydrate_g": 22.5,
+      "fat_g": 10.5
     }
   ],
   "totals": {
-    "calories_kcal": 1196,
-    "protein_g": 72.6,
-    "carbohydrate_g": 94.6,
-    "fat_g": 62.9
+    "calories_kcal": 1854,
+    "protein_g": 179.6,
+    "carbohydrate_g": 133.1,
+    "fat_g": 79.7
   }
 }

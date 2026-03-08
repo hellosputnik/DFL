@@ -1,11 +1,7 @@
 [
   {
-    "id": "protein_pints_coffee",
-    "quantity": 1.5
-  },
-  {
     "id": "fairlife_core_power_elite_vanilla",
-    "quantity": 5
+    "quantity": 4
   },
   {
     "id": "cu_tellicherry_pepper_filet_mignon",
@@ -24,11 +20,7 @@
     "quantity": 1
   },
   {
-    "id": "korkio_chicken_breast_secret_bbq",
-    "quantity": 1
-  },
-  {
-    "id": "korkio_chicken_breast_ancient_herb",
+    "id": "cu_pakistani_braised_short_ribs",
     "quantity": 1
   }
 ]

@@ -388,18 +388,23 @@ def run_dashboard_generation(date_str: str = None, output_directory: str = ".") 
             const span = card.querySelector('.current');
             const fill = card.querySelector('.progress-fill');
             const mode = document.getElementById('goal-calories-input').dataset.mode;
+            const midpoint = (target + maintenance) / 2;
             
             span.textContent = total;
             let color = '';
 
             if (mode === 'bulk') {{
                 if (total < maintenance) color = 'var(--danger)';
-                else if (total < target) color = 'var(--warning)';
+                else if (total < midpoint) color = 'var(--warning)';
+                else if (total < target) color = 'var(--text)';
                 else if (projected > 0) color = 'var(--primary)';
+                else color = 'var(--success)';
             }} else {{
                 if (total > maintenance) color = 'var(--danger)';
-                else if (total > target) color = 'var(--warning)';
+                else if (total > midpoint) color = 'var(--warning)';
+                else if (total > target) color = 'var(--text)';
                 else if (projected > 0) color = 'var(--primary)';
+                else color = 'var(--success)';
             }}
 
             span.style.color = color;
@@ -413,8 +418,13 @@ def run_dashboard_generation(date_str: str = None, output_directory: str = ".") 
             const fill = card.querySelector('.progress-fill');
             span.textContent = total + unit;
             let color = '';
-            if (goal > 0 && strict && total > goal) color = 'var(--danger)';
-            else if (projected > 0) color = 'var(--primary)';
+            if (goal > 0) {{
+                if (strict && total > goal) color = 'var(--danger)';
+                else if (total >= goal) color = 'var(--success)';
+                else if (projected > 0) color = 'var(--primary)';
+            }} else if (projected > 0) {{
+                color = 'var(--primary)';
+            }}
             span.style.color = color;
             fill.style.background = color || 'var(--primary)';
             fill.style.width = goal > 0 ? Math.min(100, Math.round((total / goal) * 100)) + '%' : '0%';
@@ -562,6 +572,7 @@ def run_history_generation(output_directory: str = ".") -> None:
     phase = goals.get("phase", "cut")
     target = goals.get("calories_target", 1800)
     maintenance = goals.get("calories_maintenance", 2300)
+    midpoint = (target + maintenance) / 2
 
     items_list = []
     for log_path in log_files:
@@ -577,13 +588,21 @@ def run_history_generation(output_directory: str = ".") -> None:
         if phase == "bulk":
             if calories < maintenance:
                 calories_class = "under-maint"
-            elif calories < target:
+            elif calories < midpoint:
                 calories_class = "under-target"
+            elif calories < target:
+                calories_class = "neutral"
+            else:
+                calories_class = "success"
         else:
             if calories > maintenance:
                 calories_class = "over-maint"
-            elif calories > target:
+            elif calories > midpoint:
                 calories_class = "over-cut"
+            elif calories > target:
+                calories_class = "neutral"
+            else:
+                calories_class = "success"
 
         table_rows_list = []
         for entry in entries:
@@ -622,7 +641,7 @@ def run_history_generation(output_directory: str = ".") -> None:
                     <div class="date-label"><span class="chevron">▶</span>{date_str}</div>
                     <div class="summary-stats">
                         <div class="stat-group"><span class="stat-label">Calories</span><span class="stat-val {calories_class}">{calories}</span></div>
-                        <div class="stat-group"><span class="stat-label">Protein</span><span class="stat-label">{protein}g</span></div>
+                        <div class="stat-group"><span class="stat-label">Protein</span><span class="stat-val">{protein}g</span></div>
                     </div>
                 </div>
                 <div class="details"><table><thead><tr><th class="text-center">Brand</th><th>Product</th><th class="text-center">Calories</th><th class="text-center">Protein</th><th class="text-center">Carbohydrate</th><th class="text-center">Fat</th></tr></thead><tbody>{table_rows}</tbody></table></div>
@@ -647,6 +666,8 @@ def run_history_generation(output_directory: str = ".") -> None:
         .stat-val {{ color: var(--text); font-size: 1.1rem; font-weight: 700; }}
         .over-cut, .under-target {{ color: var(--warning); }}
         .over-maint, .under-maint {{ color: var(--danger); }}
+        .success {{ color: var(--success); }}
+        .neutral {{ color: var(--text); }}
         .details {{ display: none; padding: 1.5rem; border-top: 1px solid var(--border); background: var(--bg); transition: background 0.3s; }}
         .history-item.open .details {{ display: block; }}
     </style>
