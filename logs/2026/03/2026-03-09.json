@@ -1,0 +1,37 @@
+{
+  "entries": [
+    {
+      "id": "cu_smoky_tandoori_chicken",
+      "display_name": "CookUnity - Smoky Tandoori Chicken (Modified)",
+      "amount": 1,
+      "calories_kcal": 540,
+      "protein_g": 39,
+      "carbohydrate_g": 58,
+      "fat_g": 17
+    },
+    {
+      "id": "ferrero_kinder_bueno",
+      "display_name": "Kinder - Bueno",
+      "amount": 2,
+      "calories_kcal": 240,
+      "protein_g": 4,
+      "carbohydrate_g": 22,
+      "fat_g": 16
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    }
+  ],
+  "totals": {
+    "calories_kcal": 1010,
+    "protein_g": 85,
+    "carbohydrate_g": 88,
+    "fat_g": 36.5
+  }
+}
