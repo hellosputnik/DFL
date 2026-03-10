@@ -26,12 +26,39 @@
       "protein_g": 42,
       "carbohydrate_g": 8,
       "fat_g": 3.5
+    },
+    {
+      "id": "cu_chicken_barbacoa_bowl",
+      "display_name": "CookUnity - Chicken Barbacoa Bowl (Modified)",
+      "amount": 1,
+      "calories_kcal": 410,
+      "protein_g": 36,
+      "carbohydrate_g": 44,
+      "fat_g": 10
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    },
+    {
+      "id": "tob_edamame_ranch",
+      "display_name": "The Only Bean - Crunchy Roasted Edamame (Ranch)",
+      "amount": 1,
+      "calories_kcal": 125,
+      "protein_g": 11,
+      "carbohydrate_g": 7,
+      "fat_g": 6
     }
   ],
   "totals": {
-    "calories_kcal": 1010,
-    "protein_g": 85,
-    "carbohydrate_g": 88,
-    "fat_g": 36.5
+    "calories_kcal": 1775,
+    "protein_g": 174,
+    "carbohydrate_g": 147,
+    "fat_g": 56
   }
 }

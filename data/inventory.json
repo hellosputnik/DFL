@@ -1,7 +1,7 @@
 [
   {
     "id": "fairlife_core_power_elite_vanilla",
-    "quantity": 3
+    "quantity": 2
   },
   {
     "id": "cu_tellicherry_pepper_filet_mignon",
@@ -9,10 +9,6 @@
   },
   {
     "id": "cu_mexican_chicken_bowl",
-    "quantity": 1
-  },
-  {
-    "id": "cu_chicken_barbacoa_bowl",
     "quantity": 1
   }
 ]
