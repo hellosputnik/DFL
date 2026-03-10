@@ -17,12 +17,30 @@
       "protein_g": 78,
       "carbohydrate_g": 24,
       "fat_g": 66
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
     }
   ],
   "totals": {
-    "calories_kcal": 1320,
-    "protein_g": 102,
-    "carbohydrate_g": 44,
-    "fat_g": 84
+    "calories_kcal": 1780,
+    "protein_g": 186,
+    "carbohydrate_g": 60,
+    "fat_g": 91.0
   }
 }
