@@ -1,0 +1,46 @@
+{
+  "entries": [
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    },
+    {
+      "id": "glico_pocky_cookies_cream",
+      "display_name": "Glico - Pocky (Cookies and Cream)",
+      "amount": 1,
+      "calories_kcal": 80,
+      "protein_g": 1,
+      "carbohydrate_g": 12,
+      "fat_g": 3.5
+    },
+    {
+      "id": "caffe_macs_crispy_chicken_caesar_salad",
+      "display_name": "Caffe Macs - Crispy Chicken Caesar Salad",
+      "amount": 1,
+      "calories_kcal": 750,
+      "protein_g": 45,
+      "carbohydrate_g": 40,
+      "fat_g": 45
+    },
+    {
+      "id": "caffe_macs_americano",
+      "display_name": "Caffe Macs - Iced Americano (Black)",
+      "amount": 1,
+      "calories_kcal": 10,
+      "protein_g": 0,
+      "carbohydrate_g": 0,
+      "fat_g": 0
+    }
+  ],
+  "totals": {
+    "calories_kcal": 1070,
+    "protein_g": 88,
+    "carbohydrate_g": 60,
+    "fat_g": 52.0
+  }
+}

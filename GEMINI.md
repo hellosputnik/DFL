@@ -66,5 +66,6 @@ Daily consumption records.
     - When adding to inventory, always use existing IDs from `food_database.json`.
     - If a new product arrives, add the "pure" data to the database first.
 
-3.  **Dashboards**:
+4.  **Data Consistency**:
+    - All text, such as product names, brands, and ingredients, should be consistently cased. Use title case for names and sentence case for descriptions.
     - Always run `make build` after any data modification to keep the dashboard up to date.
