@@ -558,8 +558,10 @@ def run_database_generation(output_directory: str = ".") -> None:
     click.echo(f"Generated: {out_path}")
 
 
-def run_history_generation(output_directory: str = ".") -> None:
+def run_history_generation(output_directory: str = ".", limit: int = None) -> None:
     log_files = sorted(glob.glob("logs/**/*.json", recursive=True), reverse=True)
+    if limit:
+        log_files = log_files[:limit]
     try:
         with open("data/goals.json", "r") as goals_file:
             goals = json.load(goals_file)
@@ -711,8 +713,9 @@ def log(date: str, output_directory: str):
 
 @cli.command()
 @click.option("--output-directory", default=".", help="Output directory")
-def history(output_directory: str):
-    run_history_generation(output_directory=output_directory)
+@click.option("--days", default=None, type=int, help="Limit history to the last N days")
+def history(output_directory: str, days: int):
+    run_history_generation(output_directory=output_directory, limit=days)
 
 
 @cli.command()
@@ -723,7 +726,8 @@ def database(output_directory: str):
 
 @cli.command()
 @click.option("--output-directory", default=".", help="Output directory")
-def all(output_directory: str):
+@click.option("--days", default=None, type=int, help="Limit generation to the last N days")
+def all(output_directory: str, days: int):
     if output_directory != ".":
         os.makedirs(os.path.join(output_directory, "data"), exist_ok=True)
         for data_file in glob.glob("data/*.json"):
@@ -742,9 +746,12 @@ def all(output_directory: str):
 
     run_dashboard_generation(output_directory=output_directory)
     run_database_generation(output_directory=output_directory)
-    run_history_generation(output_directory=output_directory)
+    run_history_generation(output_directory=output_directory, limit=days)
 
-    log_files = glob.glob("logs/**/*.json", recursive=True)
+    log_files = sorted(glob.glob("logs/**/*.json", recursive=True), reverse=True)
+    if days:
+        log_files = log_files[:days]
+
     for log_file in log_files:
         run_dashboard_generation(
             os.path.basename(log_file).replace(".json", ""),

@@ -38,7 +38,7 @@ install:
 
 build:
 	@echo "Generating and formatting site..."
-	@$(UV_ENV_FLAG) uv run --link-mode $(UV_LINK_MODE) generate.py all --output-directory $(OUTPUT_DIRECTORY)
+	@$(UV_ENV_FLAG) uv run --link-mode $(UV_LINK_MODE) generate.py all --output-directory $(OUTPUT_DIRECTORY) --days 7
 	npx prettier --write --ignore-path /dev/null "$(OUTPUT_DIRECTORY)/*.html" "$(OUTPUT_DIRECTORY)/logs/**/*.html"
 
 clean:
