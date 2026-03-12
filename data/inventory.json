@@ -1,10 +1,34 @@
 [
   {
     "id": "fairlife_core_power_elite_vanilla",
-    "quantity": 10
+    "quantity": 9
+  },
+  {
+    "id": "cu_lobster_ravioli_with_garlic_cream_sauce",
+    "quantity": 1
+  },
+  {
+    "id": "cu_grilled_adobo_salmon",
+    "quantity": 1
+  },
+  {
+    "id": "cu_herb_roasted_turkey_breast",
+    "quantity": 1
   },
   {
     "id": "cu_mexican_chicken_bowl",
+    "quantity": 1
+  },
+  {
+    "id": "cu_grilled_chicken_and_pistachio_mole",
+    "quantity": 1
+  },
+  {
+    "id": "cu_herb_grilled_chicken_breasts",
+    "quantity": 2
+  },
+  {
+    "id": "cu_parmesan_chicken_tenders",
     "quantity": 1
   }
 ]

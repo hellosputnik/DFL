@@ -35,7 +35,7 @@
       "Artificial Flavor",
       "Soy Lecithin",
       "Salt",
-      "Baker’s Yeast",
+      "Baker\u2019s Yeast",
       "Sodium Bicarbonate",
       "Corn Starch",
       "Pgpr"
@@ -2193,8 +2193,8 @@
     ]
   },
   "nem_nuong_nha_trang_roll": {
-    "brand": "Nem Nướng Nha Trang",
-    "product_name": "Nem Nướng Roll",
+    "brand": "Nem N\u01b0\u1edbng Nha Trang",
+    "product_name": "Nem N\u01b0\u1edbng Roll",
     "flavor": null,
     "calories_kcal": 210,
     "protein_g": 9,
@@ -2908,7 +2908,7 @@
   },
   "cu_entrana_steak_with_chimichurri": {
     "brand": "CookUnity",
-    "product_name": "Entraña Steak with Chimichurri",
+    "product_name": "Entra\u00f1a Steak with Chimichurri",
     "flavor": null,
     "calories_kcal": 690,
     "protein_g": 50,
@@ -7465,7 +7465,7 @@
   },
   "cu_beef_mole_tacos_arabes": {
     "brand": "CookUnity",
-    "product_name": "Beef Mole Tacos Árabes",
+    "product_name": "Beef Mole Tacos \u00c1rabes",
     "flavor": null,
     "calories_kcal": 570,
     "protein_g": 37,
@@ -10897,7 +10897,7 @@
   },
   "cu_chicken_fricassee_with_mushrooms": {
     "brand": "CookUnity",
-    "product_name": "Chicken Fricassée with Mushrooms",
+    "product_name": "Chicken Fricass\u00e9e with Mushrooms",
     "flavor": null,
     "calories_kcal": 650,
     "protein_g": 41,
@@ -13704,7 +13704,7 @@
       "Brioche",
       "Nutmeg",
       "Cherry Tomato",
-      "Frisée Lettuce",
+      "Fris\u00e9e Lettuce",
       "Canola and Olive Oil Blend",
       "All Purpose Flour",
       "Butter",
@@ -13878,7 +13878,7 @@
   },
   "cu_classic_quebecois_poutine": {
     "brand": "CookUnity",
-    "product_name": "Classic Québécois Poutine",
+    "product_name": "Classic Qu\u00e9b\u00e9cois Poutine",
     "flavor": null,
     "calories_kcal": 1120,
     "protein_g": 41,
@@ -14646,7 +14646,7 @@
   },
   "cu_crawfish_etouffee": {
     "brand": "CookUnity",
-    "product_name": "Crawfish Étouffée",
+    "product_name": "Crawfish \u00c9touff\u00e9e",
     "flavor": null,
     "calories_kcal": 570,
     "protein_g": 32,
@@ -14868,7 +14868,7 @@
   },
   "cu_creamy_marry_me_chicken": {
     "brand": "CookUnity",
-    "product_name": "Creamy “Marry-Me” Chicken",
+    "product_name": "Creamy \u201cMarry-Me\u201d Chicken",
     "flavor": null,
     "calories_kcal": 650,
     "protein_g": 39,
@@ -15127,7 +15127,7 @@
   },
   "cu_crispy_chicken_cutlet_with_za_atar_rainbow_potatoes": {
     "brand": "CookUnity",
-    "product_name": "Crispy Chicken Cutlet with Za’atar Rainbow Potatoes",
+    "product_name": "Crispy Chicken Cutlet with Za\u2019atar Rainbow Potatoes",
     "flavor": null,
     "calories_kcal": 950,
     "protein_g": 42,
@@ -15459,7 +15459,7 @@
   },
   "cu_cuban_lechon_asado_roasted_pork": {
     "brand": "CookUnity",
-    "product_name": "Cuban Lechón Asado",
+    "product_name": "Cuban Lech\u00f3n Asado",
     "flavor": null,
     "calories_kcal": 470,
     "protein_g": 35,
@@ -16007,7 +16007,7 @@
   },
   "cu_entrana_steak_with_smashed_potatoes": {
     "brand": "CookUnity",
-    "product_name": "Entraña Steak with Smashed Potatoes",
+    "product_name": "Entra\u00f1a Steak with Smashed Potatoes",
     "flavor": null,
     "calories_kcal": 1000,
     "protein_g": 58,
@@ -18542,7 +18542,7 @@
   },
   "cu_grilled_chicken_carrot_puree": {
     "brand": "CookUnity",
-    "product_name": "Grilled Chicken & Carrot Purée",
+    "product_name": "Grilled Chicken & Carrot Pur\u00e9e",
     "flavor": null,
     "calories_kcal": 250,
     "protein_g": 26,
@@ -18811,7 +18811,7 @@
   },
   "cu_grilled_chicken_with_carrot_thyme_puree": {
     "brand": "CookUnity",
-    "product_name": "Grilled Chicken with Carrot Thyme Purée",
+    "product_name": "Grilled Chicken with Carrot Thyme Pur\u00e9e",
     "flavor": null,
     "calories_kcal": 450,
     "protein_g": 43,
@@ -20785,7 +20785,7 @@
     "total_weight_oz": 10.5,
     "ingredients": [
       "Country Bread",
-      "Frisée Lettuce",
+      "Fris\u00e9e Lettuce",
       "Canola and Olive Oil Blend",
       "Extra Virgin Olive Oil",
       "Sherry Vinegar",
@@ -21110,7 +21110,7 @@
   },
   "cu_huancaina_mac_cheese": {
     "brand": "CookUnity",
-    "product_name": "Huancaína Mac & Cheese",
+    "product_name": "Huanca\u00edna Mac & Cheese",
     "flavor": null,
     "calories_kcal": 850,
     "protein_g": 43,
@@ -21161,7 +21161,7 @@
   },
   "cu_hunter_s_style_chicken_with_creamy_mashed_potatoes": {
     "brand": "CookUnity",
-    "product_name": "Hunter’s-Style Chicken with Creamy Mashed Potatoes",
+    "product_name": "Hunter\u2019s-Style Chicken with Creamy Mashed Potatoes",
     "flavor": null,
     "calories_kcal": 490,
     "protein_g": 33,
@@ -21581,7 +21581,7 @@
   },
   "cu_jalapeno_bacon_cheddar_egg_white_bites": {
     "brand": "CookUnity",
-    "product_name": "Jalapeño, Bacon & Cheddar Egg White Bites",
+    "product_name": "Jalape\u00f1o, Bacon & Cheddar Egg White Bites",
     "flavor": null,
     "calories_kcal": 270,
     "protein_g": 26,
@@ -23305,7 +23305,7 @@
   },
   "cu_mac_n_chego": {
     "brand": "CookUnity",
-    "product_name": "Mac ’n Chego",
+    "product_name": "Mac \u2019n Chego",
     "flavor": null,
     "calories_kcal": 710,
     "protein_g": 38,
@@ -23524,7 +23524,7 @@
   },
   "cu_maple_sweet_potato_puree": {
     "brand": "CookUnity",
-    "product_name": "Maple Sweet Potato Purée",
+    "product_name": "Maple Sweet Potato Pur\u00e9e",
     "flavor": null,
     "calories_kcal": 220,
     "protein_g": 2,
@@ -24717,7 +24717,7 @@
   },
   "cu_mexican_cochinita_pibil_pork_bowl": {
     "brand": "CookUnity",
-    "product_name": "Mexican ‘Cochinita Pibil’ Pork Bowl",
+    "product_name": "Mexican \u2018Cochinita Pibil\u2019 Pork Bowl",
     "flavor": null,
     "calories_kcal": 570,
     "protein_g": 38,
@@ -26950,7 +26950,7 @@
   },
   "cu_mushroom_ravioli_with_sauteed_mushrooms": {
     "brand": "CookUnity",
-    "product_name": "Mushroom Ravioli with Sautéed Mushrooms",
+    "product_name": "Mushroom Ravioli with Saut\u00e9ed Mushrooms",
     "flavor": null,
     "calories_kcal": 1000,
     "protein_g": 35,
@@ -28625,7 +28625,7 @@
   },
   "cu_peruvian_chicken_tampiquena": {
     "brand": "CookUnity",
-    "product_name": "Peruvian Chicken Tampiqueña",
+    "product_name": "Peruvian Chicken Tampique\u00f1a",
     "flavor": null,
     "calories_kcal": 900,
     "protein_g": 47,
@@ -29368,7 +29368,7 @@
   },
   "cu_pilar_s_meatballs": {
     "brand": "CookUnity",
-    "product_name": "Pilar’s Meatballs",
+    "product_name": "Pilar\u2019s Meatballs",
     "flavor": null,
     "calories_kcal": 950,
     "protein_g": 41,
@@ -29799,7 +29799,7 @@
   },
   "cu_pollo_a_la_brasa_peruvian_roasted_chicken": {
     "brand": "CookUnity",
-    "product_name": "‘Pollo A La Brasa' Peruvian Roasted Chicken",
+    "product_name": "\u2018Pollo A La Brasa' Peruvian Roasted Chicken",
     "flavor": null,
     "calories_kcal": 540,
     "protein_g": 42,
@@ -32402,7 +32402,7 @@
   },
   "cu_roasted_jalapeno_feta_egg_bites": {
     "brand": "CookUnity",
-    "product_name": "Roasted Jalapeño & Feta Egg Bites",
+    "product_name": "Roasted Jalape\u00f1o & Feta Egg Bites",
     "flavor": null,
     "calories_kcal": 150,
     "protein_g": 8,
@@ -32519,7 +32519,7 @@
   },
   "cu_roasted_salmon_and_sauteed_haricot_verts": {
     "brand": "CookUnity",
-    "product_name": "Roasted Salmon and Sautéed Haricot Verts",
+    "product_name": "Roasted Salmon and Saut\u00e9ed Haricot Verts",
     "flavor": null,
     "calories_kcal": 700,
     "protein_g": 41,
@@ -33565,7 +33565,7 @@
   },
   "cu_sauteed_garlicky_string_beans": {
     "brand": "CookUnity",
-    "product_name": "Sautéed Garlicky String Beans",
+    "product_name": "Saut\u00e9ed Garlicky String Beans",
     "flavor": null,
     "calories_kcal": 150,
     "protein_g": 5,
@@ -34847,7 +34847,7 @@
   },
   "cu_shrimp_etouffee": {
     "brand": "CookUnity",
-    "product_name": "Shrimp Étouffée",
+    "product_name": "Shrimp \u00c9touff\u00e9e",
     "flavor": null,
     "calories_kcal": 650,
     "protein_g": 29,
@@ -37171,7 +37171,7 @@
   },
   "cu_steak_spinach_cheddar_souffle": {
     "brand": "CookUnity",
-    "product_name": "Steak & Spinach-Cheddar Soufflé",
+    "product_name": "Steak & Spinach-Cheddar Souffl\u00e9",
     "flavor": null,
     "calories_kcal": 680,
     "protein_g": 51,
@@ -40320,7 +40320,7 @@
   },
   "cu_vegan_nicoise_salad": {
     "brand": "CookUnity",
-    "product_name": "Vegan Niçoise Salad",
+    "product_name": "Vegan Ni\u00e7oise Salad",
     "flavor": null,
     "calories_kcal": 440,
     "protein_g": 6,
@@ -40838,7 +40838,7 @@
   },
   "cu_viral_dubai_cookie_pistachio_chocolate_bliss": {
     "brand": "CookUnity",
-    "product_name": "Viral Dubai Cookie – Pistachio & Chocolate Bliss",
+    "product_name": "Viral Dubai Cookie \u2013 Pistachio & Chocolate Bliss",
     "flavor": null,
     "calories_kcal": 800,
     "protein_g": 12,
@@ -41288,7 +41288,7 @@
   },
   "cu_yia_yia_s_cumin_spiced_turkey_meatballs": {
     "brand": "CookUnity",
-    "product_name": "Yia Yia’s Cumin-Spiced Turkey Meatballs",
+    "product_name": "Yia\u202fYia\u2019s Cumin-Spiced Turkey Meatballs",
     "flavor": null,
     "calories_kcal": 930,
     "protein_g": 44,
@@ -41668,6 +41668,94 @@
       "Disodium inosinate",
       "Disodium guanylate",
       "Guar gum"
+    ]
+  },
+  "caffe_macs_firecracker_salmon": {
+    "brand": "Caffe Macs",
+    "product_name": "Firecracker Salmon",
+    "calories_kcal": 750,
+    "protein_g": 45,
+    "carbohydrate_g": 55,
+    "fat_g": 37,
+    "ingredients": [
+      "Salmon (Fish)",
+      "Sunflower Oil",
+      "Salt",
+      "Pepper",
+      "Paprika",
+      "Soba Noodles (Wheat, Gluten)",
+      "Carrots",
+      "Red Cabbage",
+      "Green Cabbage",
+      "Cilantro",
+      "Avocados",
+      "Edamame (Soybeans)",
+      "Green Onions",
+      "Sesame Oil (Sesame)",
+      "Sesame Seeds (Sesame)",
+      "Tofu Curry Nuggets (Soy, Wheat, Gluten)",
+      "Snap Green Peas",
+      "Broccoli",
+      "Purple Cauliflower",
+      "Extra-Virgin Olive Oil",
+      "Salt",
+      "Pepper",
+      "Crispy Onions (Soy)",
+      "Tamari (Soybeans)",
+      "Ginger",
+      "Sunflower Oil",
+      "Garlic",
+      "Shallots",
+      "Honey",
+      "Sriracha Hot Sauce",
+      "Brown Sugar",
+      "Mae Ploy Sweet Chili Sauce",
+      "Cornstarch",
+      "Mirin (Alcohol)",
+      "Rice Vinegar"
+    ]
+  },
+  "nabisco_ritz_bits_spicy_queso": {
+    "brand": "Nabisco",
+    "product_name": "RITZ Bits",
+    "flavor": "Spicy Queso",
+    "calories_kcal": 150,
+    "protein_g": 2,
+    "carbohydrate_g": 17,
+    "fat_g": 8,
+    "total_fat_g": 8,
+    "saturated_fat_g": 3,
+    "trans_fat_g": 0,
+    "cholesterol_mg": 0,
+    "sodium_mg": 120,
+    "dietary_fiber_g": 0,
+    "total_sugars_g": 4,
+    "added_sugars_g": 2,
+    "serving_size": 29,
+    "serving_unit": "g",
+    "servings_per_container": 1,
+    "ingredients": [
+      "Unbleached Enriched Flour",
+      "Palm Oil",
+      "Soybean and/or Canola Oil",
+      "Whey",
+      "Sugar",
+      "Leavening",
+      "Cheddar Cheese Powder",
+      "Salt",
+      "Buttermilk Powder",
+      "Natural Flavor",
+      "Yeast Extract",
+      "Sodium Phosphate",
+      "Soy Lecithin",
+      "Onion Powder",
+      "Cornstarch",
+      "Spices",
+      "Turmeric Extract",
+      "Garlic Powder",
+      "Annatto Extract",
+      "Reduced Lactose Whey",
+      "Disodium Phosphate"
     ]
   }
 }

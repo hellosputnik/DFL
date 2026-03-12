@@ -44,7 +44,7 @@ A list of items currently on hand, linked by ID.
 Daily consumption records.
 - `entries`: List of {
     `id`,
-    `display_name` (can include modification notes like "1/2 sauce"),
+    `display_name` (e.g., "Brand - Product (Modified)"),
     `amount`,
     `calories_kcal`,
     `protein_g`,
@@ -58,7 +58,7 @@ Daily consumption records.
 1.  **Logging Food**:
     - When I eat something, check `data/food_database.json` by ID or attributes.
     - If I am modifying the item (e.g., "half sauce"), calculate the new macros based on the "pure" database entry and my description.
-    - Log the entry with a descriptive `display_name` (e.g., "Bibigo - Crunchy Chicken (1/2 Sauce)").
+    - Log the entry with the canonical `display_name` and append "(Modified)" if applicable (e.g., "Bibigo - Crunchy Chicken (Modified)"). Do not include specific modification details in the `display_name`.
     - Decrement the quantity from `data/inventory.json` by the ID. If the quantity reaches 0, remove the item from the list entirely.
     - Update or create the daily log file in `logs/` and regenerate the dashboard using `make build`.
 

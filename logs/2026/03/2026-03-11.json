@@ -8,12 +8,66 @@
       "protein_g": 42,
       "carbohydrate_g": 8,
       "fat_g": 3.5
+    },
+    {
+      "id": "caffe_macs_firecracker_salmon",
+      "display_name": "Caffe Macs - Firecracker Salmon",
+      "amount": 1,
+      "calories_kcal": 750,
+      "protein_g": 45,
+      "carbohydrate_g": 55,
+      "fat_g": 37
+    },
+    {
+      "id": "caffe_macs_americano",
+      "display_name": "Caffe Macs - Iced Americano (Black)",
+      "amount": 1,
+      "calories_kcal": 10,
+      "protein_g": 0,
+      "carbohydrate_g": 0,
+      "fat_g": 0
+    },
+    {
+      "id": "cu_mexican_chicken_bowl",
+      "display_name": "CookUnity - Mexican Chicken Bowl (Modified)",
+      "amount": 1,
+      "calories_kcal": 300,
+      "protein_g": 43.5,
+      "carbohydrate_g": 8,
+      "fat_g": 10.5
+    },
+    {
+      "id": "tob_edamame_sriracha",
+      "display_name": "The Only Bean - Crunchy Roasted Edamame (Sriracha)",
+      "amount": 1,
+      "calories_kcal": 117,
+      "protein_g": 11,
+      "carbohydrate_g": 7,
+      "fat_g": 6
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    },
+    {
+      "id": "nabisco_ritz_bits_spicy_queso",
+      "display_name": "Nabisco - RITZ Bits (Spicy Queso)",
+      "amount": 1,
+      "calories_kcal": 150,
+      "protein_g": 2,
+      "carbohydrate_g": 17,
+      "fat_g": 8
     }
   ],
   "totals": {
-    "calories_kcal": 230,
-    "protein_g": 42,
-    "carbohydrate_g": 8,
-    "fat_g": 3.5
+    "calories_kcal": 1787,
+    "protein_g": 185.5,
+    "carbohydrate_g": 103,
+    "fat_g": 68.5
   }
 }
