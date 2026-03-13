@@ -1,0 +1,19 @@
+{
+  "entries": [
+    {
+      "id": "cu_lobster_ravioli_with_garlic_cream_sauce",
+      "display_name": "CookUnity - Lobster Ravioli with Garlic Cream Sauce",
+      "amount": 1,
+      "calories_kcal": 850,
+      "protein_g": 34,
+      "carbohydrate_g": 55,
+      "fat_g": 55
+    }
+  ],
+  "totals": {
+    "calories_kcal": 850,
+    "protein_g": 34,
+    "carbohydrate_g": 55,
+    "fat_g": 55
+  }
+}
