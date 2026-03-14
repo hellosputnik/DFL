@@ -1,0 +1,28 @@
+{
+  "entries": [
+    {
+      "id": "cu_parmesan_chicken_tenders",
+      "display_name": "CookUnity - Parmesan Chicken Tenders (Full Container)",
+      "amount": 2,
+      "calories_kcal": 760,
+      "protein_g": 78,
+      "carbohydrate_g": 34,
+      "fat_g": 32
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    }
+  ],
+  "totals": {
+    "calories_kcal": 990,
+    "protein_g": 120,
+    "carbohydrate_g": 42,
+    "fat_g": 35.5
+  }
+}

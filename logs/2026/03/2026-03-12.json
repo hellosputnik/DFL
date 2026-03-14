@@ -8,12 +8,48 @@
       "protein_g": 34,
       "carbohydrate_g": 55,
       "fat_g": 55
+    },
+    {
+      "id": "cu_herb_grilled_chicken_breasts",
+      "display_name": "CookUnity - Herb-Grilled Chicken Breasts (Full Container)",
+      "amount": 2,
+      "calories_kcal": 660,
+      "protein_g": 92,
+      "carbohydrate_g": 6,
+      "fat_g": 30
+    },
+    {
+      "id": "tarami_konjac_jelly_apple",
+      "display_name": "Tarami - Konjac Jelly (Apple)",
+      "amount": 1,
+      "calories_kcal": 48,
+      "protein_g": 0,
+      "carbohydrate_g": 14.7,
+      "fat_g": 0
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    },
+    {
+      "id": "tob_edamame_sea_salt",
+      "display_name": "The Only Bean - Crunchy Roasted Edamame (Sea Salt)",
+      "amount": 1,
+      "calories_kcal": 100,
+      "protein_g": 14,
+      "carbohydrate_g": 6,
+      "fat_g": 4
     }
   ],
   "totals": {
-    "calories_kcal": 850,
-    "protein_g": 34,
-    "carbohydrate_g": 55,
-    "fat_g": 55
+    "calories_kcal": 1888,
+    "protein_g": 182,
+    "carbohydrate_g": 89.7,
+    "fat_g": 92.5
   }
 }
