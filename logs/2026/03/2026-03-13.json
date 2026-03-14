@@ -26,12 +26,39 @@
       "protein_g": 0,
       "carbohydrate_g": 13,
       "fat_g": 0
+    },
+    {
+      "id": "cu_grilled_adobo_salmon",
+      "display_name": "CookUnity - Grilled Adobo Salmon (Full Container)",
+      "amount": 2,
+      "calories_kcal": 660,
+      "protein_g": 68,
+      "carbohydrate_g": 10,
+      "fat_g": 38
+    },
+    {
+      "id": "kc_teatime_extra_rich_coffee_latte",
+      "display_name": "Kuang Chuan (Tea Time) - Extra Rich Latte (Coffee)",
+      "amount": 1,
+      "calories_kcal": 180,
+      "protein_g": 7,
+      "carbohydrate_g": 30,
+      "fat_g": 3.5
+    },
+    {
+      "id": "tarami_konjac_jelly_apple",
+      "display_name": "Tarami - Konjac Jelly (Apple)",
+      "amount": 1,
+      "calories_kcal": 48,
+      "protein_g": 0,
+      "carbohydrate_g": 14.7,
+      "fat_g": 0
     }
   ],
   "totals": {
-    "calories_kcal": 1035,
-    "protein_g": 120,
-    "carbohydrate_g": 55,
-    "fat_g": 35.5
+    "calories_kcal": 1923,
+    "protein_g": 195,
+    "carbohydrate_g": 109.7,
+    "fat_g": 77
   }
 }
