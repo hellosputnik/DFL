@@ -41,14 +41,14 @@
       "display_name": "The Only Bean - Crunchy Roasted Edamame (Sea Salt)",
       "amount": 1,
       "calories_kcal": 100,
-      "protein_g": 14,
+      "protein_g": 11,
       "carbohydrate_g": 6,
       "fat_g": 4
     }
   ],
   "totals": {
     "calories_kcal": 1888,
-    "protein_g": 182,
+    "protein_g": 179,
     "carbohydrate_g": 89.7,
     "fat_g": 92.5
   }

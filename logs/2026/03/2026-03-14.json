@@ -23,7 +23,7 @@
       "display_name": "The Only Bean - Crunchy Roasted Edamame (Wasabi Soy Sauce)",
       "amount": 1,
       "calories_kcal": 124,
-      "protein_g": 14,
+      "protein_g": 11,
       "carbohydrate_g": 7,
       "fat_g": 6
     },
@@ -48,7 +48,7 @@
   ],
   "totals": {
     "calories_kcal": 1582,
-    "protein_g": 184,
+    "protein_g": 181,
     "carbohydrate_g": 72.7,
     "fat_g": 61.5
   }
