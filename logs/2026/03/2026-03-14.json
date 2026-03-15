@@ -26,12 +26,30 @@
       "protein_g": 14,
       "carbohydrate_g": 7,
       "fat_g": 6
+    },
+    {
+      "id": "tarami_konjac_jelly_apple",
+      "display_name": "Tarami - Konjac Jelly (Apple)",
+      "amount": 1,
+      "calories_kcal": 48,
+      "protein_g": 0,
+      "carbohydrate_g": 14.7,
+      "fat_g": 0
+    },
+    {
+      "id": "lays_classic_potato_chips_1oz",
+      "display_name": "Lay's - Classic Potato Chips",
+      "amount": 1,
+      "calories_kcal": 160,
+      "protein_g": 2,
+      "carbohydrate_g": 15,
+      "fat_g": 10
     }
   ],
   "totals": {
-    "calories_kcal": 1374,
-    "protein_g": 182,
-    "carbohydrate_g": 43,
-    "fat_g": 51.5
+    "calories_kcal": 1582,
+    "protein_g": 184,
+    "carbohydrate_g": 72.7,
+    "fat_g": 61.5
   }
 }

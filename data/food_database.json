@@ -1,4 +1,34 @@
 {
+  "lays_classic_potato_chips_1oz": {
+    "brand": "Lay's",
+    "product_name": "Classic Potato Chips",
+    "flavor": "Classic",
+    "calories_kcal": 160,
+    "protein_g": 2,
+    "carbohydrate_g": 15,
+    "fat_g": 10,
+    "total_fat_g": 10,
+    "saturated_fat_g": 1.5,
+    "trans_fat_g": 0,
+    "cholesterol_mg": 0,
+    "sodium_mg": 170,
+    "dietary_fiber_g": 1,
+    "total_sugars_g": 1,
+    "added_sugars_g": 0,
+    "vitamin_d_mcg": 0,
+    "calcium_mg": 10,
+    "iron_mg": 0.6,
+    "potassium_mg": 350,
+    "serving_size": 28,
+    "serving_unit": "g",
+    "servings_per_container": 1,
+    "total_weight_oz": 1,
+    "ingredients": [
+      "Potatoes",
+      "Vegetable Oil (Canola, Corn, Soybean, and/or Sunflower Oil)",
+      "Salt"
+    ]
+  },
   "glico_pocky_cookies_cream": {
     "brand": "Glico",
     "product_name": "Pocky",
