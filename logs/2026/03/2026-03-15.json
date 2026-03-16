@@ -1,46 +1,73 @@
 {
-    "entries":  [
-                    {
-                        "id":  "tarami_konjac_jelly_peach",
-                        "display_name":  "Tarami - Konjac Jelly (Peach)",
-                        "amount":  1,
-                        "calories_kcal":  37,
-                        "protein_g":  0,
-                        "carbohydrate_g":  11.8,
-                        "fat_g":  0
-                    },
-                    {
-                        "id":  "kc_teatime_extra_rich_coffee_latte",
-                        "display_name":  "Kuang Chuan - Tea Time Rich Caffe Latte",
-                        "amount":  1,
-                        "calories_kcal":  180,
-                        "protein_g":  7,
-                        "carbohydrate_g":  30,
-                        "fat_g":  3.5
-                    },
-                    {
-                        "id":  "bibigo_mandu_beef_vegetable",
-                        "display_name":  "Bibigo - Mandu (Beef \u0026 Vegetable)",
-                        "amount":  1.5,
-                        "calories_kcal":  495,
-                        "protein_g":  18,
-                        "carbohydrate_g":  49.5,
-                        "fat_g":  24
-                    },
-                    {
-                        "id":  "organic_valley_liquid_egg_whites",
-                        "display_name":  "Organic Valley - Organic Liquid Egg Whites (Pasteurized)",
-                        "amount":  "1.5 cups",
-                        "calories_kcal":  160,
-                        "protein_g":  40,
-                        "carbohydrate_g":  0,
-                        "fat_g":  0
-                    }
-                ],
-    "totals":  {
-                   "calories_kcal":  872,
-                   "protein_g":  65,
-                   "carbohydrate_g":  91.3,
-                   "fat_g":  27.5
-               }
+    "entries": [
+        {
+            "id": "tarami_konjac_jelly_peach",
+            "display_name": "Tarami - Konjac Jelly (Peach)",
+            "amount": 1,
+            "calories_kcal": 37,
+            "protein_g": 0,
+            "carbohydrate_g": 11.8,
+            "fat_g": 0
+        },
+        {
+            "id": "kc_teatime_extra_rich_coffee_latte",
+            "display_name": "Kuang Chuan - Tea Time Rich Caffe Latte",
+            "amount": 1,
+            "calories_kcal": 180,
+            "protein_g": 7,
+            "carbohydrate_g": 30,
+            "fat_g": 3.5
+        },
+        {
+            "id": "bibigo_mandu_beef_vegetable",
+            "display_name": "Bibigo - Mandu (Beef & Vegetable)",
+            "amount": 1.5,
+            "calories_kcal": 495,
+            "protein_g": 18,
+            "carbohydrate_g": 49.5,
+            "fat_g": 24
+        },
+        {
+            "id": "organic_valley_liquid_egg_whites",
+            "display_name": "Organic Valley - Organic Liquid Egg Whites (Pasteurized)",
+            "amount": "1.5 cups",
+            "calories_kcal": 160,
+            "protein_g": 40,
+            "carbohydrate_g": 0,
+            "fat_g": 0
+        },
+        {
+            "id": "cu_grilled_chicken_and_pistachio_mole",
+            "display_name": "CookUnity - Grilled Chicken and Pistachio Mole",
+            "amount": 1,
+            "calories_kcal": 600,
+            "protein_g": 55,
+            "carbohydrate_g": 59,
+            "fat_g": 14
+        },
+        {
+            "id": "fairlife_core_power_elite_vanilla",
+            "display_name": "Fairlife - Core Power Elite (Vanilla)",
+            "amount": 1,
+            "calories_kcal": 230,
+            "protein_g": 42,
+            "carbohydrate_g": 8,
+            "fat_g": 3.5
+        },
+        {
+            "id": "tob_edamame_ranch",
+            "display_name": "The Only Bean - Crunchy Roasted Edamame (Ranch)",
+            "amount": 1,
+            "calories_kcal": 125,
+            "protein_g": 11,
+            "carbohydrate_g": 7,
+            "fat_g": 6
+        }
+    ],
+    "totals": {
+        "calories_kcal": 1827,
+        "protein_g": 173,
+        "carbohydrate_g": 165.3,
+        "fat_g": 51
+    }
 }
