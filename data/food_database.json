@@ -280,6 +280,51 @@
       "Sesame Oil"
     ]
   },
+  "bibigo_mandu_beef_vegetable": {
+    "brand": "Bibigo",
+    "product_name": "Mandu",
+    "flavor": "Beef & Vegetable",
+    "calories_kcal": 330,
+    "protein_g": 12,
+    "carbohydrate_g": 33,
+    "fat_g": 16,
+    "total_fat_g": 16,
+    "saturated_fat_g": 6,
+    "trans_fat_g": 1,
+    "cholesterol_mg": 35,
+    "sodium_mg": 750,
+    "dietary_fiber_g": 2,
+    "total_sugars_g": 5,
+    "serving_size": 4,
+    "serving_unit": "pieces",
+    "servings_per_container": 5,
+    "total_weight_oz": 24,
+    "source": "https://www.instacart.com/products/85044733-bibigo-mandu-beef-vegetable-1-each",
+    "source_type": "secondary",
+    "source_image": "data/sources/bibigo_mandu_beef_vegetable_nutrition.jpg",
+    "ingredients": [
+      "Beef",
+      "Rehydrated Glass Noodles (Water, Sweet Potato Starch, Carrageenan, Salt)",
+      "Cabbage",
+      "Green Onion",
+      "Soy Sauce (Water, Soybeans, Wheat, Salt)",
+      "Sugar",
+      "Fully Cooked Beef Patty (Ground Beef, Sugar, Roasted Garlic, Soy Sauce [Water, Soybeans, Wheat, Salt], Green Onion, Sesame Oil, Oat Fiber, Salt, Pineapple Juice Powder [Corn Syrup Solids, Pineapple Juice Solids], Onion Puree, Yeast Extract, Smoke Flavor, Jalapeno, Water, Sodium Phosphates, Carrageenan, Black Pepper, Ginger Powder)",
+      "Carrot",
+      "Garlic",
+      "Sesame Oil",
+      "Yeast Extract",
+      "Salt",
+      "Jalapeno",
+      "Grill Flavor (Tapioca Dextrin, Salt, Grill Flavor [from Sunflower Oil], Smoke Flavor)",
+      "Black Pepper",
+      "Enriched Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid)",
+      "Water",
+      "Modified Food Starch",
+      "Wheat Gluten",
+      "Vegetable Oil"
+    ]
+  },
   "cu_al_pastor_pork_burrito_bowl": {
     "brand": "CookUnity",
     "product_name": "Al Pastor Pork Burrito Bowl",
@@ -2114,9 +2159,22 @@
     "carbohydrate_g": 0,
     "fat_g": 0,
     "total_fat_g": 0,
+    "saturated_fat_g": 0,
+    "trans_fat_g": 0,
+    "cholesterol_mg": 0,
     "sodium_mg": 70,
-    "serving_size": 45,
-    "serving_unit": "g",
+    "dietary_fiber_g": 0,
+    "total_sugars_g": 0,
+    "calcium_mg": 3.15,
+    "iron_mg": 0.036,
+    "potassium_mg": 75,
+    "serving_size": 3,
+    "serving_unit": "tbsp",
+    "servings_per_container": 10,
+    "total_weight_oz": 16,
+    "source": "https://www.organicvalley.coop/products/eggs/egg-whites/egg-whites-pasteurized-16-oz/",
+    "source_type": "primary",
+    "upc": "093966811117",
     "ingredients": [
       "Organic Egg Whites"
     ]
@@ -41850,3 +41908,5 @@
     ]
   }
 }
+
+
