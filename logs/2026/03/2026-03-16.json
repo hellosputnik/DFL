@@ -1,0 +1,37 @@
+{
+  "entries": [
+    {
+      "id": "cu_herb_grilled_chicken_breasts",
+      "display_name": "CookUnity - Herb-Grilled Chicken Breasts (Full Container)",
+      "amount": 2,
+      "calories_kcal": 660,
+      "protein_g": 92,
+      "carbohydrate_g": 8,
+      "fat_g": 26
+    },
+    {
+      "id": "lays_classic_potato_chips_1oz",
+      "display_name": "Lay's - Classic Potato Chips",
+      "amount": 1,
+      "calories_kcal": 160,
+      "protein_g": 2,
+      "carbohydrate_g": 15,
+      "fat_g": 10
+    },
+    {
+      "id": "tarami_konjac_jelly_grape",
+      "display_name": "Tarami - Konjac Jelly (Grape)",
+      "amount": 1,
+      "calories_kcal": 45,
+      "protein_g": 0,
+      "carbohydrate_g": 13,
+      "fat_g": 0
+    }
+  ],
+  "totals": {
+    "calories_kcal": 865,
+    "protein_g": 94,
+    "carbohydrate_g": 36,
+    "fat_g": 36
+  }
+}
