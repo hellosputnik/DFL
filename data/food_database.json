@@ -2371,6 +2371,41 @@
       "Peanut/Liver Sauce (for dipping)"
     ]
   },
+  "just_bare_lightly_breaded_chicken_breast_fillets_spicy": {
+    "brand": "Just Bare",
+    "product_name": "Lightly Breaded Chicken Breast Fillets",
+    "flavor": "Spicy",
+    "calories_kcal": 210,
+    "protein_g": 22,
+    "carbohydrate_g": 14,
+    "fat_g": 8,
+    "total_fat_g": 8,
+    "saturated_fat_g": 1.5,
+    "trans_fat_g": 0,
+    "cholesterol_mg": 60,
+    "sodium_mg": 980,
+    "dietary_fiber_g": 0.5,
+    "total_sugars_g": 3,
+    "added_sugars_g": 3,
+    "vitamin_d_mcg": 0.1,
+    "calcium_mg": 10,
+    "iron_mg": 0.7,
+    "potassium_mg": 410,
+    "serving_size": 119,
+    "serving_unit": "g",
+    "servings_per_container": 6,
+    "total_weight_oz": 24,
+    "source": "https://justbarechicken.com/product/lightly-breaded-spicy-chicken-breast-fillets/",
+    "source_type": "primary",
+    "ingredients": [
+      "Boneless Skinless Chicken Breast",
+      "Water",
+      "Seasoning (Salt, Sugar, Spices Including Paprika, Spice Extractive)",
+      "Rice Starch",
+      "Breaded With: Wheat Flour, Sugar, Salt, Spices Including Paprika, Leavening (Cream of Tartar, Sodium Bicarbonate), Extractive of Paprika, Spice Extractive",
+      "Vegetable Oil"
+    ]
+  },
   "kc_teatime_extra_rich_coffee_latte": {
     "brand": "Kuang Chuan",
     "product_name": "Tea Time Rich Caffe Latte",
