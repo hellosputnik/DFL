@@ -1,0 +1,46 @@
+{
+  "entries": [
+    {
+      "id": "caffe_macs_beef_burger",
+      "display_name": "Caffe Macs - Beef Burger (Modified)",
+      "amount": 1,
+      "calories_kcal": 630,
+      "protein_g": 49,
+      "carbohydrate_g": 25,
+      "fat_g": 40
+    },
+    {
+      "id": "caffe_macs_americano",
+      "display_name": "Caffe Macs - Iced Americano",
+      "amount": 2,
+      "calories_kcal": 20,
+      "protein_g": 0,
+      "carbohydrate_g": 0,
+      "fat_g": 0
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    },
+    {
+      "id": "lays_classic_potato_chips_1oz",
+      "display_name": "Lay's - Classic Potato Chips",
+      "amount": 1,
+      "calories_kcal": 160,
+      "protein_g": 2,
+      "carbohydrate_g": 15,
+      "fat_g": 10
+    }
+  ],
+  "totals": {
+    "calories_kcal": 1040,
+    "protein_g": 93,
+    "carbohydrate_g": 48,
+    "fat_g": 53.5
+  }
+}
