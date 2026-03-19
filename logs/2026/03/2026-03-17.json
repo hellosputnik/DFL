@@ -21,11 +21,11 @@
     {
       "id": "fairlife_core_power_elite_vanilla",
       "display_name": "Fairlife - Core Power Elite (Vanilla)",
-      "amount": 1,
-      "calories_kcal": 230,
-      "protein_g": 42,
-      "carbohydrate_g": 8,
-      "fat_g": 3.5
+      "amount": 2,
+      "calories_kcal": 460,
+      "protein_g": 84,
+      "carbohydrate_g": 16,
+      "fat_g": 7
     },
     {
       "id": "lays_classic_potato_chips_1oz",
@@ -35,12 +35,21 @@
       "protein_g": 2,
       "carbohydrate_g": 15,
       "fat_g": 10
+    },
+    {
+      "id": "just_bare_lightly_breaded_chicken_breast_fillets_spicy",
+      "display_name": "Just Bare - Lightly Breaded Chicken Breast Fillets (Spicy)",
+      "amount": 2,
+      "calories_kcal": 420,
+      "protein_g": 44,
+      "carbohydrate_g": 28,
+      "fat_g": 16
     }
   ],
   "totals": {
-    "calories_kcal": 1040,
-    "protein_g": 93,
-    "carbohydrate_g": 48,
-    "fat_g": 53.5
+    "calories_kcal": 1690,
+    "protein_g": 179,
+    "carbohydrate_g": 84,
+    "fat_g": 73
   }
 }
