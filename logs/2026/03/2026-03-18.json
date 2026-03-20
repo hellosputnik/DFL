@@ -8,12 +8,75 @@
       "protein_g": 42,
       "carbohydrate_g": 8,
       "fat_g": 3.5
+    },
+    {
+      "id": "caffe_macs_black_peppercorn_steak",
+      "display_name": "Caffe Macs - Black Peppercorn Steak",
+      "amount": 1,
+      "calories_kcal": 650,
+      "protein_g": 45,
+      "carbohydrate_g": 35,
+      "fat_g": 35
+    },
+    {
+      "id": "caffe_macs_americano",
+      "display_name": "Caffe Macs - Iced Americano (Black)",
+      "amount": 1,
+      "calories_kcal": 10,
+      "protein_g": 0,
+      "carbohydrate_g": 0,
+      "fat_g": 0
+    },
+    {
+      "id": "lays_classic_potato_chips_1oz",
+      "display_name": "Lay's - Classic Potato Chips",
+      "amount": 1,
+      "calories_kcal": 160,
+      "protein_g": 2,
+      "carbohydrate_g": 15,
+      "fat_g": 10
+    },
+    {
+      "id": "cfg_grilled_tilapia_garlic_butter",
+      "display_name": "California Fish Grill - Grilled Tilapia (Garlic Butter)",
+      "amount": 1,
+      "calories_kcal": 390,
+      "protein_g": 47,
+      "carbohydrate_g": 1,
+      "fat_g": 22
+    },
+    {
+      "id": "cfg_grilled_tilapia_cajun",
+      "display_name": "California Fish Grill - Grilled Tilapia (Cajun)",
+      "amount": 1,
+      "calories_kcal": 270,
+      "protein_g": 46,
+      "carbohydrate_g": 3,
+      "fat_g": 9
+    },
+    {
+      "id": "cfg_lobster_roll_a_la_carte",
+      "display_name": "California Fish Grill - Lobster Roll A La Carte",
+      "amount": 1,
+      "calories_kcal": 492.5,
+      "protein_g": 15,
+      "carbohydrate_g": 22,
+      "fat_g": 39
+    },
+    {
+      "id": "tob_edamame_wasabi_soy_sauce",
+      "display_name": "The Only Bean - Crunchy Roasted Edamame (Wasabi Soy Sauce)",
+      "amount": 1,
+      "calories_kcal": 124,
+      "protein_g": 11,
+      "carbohydrate_g": 7,
+      "fat_g": 6
     }
   ],
   "totals": {
-    "calories_kcal": 230,
-    "protein_g": 42,
-    "carbohydrate_g": 8,
-    "fat_g": 3.5
+    "calories_kcal": 2326.5,
+    "protein_g": 208,
+    "carbohydrate_g": 91,
+    "fat_g": 124.5
   }
 }
