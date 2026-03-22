@@ -17,12 +17,66 @@
       "protein_g": 0,
       "carbohydrate_g": 13,
       "fat_g": 0
+    },
+    {
+      "id": "lenny_larrys_fitzels_pizza_palooza_3oz",
+      "display_name": "Lenny & Larry's - Fitzels (Pizza Palooza)",
+      "amount": 1,
+      "calories_kcal": 390,
+      "protein_g": 21,
+      "carbohydrate_g": 39,
+      "fat_g": 13.5
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    },
+    {
+      "id": "yoshinoya_gyudon_beef_original",
+      "display_name": "Yoshinoya - Gyudon Beef (Original)",
+      "amount": 1,
+      "calories_kcal": 300,
+      "protein_g": 21,
+      "carbohydrate_g": 10,
+      "fat_g": 19
+    },
+    {
+      "id": "safe_catch_spicy_ahi_yellowfin_tuna",
+      "display_name": "Safe Catch - Wild Ahi Yellowfin Tuna (Spicy Ahi)",
+      "amount": 1,
+      "calories_kcal": 100,
+      "protein_g": 21,
+      "carbohydrate_g": 1,
+      "fat_g": 1.5
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    },
+    {
+      "id": "safe_catch_spicy_ahi_yellowfin_tuna",
+      "display_name": "Safe Catch - Wild Ahi Yellowfin Tuna (Spicy Ahi)",
+      "amount": 1,
+      "calories_kcal": 100,
+      "protein_g": 21,
+      "carbohydrate_g": 1,
+      "fat_g": 1.5
     }
   ],
   "totals": {
-    "calories_kcal": 225,
-    "protein_g": 7,
-    "carbohydrate_g": 43,
-    "fat_g": 3.5
+    "calories_kcal": 1575,
+    "protein_g": 175,
+    "carbohydrate_g": 110,
+    "fat_g": 46.0
   }
 }

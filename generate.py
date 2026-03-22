@@ -242,11 +242,15 @@ def run_dashboard_generation(date_str: str = None, output_directory: str = ".") 
                 <td class='text-center'>{carbohydrate}g</td>
                 <td class='text-center'>{fat}g</td>
             </tr>""")
-    inventory_rows_html = "\n".join(inventory_rows_list)
+    
+    if not inventory_rows_list:
+        inventory_rows_html = "<tr><td colspan='6' style='text-align:center; padding: 1rem; color: #94a3b8;'>Empty</td></tr>"
+    else:
+        inventory_rows_html = "\n".join(inventory_rows_list)
 
     log_rows_list = []
     if not daily_log["entries"]:
-        log_rows_html = "<tr><td colspan='6' style='text-align:center; padding: 2rem; color: #94a3b8;'>No food logged yet today.</td></tr>"
+        log_rows_html = "<tr><td colspan='6' style='text-align:center; padding: 1rem; color: #94a3b8;'>No food logged yet today.</td></tr>"
     else:
         for entry in daily_log["entries"]:
             database_entry = database.get(entry.get("id"), {})
