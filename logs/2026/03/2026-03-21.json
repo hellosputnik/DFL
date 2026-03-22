@@ -1,0 +1,28 @@
+{
+  "entries": [
+    {
+      "id": "kc_teatime_extra_rich_coffee_latte",
+      "display_name": "Kuang Chuan - Tea Time Rich Caffe Latte (Coffee)",
+      "amount": 1,
+      "calories_kcal": 180,
+      "protein_g": 7,
+      "carbohydrate_g": 30,
+      "fat_g": 3.5
+    },
+    {
+      "id": "tarami_konjac_jelly_grape",
+      "display_name": "Tarami - Konjac Jelly (Grape)",
+      "amount": 1,
+      "calories_kcal": 45,
+      "protein_g": 0,
+      "carbohydrate_g": 13,
+      "fat_g": 0
+    }
+  ],
+  "totals": {
+    "calories_kcal": 225,
+    "protein_g": 7,
+    "carbohydrate_g": 43,
+    "fat_g": 3.5
+  }
+}

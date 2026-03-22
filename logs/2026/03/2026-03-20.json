@@ -1,0 +1,64 @@
+{
+  "entries": [
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    },
+    {
+      "id": "bibigo_mandu_beef_vegetable",
+      "display_name": "Bibigo - Mandu (Beef & Vegetable)",
+      "amount": 8,
+      "calories_kcal": 660,
+      "protein_g": 24,
+      "carbohydrate_g": 66,
+      "fat_g": 32
+    },
+    {
+      "id": "organic_valley_liquid_egg_whites",
+      "display_name": "Organic Valley - Organic Liquid Egg Whites (Pasteurized)",
+      "amount": 0.75,
+      "calories_kcal": 80,
+      "protein_g": 20,
+      "carbohydrate_g": 0,
+      "fat_g": 0
+    },
+    {
+      "id": "chomps_original_beef_stick",
+      "display_name": "Chomps - Beef Stick",
+      "amount": 1,
+      "calories_kcal": 100,
+      "protein_g": 10,
+      "carbohydrate_g": 0,
+      "fat_g": 7
+    },
+    {
+      "id": "epl_baja_chicken_shrimp_tostada",
+      "display_name": "El Pollo Loco - Baja Chicken & Shrimp Tostada (Modified)",
+      "amount": 1,
+      "calories_kcal": 765,
+      "protein_g": 50,
+      "carbohydrate_g": 65,
+      "fat_g": 35
+    },
+    {
+      "id": "epl_double_chicken_bowl",
+      "display_name": "El Pollo Loco - Double Chicken Bowl (Modified)",
+      "amount": 1,
+      "calories_kcal": 755,
+      "protein_g": 72,
+      "carbohydrate_g": 68,
+      "fat_g": 22
+    }
+  ],
+  "totals": {
+    "calories_kcal": 2590,
+    "protein_g": 218,
+    "carbohydrate_g": 207,
+    "fat_g": 99.5
+  }
+}

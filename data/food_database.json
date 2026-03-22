@@ -42089,6 +42089,68 @@
     "source_type": "derived_from_primary",
     "derivation": "Half of the official California Fish Grill 2 Lobster Roll Plate nutrition; the live product page states the nutrition does not include sides."
   }
+,
+  "epl_baja_chicken_shrimp_tostada": {
+    "brand": "El Pollo Loco",
+    "product_name": "Baja Chicken & Shrimp Tostada",
+    "flavor": "Baja",
+    "calories_kcal": 990,
+    "protein_g": 52,
+    "carbohydrate_g": 84,
+    "fat_g": 50,
+    "total_fat_g": 50,
+    "saturated_fat_g": 13,
+    "trans_fat_g": 0,
+    "cholesterol_mg": 185,
+    "sodium_mg": 1940,
+    "dietary_fiber_g": 8,
+    "total_sugars_g": 7,
+    "serving_size": 20.6,
+    "serving_unit": "oz",
+    "servings_per_container": 1,
+    "total_weight_oz": 20.6,
+    "ingredients": [
+      "Fire-grilled chicken",
+      "Chili-lime seasoned shrimp",
+      "Pinto beans",
+      "Seasoned rice",
+      "Crispy tostada shell",
+      "Shredded lettuce",
+      "Shredded Jack cheese",
+      "Salsa fresca",
+      "Avocado",
+      "Sour cream",
+      "Lime crema sauce"
+    ]
+  },
+  "epl_double_chicken_bowl": {
+    "brand": "El Pollo Loco",
+    "product_name": "Double Chicken Bowl",
+    "flavor": null,
+    "calories_kcal": 940,
+    "protein_g": 74,
+    "carbohydrate_g": 87,
+    "fat_g": 33,
+    "total_fat_g": 33,
+    "saturated_fat_g": 13,
+    "trans_fat_g": 0.5,
+    "cholesterol_mg": 250,
+    "sodium_mg": 2670,
+    "dietary_fiber_g": 11,
+    "total_sugars_g": 5,
+    "serving_size": 24.1,
+    "serving_unit": "oz",
+    "servings_per_container": 1,
+    "total_weight_oz": 24.1,
+    "ingredients": [
+      "Fire-grilled chopped chicken",
+      "Seasoned rice",
+      "Pinto beans",
+      "Shredded cabbage",
+      "Avocados",
+      "Shredded Jack cheese",
+      "Sour cream",
+      "Salsa fresca"
+    ]
+  }
 }
-
-
