@@ -1,0 +1,46 @@
+{
+  "entries": [
+    {
+      "id": "tarami_konjac_jelly_apple",
+      "display_name": "Tarami - Konjac Jelly (Apple)",
+      "amount": 1,
+      "calories_kcal": 48,
+      "protein_g": 0,
+      "carbohydrate_g": 14.7,
+      "fat_g": 0
+    },
+    {
+      "id": "nongshim_shin_ramyun_light",
+      "display_name": "Nongshim - Shin Ramyun Light",
+      "amount": 1,
+      "calories_kcal": 340,
+      "protein_g": 9,
+      "carbohydrate_g": 71,
+      "fat_g": 2.5
+    },
+    {
+      "id": "kibun_kamaboko_aka_red",
+      "display_name": "Kibun - Kamaboko Aka (Red) (Modified)",
+      "amount": 1.76,
+      "calories_kcal": 106,
+      "protein_g": 10.6,
+      "carbohydrate_g": 15.9,
+      "fat_g": 0.9
+    },
+    {
+      "id": "yoshinoya_gyudon_beef_original",
+      "display_name": "Yoshinoya - Gyudon Beef (Original)",
+      "amount": 1,
+      "calories_kcal": 300,
+      "protein_g": 21,
+      "carbohydrate_g": 10,
+      "fat_g": 19
+    }
+  ],
+  "totals": {
+    "calories_kcal": 794,
+    "protein_g": 40.6,
+    "carbohydrate_g": 111.6,
+    "fat_g": 22.4
+  }
+}
