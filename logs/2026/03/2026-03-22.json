@@ -35,12 +35,66 @@
       "protein_g": 21,
       "carbohydrate_g": 10,
       "fat_g": 19
+    },
+    {
+      "id": "safe_catch_spicy_ahi_yellowfin_tuna",
+      "display_name": "Safe Catch - Wild Ahi Yellowfin Tuna (Spicy Ahi)",
+      "amount": 1,
+      "calories_kcal": 100,
+      "protein_g": 21,
+      "carbohydrate_g": 1,
+      "fat_g": 1.5
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    },
+    {
+      "id": "boiling_point_beef_soup",
+      "display_name": "Boiling Point - Beef Soup",
+      "amount": 1,
+      "calories_kcal": 459,
+      "protein_g": 43.1,
+      "carbohydrate_g": 38.5,
+      "fat_g": 17.0
+    },
+    {
+      "id": "boiling_point_spicy_tangy_beef",
+      "display_name": "Boiling Point - Spicy Tangy Beef",
+      "amount": 1,
+      "calories_kcal": 250,
+      "protein_g": 34.0,
+      "carbohydrate_g": 10.0,
+      "fat_g": 10.0
+    },
+    {
+      "id": "boiling_point_spicy_tangy_beef",
+      "display_name": "Boiling Point - Spicy Tangy Beef",
+      "amount": 1,
+      "calories_kcal": 250,
+      "protein_g": 34.0,
+      "carbohydrate_g": 10.0,
+      "fat_g": 10.0
+    },
+    {
+      "id": "generic_white_rice_bowl",
+      "display_name": "Generic - White Rice Bowl",
+      "amount": 0.5,
+      "calories_kcal": 120,
+      "protein_g": 2.0,
+      "carbohydrate_g": 26.5,
+      "fat_g": 0.2
     }
   ],
   "totals": {
-    "calories_kcal": 794,
-    "protein_g": 40.6,
-    "carbohydrate_g": 111.6,
-    "fat_g": 22.4
+    "calories_kcal": 2203,
+    "protein_g": 216.7,
+    "carbohydrate_g": 205.6,
+    "fat_g": 64.6
   }
 }

@@ -1,1 +1,47 @@
-[]
+[
+  {
+    "id": "cu_golden_tilapia_fillets",
+    "quantity": 1,
+    "unit": "meal"
+  },
+  {
+    "id": "cu_minced_pork_with_thai_basil",
+    "quantity": 1,
+    "unit": "meal"
+  },
+  {
+    "id": "cu_low_carb_beef_stew",
+    "quantity": 1,
+    "unit": "meal"
+  },
+  {
+    "id": "cu_chicken_parmesan_marinara",
+    "quantity": 1,
+    "unit": "meal"
+  },
+  {
+    "id": "cu_roasted_herbs_de_provence_chicken",
+    "quantity": 1,
+    "unit": "meal"
+  },
+  {
+    "id": "cu_chili_lime_chicken_thighs",
+    "quantity": 1,
+    "unit": "meal"
+  },
+  {
+    "id": "cu_lemon_baked_tilapia_with_cajun_cream_sauce",
+    "quantity": 1,
+    "unit": "meal"
+  },
+  {
+    "id": "cu_chipotle_maple_glazed_salmon",
+    "quantity": 1,
+    "unit": "meal"
+  },
+  {
+    "id": "fairlife_core_power_elite_vanilla",
+    "quantity": 12,
+    "unit": "bottle"
+  }
+]
