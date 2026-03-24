@@ -26,12 +26,30 @@
       "protein_g": 0,
       "carbohydrate_g": 11.8,
       "fat_g": 0
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    },
+    {
+      "id": "safe_catch_spicy_ahi_yellowfin_tuna",
+      "display_name": "Safe Catch - Wild Ahi Yellowfin Tuna (Spicy Ahi)",
+      "amount": 1,
+      "calories_kcal": 100,
+      "protein_g": 21,
+      "carbohydrate_g": 1,
+      "fat_g": 1.5
     }
   ],
   "totals": {
-    "calories_kcal": 1377,
-    "protein_g": 118,
-    "carbohydrate_g": 108.8,
-    "fat_g": 46
+    "calories_kcal": 1707,
+    "protein_g": 181,
+    "carbohydrate_g": 117.8,
+    "fat_g": 51.0
   }
 }
