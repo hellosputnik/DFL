@@ -1,0 +1,37 @@
+{
+  "entries": [
+    {
+      "id": "lenny_larrys_fitzels_taco_tuesday_3oz",
+      "display_name": "Lenny & Larry's - Fitzels (Taco Tuesday)",
+      "amount": 1,
+      "calories_kcal": 380,
+      "protein_g": 20,
+      "carbohydrate_g": 39,
+      "fat_g": 14
+    },
+    {
+      "id": "cu_chicken_parmesan_marinara",
+      "display_name": "CookUnity - Chicken Parmesan & Marinara",
+      "amount": 2,
+      "calories_kcal": 960,
+      "protein_g": 98,
+      "carbohydrate_g": 58,
+      "fat_g": 32
+    },
+    {
+      "id": "tarami_konjac_jelly_peach",
+      "display_name": "Tarami - Konjac Jelly (Peach)",
+      "amount": 1,
+      "calories_kcal": 37,
+      "protein_g": 0,
+      "carbohydrate_g": 11.8,
+      "fat_g": 0
+    }
+  ],
+  "totals": {
+    "calories_kcal": 1377,
+    "protein_g": 118,
+    "carbohydrate_g": 108.8,
+    "fat_g": 46
+  }
+}

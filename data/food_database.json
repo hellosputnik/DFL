@@ -42331,5 +42331,48 @@
     "ingredients": [
       "white rice"
     ]
+  },
+  "lenny_larrys_fitzels_taco_tuesday_3oz": {
+    "brand": "Lenny & Larry's",
+    "product_name": "Fitzels",
+    "flavor": "Taco Tuesday",
+    "calories_kcal": 380,
+    "protein_g": 20,
+    "carbohydrate_g": 39,
+    "fat_g": 14,
+    "total_fat_g": 14,
+    "saturated_fat_g": 1,
+    "trans_fat_g": 0,
+    "cholesterol_mg": 0,
+    "sodium_mg": 840,
+    "dietary_fiber_g": 1,
+    "total_sugars_g": 1,
+    "added_sugars_g": 1,
+    "calcium_mg": 60,
+    "iron_mg": 6,
+    "potassium_mg": 200,
+    "serving_size": 3,
+    "serving_unit": "oz",
+    "servings_per_container": 1,
+    "total_weight_oz": 3,
+    "source": "https://www.lennylarry.com/products/fitzels-taco-tuesday",
+    "source_type": "primary",
+    "ingredients": [
+      "Enriched Wheat Flour",
+      "Pea Protein",
+      "Sunflower Oil",
+      "Taco Seasoning",
+      "Salt",
+      "Corn Maltodextrin",
+      "Whey Powder",
+      "Onion Powder",
+      "Spice",
+      "Buttermilk Powder",
+      "Cheddar Cheese Powder",
+      "Garlic Powder",
+      "Sour Cream",
+      "Sugar",
+      "Modified Food Starch"
+    ]
   }
 }
