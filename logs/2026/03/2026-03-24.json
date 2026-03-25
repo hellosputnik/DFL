@@ -1,0 +1,55 @@
+{
+  "entries": [
+    {
+      "id": "donut_wheel_glazed_donut",
+      "display_name": "Donut Wheel - Glazed Donut",
+      "amount": 1,
+      "calories_kcal": 240,
+      "protein_g": 3,
+      "carbohydrate_g": 31,
+      "fat_g": 11
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    },
+    {
+      "id": "caffe_macs_americano",
+      "display_name": "Caffe Macs - Iced Americano (Black)",
+      "amount": 2,
+      "calories_kcal": 20,
+      "protein_g": 0,
+      "carbohydrate_g": 0,
+      "fat_g": 0
+    },
+    {
+      "id": "caffe_macs_beef_burger",
+      "display_name": "Caffe Macs - Beef Burger (Modified)",
+      "amount": 1,
+      "calories_kcal": 680,
+      "protein_g": 51,
+      "carbohydrate_g": 23,
+      "fat_g": 43
+    },
+    {
+      "id": "lays_classic_potato_chips_1oz",
+      "display_name": "Lay's - Classic Potato Chips",
+      "amount": 1,
+      "calories_kcal": 160,
+      "protein_g": 2,
+      "carbohydrate_g": 15,
+      "fat_g": 10
+    }
+  ],
+  "totals": {
+    "calories_kcal": 1330,
+    "protein_g": 98,
+    "carbohydrate_g": 77,
+    "fat_g": 67.5
+  }
+}

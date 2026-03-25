@@ -42374,5 +42374,17 @@
       "Sugar",
       "Modified Food Starch"
     ]
+  },
+  "donut_wheel_glazed_donut": {
+    "brand": "Donut Wheel",
+    "product_name": "Glazed Donut",
+    "flavor": null,
+    "calories_kcal": 240,
+    "protein_g": 3,
+    "carbohydrate_g": 31,
+    "fat_g": 11,
+    "serving_size": 1,
+    "serving_unit": "donut",
+    "ingredients": []
   }
 }
