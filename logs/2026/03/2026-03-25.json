@@ -1,0 +1,28 @@
+{
+  "entries": [
+    {
+      "id": "caffe_macs_sirloin_steak_tex_mex_salad",
+      "display_name": "Caffe Macs - Sirloin Steak Over Tex-Mex Salad (Modified)",
+      "amount": 1,
+      "calories_kcal": 450,
+      "protein_g": 36,
+      "carbohydrate_g": 14,
+      "fat_g": 27
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    }
+  ],
+  "totals": {
+    "calories_kcal": 680,
+    "protein_g": 78,
+    "carbohydrate_g": 22,
+    "fat_g": 30.5
+  }
+}
