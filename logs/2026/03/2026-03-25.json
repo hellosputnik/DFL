@@ -17,12 +17,48 @@
       "protein_g": 42,
       "carbohydrate_g": 8,
       "fat_g": 3.5
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    },
+    {
+      "id": "caffe_macs_americano",
+      "display_name": "Caffe Macs - Iced Americano (Black)",
+      "amount": 1,
+      "calories_kcal": 10,
+      "protein_g": 0,
+      "carbohydrate_g": 0,
+      "fat_g": 0
+    },
+    {
+      "id": "cu_golden_tilapia_fillets",
+      "display_name": "CookUnity - Golden Tilapia Fillets",
+      "amount": 1,
+      "calories_kcal": 560,
+      "protein_g": 47,
+      "carbohydrate_g": 31,
+      "fat_g": 28
+    },
+    {
+      "id": "tob_edamame_ranch",
+      "display_name": "The Only Bean - Crunchy Roasted Edamame (Ranch)",
+      "amount": 1,
+      "calories_kcal": 125,
+      "protein_g": 11,
+      "carbohydrate_g": 7,
+      "fat_g": 6
     }
   ],
   "totals": {
-    "calories_kcal": 680,
-    "protein_g": 78,
-    "carbohydrate_g": 22,
-    "fat_g": 30.5
+    "calories_kcal": 1605,
+    "protein_g": 178,
+    "carbohydrate_g": 68,
+    "fat_g": 68
   }
 }

@@ -1,10 +1,5 @@
 [
   {
-    "id": "cu_golden_tilapia_fillets",
-    "quantity": 1,
-    "unit": "meal"
-  },
-  {
     "id": "cu_minced_pork_with_thai_basil",
     "quantity": 1,
     "unit": "meal"
@@ -36,7 +31,7 @@
   },
   {
     "id": "fairlife_core_power_elite_vanilla",
-    "quantity": 8,
+    "quantity": 7,
     "unit": "bottle"
   }
 ]
