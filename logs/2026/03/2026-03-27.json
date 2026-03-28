@@ -1,0 +1,64 @@
+{
+  "entries": [
+    {
+      "id": "teriyaki_madness_spicy_orange_chicken_extra_serving",
+      "display_name": "Teriyaki Madness - Spicy Orange Chicken",
+      "amount": 1,
+      "calories_kcal": 237,
+      "protein_g": 11.5,
+      "carbohydrate_g": 25.5,
+      "fat_g": 10
+    },
+    {
+      "id": "teriyaki_madness_spicy_chicken_breast_extra_serving",
+      "display_name": "Teriyaki Madness - Spicy Chicken Breast",
+      "amount": 1,
+      "calories_kcal": 175,
+      "protein_g": 27.25,
+      "carbohydrate_g": 11.5,
+      "fat_g": 3
+    },
+    {
+      "id": "teriyaki_madness_chicken_katsu_extra_serving",
+      "display_name": "Teriyaki Madness - Chicken Katsu",
+      "amount": 1,
+      "calories_kcal": 341,
+      "protein_g": 16,
+      "carbohydrate_g": 38,
+      "fat_g": 14
+    },
+    {
+      "id": "teriyaki_madness_stir_fried_veggies_side",
+      "display_name": "Teriyaki Madness - Stir-Fried Veggies",
+      "amount": 1,
+      "calories_kcal": 109,
+      "protein_g": 3,
+      "carbohydrate_g": 14,
+      "fat_g": 5
+    },
+    {
+      "id": "teriyaki_madness_yakisoba_noodles_side",
+      "display_name": "Teriyaki Madness - Yakisoba Noodles",
+      "amount": 0.5,
+      "calories_kcal": 315,
+      "protein_g": 6.5,
+      "carbohydrate_g": 50,
+      "fat_g": 9
+    },
+    {
+      "id": "tarami_konjac_jelly_apple",
+      "display_name": "Tarami - Konjac Jelly (Apple)",
+      "amount": 1,
+      "calories_kcal": 48,
+      "protein_g": 0,
+      "carbohydrate_g": 14.7,
+      "fat_g": 0
+    }
+  ],
+  "totals": {
+    "calories_kcal": 1225,
+    "protein_g": 64.25,
+    "carbohydrate_g": 154.2,
+    "fat_g": 41
+  }
+}

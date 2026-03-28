@@ -1,0 +1,82 @@
+{
+  "entries": [
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    },
+    {
+      "id": "caffe_macs_americano",
+      "display_name": "Caffe Macs - Iced Americano (Black)",
+      "amount": 1,
+      "calories_kcal": 10,
+      "protein_g": 0,
+      "carbohydrate_g": 0,
+      "fat_g": 0
+    },
+    {
+      "id": "rp_quesadilla_chipotle_chicken",
+      "display_name": "Rise & Puff - Quesadilla (Chipotle Chicken)",
+      "amount": 1,
+      "calories_kcal": 300,
+      "protein_g": 20,
+      "carbohydrate_g": 21,
+      "fat_g": 16
+    },
+    {
+      "id": "rp_quesadilla_beef_brisket",
+      "display_name": "Rise & Puff - Quesadilla (Beef Brisket)",
+      "amount": 1,
+      "calories_kcal": 300,
+      "protein_g": 20,
+      "carbohydrate_g": 22,
+      "fat_g": 17
+    },
+    {
+      "id": "rp_quesadilla_ham_egg_cheese",
+      "display_name": "Rise & Puff - Quesadilla (Ham, Egg & Cheese)",
+      "amount": 1,
+      "calories_kcal": 290,
+      "protein_g": 20,
+      "carbohydrate_g": 32,
+      "fat_g": 11
+    },
+    {
+      "id": "rp_quesadilla_bbq_pulled_chicken",
+      "display_name": "Rise & Puff - Quesadilla (BBQ Pulled Chicken)",
+      "amount": 1,
+      "calories_kcal": 280,
+      "protein_g": 20,
+      "carbohydrate_g": 43,
+      "fat_g": 10
+    },
+    {
+      "id": "safe_catch_spicy_ahi_yellowfin_tuna",
+      "display_name": "Safe Catch - Wild Ahi Yellowfin Tuna (Spicy Ahi)",
+      "amount": 1,
+      "calories_kcal": 100,
+      "protein_g": 21,
+      "carbohydrate_g": 1,
+      "fat_g": 1.5
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    }
+  ],
+  "totals": {
+    "calories_kcal": 1740,
+    "protein_g": 185,
+    "carbohydrate_g": 135,
+    "fat_g": 62.5
+  }
+}
