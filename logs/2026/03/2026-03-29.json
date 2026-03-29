@@ -1,0 +1,37 @@
+{
+  "entries": [
+    {
+      "id": "tarami_konjac_jelly_grape",
+      "display_name": "Tarami - Konjac Jelly",
+      "amount": 1,
+      "calories_kcal": 45,
+      "protein_g": 0,
+      "carbohydrate_g": 13,
+      "fat_g": 0
+    },
+    {
+      "id": "chomps_original_beef_stick",
+      "display_name": "Chomps - Original Beef Stick",
+      "amount": 1,
+      "calories_kcal": 100,
+      "protein_g": 10,
+      "carbohydrate_g": 0,
+      "fat_g": 6
+    },
+    {
+      "id": "cu_roasted_herbs_de_provence_chicken",
+      "display_name": "CookUnity - Herbs de Provence Roasted Chicken",
+      "amount": 2,
+      "calories_kcal": 1120,
+      "protein_g": 124,
+      "carbohydrate_g": 6,
+      "fat_g": 66
+    }
+  ],
+  "totals": {
+    "calories_kcal": 1265,
+    "protein_g": 134,
+    "carbohydrate_g": 19,
+    "fat_g": 72
+  }
+}
