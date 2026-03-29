@@ -42902,5 +42902,36 @@
     ],
     "source": "https://teriyakimadness.com/wp-content/uploads/2025/07/Teriyaki-Madness-Nutritional-Summaries-2025-05-20.pdf",
     "source_type": "primary"
+  },
+  "chomps_original_beef_stick": {
+    "brand": "Chomps",
+    "product_name": "Original Beef Stick",
+    "flavor": "Original",
+    "calories_kcal": 100,
+    "protein_g": 10,
+    "carbohydrate_g": 0,
+    "fat_g": 6,
+    "total_fat_g": 6,
+    "saturated_fat_g": 2.5,
+    "sodium_mg": 290,
+    "dietary_fiber_g": 0,
+    "total_sugars_g": 0,
+    "added_sugars_g": 0,
+    "serving_size": 32,
+    "serving_unit": "g",
+    "servings_per_container": 1,
+    "total_weight_oz": 1.15,
+    "ingredients": [
+      "Grass-Fed & Finished Beef",
+      "Water",
+      "Sea Salt",
+      "Encapsulated Lactic Acid",
+      "Celery Juice",
+      "Black Pepper",
+      "Red Pepper",
+      "Garlic Powder",
+      "Coriander",
+      "Stuffed in a Beef Collagen Casing"
+    ]
   }
 }

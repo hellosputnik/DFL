@@ -1,0 +1,55 @@
+{
+  "entries": [
+    {
+      "id": "cu_chili_lime_chicken_thighs",
+      "display_name": "CookUnity - Chili Lime Chicken Thighs",
+      "amount": 1,
+      "calories_kcal": 780,
+      "protein_g": 70,
+      "carbohydrate_g": 13,
+      "fat_g": 54
+    },
+    {
+      "id": "tob_edamame_buffalo",
+      "display_name": "The Only Bean - Crunchy Roasted Edamame",
+      "amount": 1,
+      "calories_kcal": 122,
+      "protein_g": 11,
+      "carbohydrate_g": 7,
+      "fat_g": 6
+    },
+    {
+      "id": "chomps_original_beef_stick",
+      "display_name": "Chomps - Original Beef Stick",
+      "amount": 1,
+      "calories_kcal": 100,
+      "protein_g": 10,
+      "carbohydrate_g": 0,
+      "fat_g": 6
+    },
+    {
+      "id": "tarami_konjac_jelly_peach",
+      "display_name": "Tarami - Konjac Jelly",
+      "amount": 1,
+      "calories_kcal": 37,
+      "protein_g": 0,
+      "carbohydrate_g": 11.8,
+      "fat_g": 0
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    }
+  ],
+  "totals": {
+    "calories_kcal": 1269,
+    "protein_g": 133,
+    "carbohydrate_g": 39.8,
+    "fat_g": 69.5
+  }
+}
