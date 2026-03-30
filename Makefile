@@ -8,7 +8,7 @@ help:
 	@echo "  install      Install dependencies using uv"
 	@echo "  build        Generate and format the static site to the $(OUTPUT_DIRECTORY) directory"
 	@echo "  clean        Surgically remove build artifacts and cache files (safely handles '.')"
-	@echo "  format       Format Python code using black"
+	@echo "  format       Format Python, HTML, JSON, and Markdown files"
 	@echo "  format-html  Format HTML files using prettier"
 
 # Use copy mode for links to support NTFS drives in WSL
@@ -39,7 +39,7 @@ install:
 build:
 	@echo "Generating and formatting site..."
 	@$(UV_ENV_FLAG) uv run --link-mode $(UV_LINK_MODE) generate.py all --output-directory $(OUTPUT_DIRECTORY) --days 7
-	npx prettier --write --ignore-path /dev/null "$(OUTPUT_DIRECTORY)/*.html" "$(OUTPUT_DIRECTORY)/logs/**/*.html"
+	npx prettier --write --ignore-path /dev/null "$(OUTPUT_DIRECTORY)/*.html" "$(OUTPUT_DIRECTORY)/logs/**/*.html" "$(OUTPUT_DIRECTORY)/data/**/*.json" "$(OUTPUT_DIRECTORY)/logs/**/*.json"
 
 clean:
 	@if [ "$(OUTPUT_DIRECTORY)" = "." ] || [ "$(OUTPUT_DIRECTORY)" = "./" ]; then \
@@ -56,4 +56,4 @@ clean:
 
 format:
 	@$(UV_ENV_FLAG) uv run --link-mode $(UV_LINK_MODE) black .
-	npx prettier --write --ignore-path /dev/null "**/*.html" || true
+	npx prettier --write --ignore-path /dev/null "**/*.{html,json,md}" ".prettierrc" || true

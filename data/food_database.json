@@ -2096,11 +2096,7 @@
     "serving_size": 0.9,
     "serving_unit": "oz",
     "servings_per_container": 1,
-    "ingredients": [
-      "Edamame (Soybean)",
-      "Sea Salt",
-      "Soybean Oil"
-    ]
+    "ingredients": ["Edamame (Soybean)", "Sea Salt", "Soybean Oil"]
   },
   "tob_edamame_sriracha": {
     "brand": "The Only Bean",
@@ -2237,9 +2233,7 @@
     "source": "https://www.organicvalley.coop/products/eggs/egg-whites/egg-whites-pasteurized-16-oz/",
     "source_type": "primary",
     "upc": "093966811117",
-    "ingredients": [
-      "Organic Egg Whites"
-    ]
+    "ingredients": ["Organic Egg Whites"]
   },
   "caffe_macs_bulgogi_pork": {
     "brand": "Caffe Macs",
@@ -2311,11 +2305,7 @@
     "fat_g": 0,
     "serving_size": 1,
     "serving_unit": "drink",
-    "ingredients": [
-      "espresso",
-      "water",
-      "ice"
-    ]
+    "ingredients": ["espresso", "water", "ice"]
   },
   "slate_ultra_vanilla": {
     "brand": "Slate",
@@ -16129,9 +16119,7 @@
     "serving_unit": "g",
     "servings_per_container": 1,
     "total_weight_oz": 16.7,
-    "ingredients": [
-      "Squeezed 5 JUICE"
-    ],
+    "ingredients": ["Squeezed 5 JUICE"],
     "cookunity_entity_id": 12863
   },
   "cu_dragon_bowl_with_grilled_chicken": {
@@ -36736,9 +36724,7 @@
     "serving_unit": "g",
     "servings_per_container": 1,
     "total_weight_oz": 16.7,
-    "ingredients": [
-      "Spicy 2 Squeeze JUICE"
-    ],
+    "ingredients": ["Spicy 2 Squeeze JUICE"],
     "cookunity_entity_id": 12861
   },
   "cu_spicy_coconut_curry_meatballs": {
@@ -41192,9 +41178,7 @@
     "serving_unit": "g",
     "servings_per_container": 1,
     "total_weight_oz": 16,
-    "ingredients": [
-      "Squeezed 1 JUICE"
-    ],
+    "ingredients": ["Squeezed 1 JUICE"],
     "cookunity_entity_id": 12859
   },
   "cu_vodka_sauce_chicken_parmesan": {
@@ -41770,13 +41754,7 @@
     "serving_unit": "sandwich",
     "servings_per_container": 1,
     "total_weight_oz": null,
-    "ingredients": [
-      "milk bread",
-      "egg sheet",
-      "ham",
-      "sweet mayo",
-      "butter filling"
-    ]
+    "ingredients": ["milk bread", "egg sheet", "ham", "sweet mayo", "butter filling"]
   },
   "nestle_kitkat_mini_japan_white": {
     "brand": "KitKat",
@@ -41888,13 +41866,7 @@
     "serving_unit": "g",
     "servings_per_container": 1,
     "total_weight_oz": 4,
-    "ingredients": [
-      "Chicken breast",
-      "paprika",
-      "garlic",
-      "onion",
-      "herbs"
-    ]
+    "ingredients": ["Chicken breast", "paprika", "garlic", "onion", "herbs"]
   },
   "korkio_chicken_breast_ancient_herb": {
     "brand": "Korkio",
@@ -41916,14 +41888,7 @@
     "serving_unit": "g",
     "servings_per_container": 1,
     "total_weight_oz": 4,
-    "ingredients": [
-      "Chicken breast",
-      "dried tomato",
-      "onion",
-      "garlic",
-      "paprika",
-      "herbs"
-    ]
+    "ingredients": ["Chicken breast", "dried tomato", "onion", "garlic", "paprika", "herbs"]
   },
   "ajinomoto_karaage_fried_chicken": {
     "brand": "Ajinomoto",
@@ -42071,12 +42036,7 @@
     "serving_size": 1,
     "serving_unit": "piece",
     "servings_per_container": 1,
-    "ingredients": [
-      "Tilapia",
-      "Garlic",
-      "Butter",
-      "Spices"
-    ],
+    "ingredients": ["Tilapia", "Garlic", "Butter", "Spices"],
     "source": "https://cafishgrill.mymenuhd.com/MyMenu/Restaurant?sView=default",
     "source_type": "primary"
   },
@@ -42091,10 +42051,7 @@
     "serving_size": 1,
     "serving_unit": "piece",
     "servings_per_container": 1,
-    "ingredients": [
-      "Tilapia",
-      "Cajun Seasoning"
-    ],
+    "ingredients": ["Tilapia", "Cajun Seasoning"],
     "source": "https://cafishgrill.mymenuhd.com/MyMenu/Restaurant?sView=default",
     "source_type": "primary"
   },
@@ -42116,11 +42073,7 @@
     "serving_size": 1,
     "serving_unit": "plate",
     "servings_per_container": 1,
-    "ingredients": [
-      "Lobster",
-      "Buttery Lobster Rolls",
-      "Parsley"
-    ],
+    "ingredients": ["Lobster", "Buttery Lobster Rolls", "Parsley"],
     "source": "https://www.cafishgrill.com/products/cajun-salmon-sandwich-copy",
     "source_type": "primary"
   },
@@ -42142,11 +42095,7 @@
     "serving_size": 1,
     "serving_unit": "roll",
     "servings_per_container": 1,
-    "ingredients": [
-      "Lobster",
-      "Buttery Lobster Roll",
-      "Parsley"
-    ],
+    "ingredients": ["Lobster", "Buttery Lobster Roll", "Parsley"],
     "source": "https://www.cafishgrill.com/products/cajun-salmon-sandwich-copy",
     "source_type": "derived_from_primary",
     "derivation": "Half of the official California Fish Grill 2 Lobster Roll Plate nutrition; the live product page states the nutrition does not include sides."
@@ -42390,9 +42339,7 @@
     "fat_g": 0.4,
     "serving_size": 1,
     "serving_unit": "bowl",
-    "ingredients": [
-      "white rice"
-    ]
+    "ingredients": ["white rice"]
   },
   "lenny_larrys_fitzels_taco_tuesday_3oz": {
     "brand": "Lenny & Larry's",
@@ -42832,11 +42779,7 @@
     "serving_unit": "oz",
     "servings_per_container": 1,
     "total_weight_oz": 3,
-    "ingredients": [
-      "Breaded chicken",
-      "Orange sauce",
-      "Spicy sauce"
-    ],
+    "ingredients": ["Breaded chicken", "Orange sauce", "Spicy sauce"],
     "source": "https://teriyakimadness.com/wp-content/uploads/2025/07/Teriyaki-Madness-Nutritional-Summaries-2025-05-20.pdf",
     "source_type": "primary"
   },
@@ -42863,10 +42806,7 @@
     "serving_unit": "oz",
     "servings_per_container": 1,
     "total_weight_oz": 3,
-    "ingredients": [
-      "Chicken breast",
-      "Spicy sauce"
-    ],
+    "ingredients": ["Chicken breast", "Spicy sauce"],
     "source": "https://teriyakimadness.com/wp-content/uploads/2025/07/Teriyaki-Madness-Nutritional-Summaries-2025-05-20.pdf",
     "source_type": "primary"
   },
@@ -42893,11 +42833,7 @@
     "serving_unit": "oz",
     "servings_per_container": 1,
     "total_weight_oz": 3,
-    "ingredients": [
-      "Chicken thigh",
-      "Panko breadcrumbs",
-      "Katsu sauce"
-    ],
+    "ingredients": ["Chicken thigh", "Panko breadcrumbs", "Katsu sauce"],
     "source": "https://teriyakimadness.com/wp-content/uploads/2025/07/Teriyaki-Madness-Nutritional-Summaries-2025-05-20.pdf",
     "source_type": "primary"
   },
@@ -42924,14 +42860,7 @@
     "serving_unit": "oz",
     "servings_per_container": 1,
     "total_weight_oz": 6,
-    "ingredients": [
-      "Cabbage",
-      "Broccoli",
-      "Zucchini",
-      "Onions",
-      "Carrots",
-      "Stir-fry sauce"
-    ],
+    "ingredients": ["Cabbage", "Broccoli", "Zucchini", "Onions", "Carrots", "Stir-fry sauce"],
     "source": "https://teriyakimadness.com/wp-content/uploads/2025/07/Teriyaki-Madness-Nutritional-Summaries-2025-05-20.pdf",
     "source_type": "primary"
   },
@@ -42958,10 +42887,7 @@
     "serving_unit": "oz",
     "servings_per_container": 1,
     "total_weight_oz": 8,
-    "ingredients": [
-      "Japanese-style noodles",
-      "Stir-fry sauce"
-    ],
+    "ingredients": ["Japanese-style noodles", "Stir-fry sauce"],
     "source": "https://teriyakimadness.com/wp-content/uploads/2025/07/Teriyaki-Madness-Nutritional-Summaries-2025-05-20.pdf",
     "source_type": "primary"
   },

@@ -242,7 +242,7 @@ def run_dashboard_generation(date_str: str = None, output_directory: str = ".") 
                 <td class='text-center'>{carbohydrate}g</td>
                 <td class='text-center'>{fat}g</td>
             </tr>""")
-    
+
     if not inventory_rows_list:
         inventory_rows_html = "<tr><td colspan='6' style='text-align:center; padding: 1rem; color: #94a3b8;'>Empty</td></tr>"
     else:
@@ -730,7 +730,9 @@ def database(output_directory: str):
 
 @cli.command()
 @click.option("--output-directory", default=".", help="Output directory")
-@click.option("--days", default=None, type=int, help="Limit generation to the last N days")
+@click.option(
+    "--days", default=None, type=int, help="Limit generation to the last N days"
+)
 def all(output_directory: str, days: int):
     if output_directory != ".":
         os.makedirs(os.path.join(output_directory, "data"), exist_ok=True)
