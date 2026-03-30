@@ -26,12 +26,21 @@
       "protein_g": 124,
       "carbohydrate_g": 6,
       "fat_g": 66
+    },
+    {
+      "id": "bibigo_crunchy_chicken_soy_garlic",
+      "display_name": "Bibigo - Korean Style Crunchy Chicken (Modified)",
+      "amount": 1,
+      "calories_kcal": 1032.5,
+      "protein_g": 59.5,
+      "carbohydrate_g": 68.4,
+      "fat_g": 56.0
     }
   ],
   "totals": {
-    "calories_kcal": 1265,
-    "protein_g": 134,
-    "carbohydrate_g": 19,
-    "fat_g": 72
+    "calories_kcal": 2297.5,
+    "protein_g": 193.5,
+    "carbohydrate_g": 87.4,
+    "fat_g": 128.0
   }
 }
