@@ -1,10 +1,5 @@
 [
   {
-    "id": "cu_minced_pork_with_thai_basil",
-    "quantity": 1,
-    "unit": "meal"
-  },
-  {
     "id": "cu_low_carb_beef_stew",
     "quantity": 1,
     "unit": "meal"
@@ -41,11 +36,6 @@
   },
   {
     "id": "rp_quesadilla_turkey_bacon_sausage",
-    "quantity": 1,
-    "unit": "quesadilla"
-  },
-  {
-    "id": "rp_quesadilla_breakfast_turkey_sausage",
     "quantity": 1,
     "unit": "quesadilla"
   }

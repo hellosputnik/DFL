@@ -1,0 +1,37 @@
+{
+  "entries": [
+    {
+      "id": "cu_minced_pork_with_thai_basil",
+      "display_name": "CookUnity - Minced Pork with Thai Basil (Modified)",
+      "amount": 1,
+      "calories_kcal": 660,
+      "protein_g": 44,
+      "carbohydrate_g": 47,
+      "fat_g": 32
+    },
+    {
+      "id": "rp_quesadilla_bbq_pulled_chicken",
+      "display_name": "Rise & Puff - BBQ Pulled Chicken Quesadilla",
+      "amount": 1,
+      "calories_kcal": 280,
+      "protein_g": 20,
+      "carbohydrate_g": 43,
+      "fat_g": 10
+    },
+    {
+      "id": "rp_quesadilla_breakfast_turkey_sausage",
+      "display_name": "Rise & Puff - Breakfast Turkey Sausage Quesadilla",
+      "amount": 1,
+      "calories_kcal": 300,
+      "protein_g": 20,
+      "carbohydrate_g": 21,
+      "fat_g": 14
+    }
+  ],
+  "totals": {
+    "calories_kcal": 1240,
+    "protein_g": 84,
+    "carbohydrate_g": 111,
+    "fat_g": 56
+  }
+}
