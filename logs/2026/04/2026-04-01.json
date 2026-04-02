@@ -26,12 +26,30 @@
       "protein_g": 0,
       "carbohydrate_g": 0,
       "fat_g": 0
+    },
+    {
+      "id": "cu_low_carb_beef_stew",
+      "display_name": "CookUnity - Low Carb Beef Stew (Modified)",
+      "amount": 1,
+      "calories_kcal": 480,
+      "protein_g": 58,
+      "carbohydrate_g": 5,
+      "fat_g": 25
+    },
+    {
+      "id": "cu_lemon_baked_tilapia_with_cajun_cream_sauce",
+      "display_name": "CookUnity - Lemon Baked Tilapia with Cajun Cream Sauce (Modified)",
+      "amount": 1,
+      "calories_kcal": 240,
+      "protein_g": 45,
+      "carbohydrate_g": 2,
+      "fat_g": 6
     }
   ],
   "totals": {
-    "calories_kcal": 930,
-    "protein_g": 93,
-    "carbohydrate_g": 31,
-    "fat_g": 46.5
+    "calories_kcal": 1650,
+    "protein_g": 196,
+    "carbohydrate_g": 38,
+    "fat_g": 77.5
   }
 }
