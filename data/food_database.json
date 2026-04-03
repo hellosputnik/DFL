@@ -42922,5 +42922,29 @@
       "Coriander",
       "Stuffed in a Beef Collagen Casing"
     ]
+  },
+  "zc_lyfe_protein_pizza": {
+    "brand": "ZC Lyfe",
+    "product_name": "Protein Pizza",
+    "flavor": null,
+    "calories_kcal": 620,
+    "protein_g": 48,
+    "carbohydrate_g": 4,
+    "fat_g": 48,
+    "total_fat_g": 48,
+    "saturated_fat_g": 14,
+    "trans_fat_g": 0,
+    "cholesterol_mg": 160,
+    "sodium_mg": 1240,
+    "dietary_fiber_g": 0,
+    "total_sugars_g": 2,
+    "added_sugars_g": 2,
+    "calcium_mg": 340,
+    "potassium_mg": 520,
+    "serving_size": 1,
+    "serving_unit": "pizza",
+    "servings_per_container": 1,
+    "total_weight_oz": 8.18,
+    "ingredients": []
   }
 }

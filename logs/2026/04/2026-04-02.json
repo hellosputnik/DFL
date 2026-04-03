@@ -35,12 +35,48 @@
       "protein_g": 42,
       "carbohydrate_g": 8,
       "fat_g": 3.5
+    },
+    {
+      "id": "lays_classic_potato_chips_1oz",
+      "display_name": "Lay's - Classic Potato Chips",
+      "amount": 1,
+      "calories_kcal": 160,
+      "protein_g": 2,
+      "carbohydrate_g": 15,
+      "fat_g": 10
+    },
+    {
+      "id": "the_only_bean_edamame_sriracha",
+      "display_name": "The Only Bean - Crunchy Roasted Edamame (Sriracha)",
+      "amount": 1,
+      "calories_kcal": 117,
+      "protein_g": 11,
+      "carbohydrate_g": 7,
+      "fat_g": 6
+    },
+    {
+      "id": "ferrero_kinder_bueno",
+      "display_name": "Kinder - Bueno",
+      "amount": 1,
+      "calories_kcal": 120,
+      "protein_g": 2,
+      "carbohydrate_g": 11,
+      "fat_g": 8
+    },
+    {
+      "id": "zc_lyfe_protein_pizza",
+      "display_name": "ZC Lyfe - Protein Pizza (Modified)",
+      "amount": 0.4,
+      "calories_kcal": 248.0,
+      "protein_g": 19.2,
+      "carbohydrate_g": 1.6,
+      "fat_g": 19.2
     }
   ],
   "totals": {
-    "calories_kcal": 1450,
-    "protein_g": 111,
-    "carbohydrate_g": 91,
-    "fat_g": 71.5
+    "calories_kcal": 2095.0,
+    "protein_g": 145.2,
+    "carbohydrate_g": 125.6,
+    "fat_g": 114.7
   }
 }
