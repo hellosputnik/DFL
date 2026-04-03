@@ -1,0 +1,46 @@
+{
+  "entries": [
+    {
+      "id": "cu_cajun_shrimp_kielbasa_pasta",
+      "display_name": "CookUnity - Cajun Shrimp & Kielbasa Pasta (Modified)",
+      "amount": 1,
+      "calories_kcal": 620,
+      "protein_g": 34,
+      "carbohydrate_g": 38,
+      "fat_g": 36
+    },
+    {
+      "id": "rp_quesadilla_chipotle_chicken",
+      "display_name": "Rise & Puff - Quesadilla (Chipotle Chicken)",
+      "amount": 1,
+      "calories_kcal": 300,
+      "protein_g": 20,
+      "carbohydrate_g": 21,
+      "fat_g": 16
+    },
+    {
+      "id": "rp_quesadilla_dry_aged_pepperoni_pizza",
+      "display_name": "Rise & Puff - Quesadilla (Dry-Aged Pepperoni Pizza)",
+      "amount": 1,
+      "calories_kcal": 300,
+      "protein_g": 15,
+      "carbohydrate_g": 24,
+      "fat_g": 16
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    }
+  ],
+  "totals": {
+    "calories_kcal": 1450,
+    "protein_g": 111,
+    "carbohydrate_g": 91,
+    "fat_g": 71.5
+  }
+}
