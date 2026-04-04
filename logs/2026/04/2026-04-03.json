@@ -26,12 +26,39 @@
       "protein_g": 36,
       "carbohydrate_g": 12,
       "fat_g": 20
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    },
+    {
+      "id": "safe_catch_spicy_ahi_yellowfin_tuna",
+      "display_name": "Safe Catch - Wild Ahi Yellowfin Tuna (Spicy Ahi)",
+      "amount": 1,
+      "calories_kcal": 100,
+      "protein_g": 21,
+      "carbohydrate_g": 1,
+      "fat_g": 1.5
+    },
+    {
+      "id": "just_bare_lightly_breaded_chicken_breast_fillets_spicy",
+      "display_name": "Just Bare - Lightly Breaded Chicken Breast Fillets (Spicy)",
+      "amount": 1,
+      "calories_kcal": 210,
+      "protein_g": 22,
+      "carbohydrate_g": 14,
+      "fat_g": 8
     }
   ],
   "totals": {
-    "calories_kcal": 1172.5,
-    "protein_g": 79,
-    "carbohydrate_g": 82.25,
-    "fat_g": 58.25
+    "calories_kcal": 1712.5,
+    "protein_g": 164,
+    "carbohydrate_g": 105.25,
+    "fat_g": 71.25
   }
 }
