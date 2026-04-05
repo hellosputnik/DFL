@@ -17,12 +17,30 @@
       "protein_g": 27,
       "carbohydrate_g": 20.25,
       "fat_g": 20.25
+    },
+    {
+      "id": "just_bare_roasted_chicken_breast_bites_spicy",
+      "display_name": "Just Bare - Roasted Boneless Skinless Chicken Breast Bites (Spicy, Half Bag)",
+      "amount": 3,
+      "calories_kcal": 360,
+      "protein_g": 60,
+      "carbohydrate_g": 6,
+      "fat_g": 12
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
     }
   ],
   "totals": {
-    "calories_kcal": 1182.5,
-    "protein_g": 83,
-    "carbohydrate_g": 42.25,
-    "fat_g": 72.25
+    "calories_kcal": 1772.5,
+    "protein_g": 185,
+    "carbohydrate_g": 56.25,
+    "fat_g": 87.75
   }
 }
