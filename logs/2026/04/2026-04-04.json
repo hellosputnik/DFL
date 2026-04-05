@@ -1,0 +1,28 @@
+{
+  "entries": [
+    {
+      "id": "cu_moms_meatballs_with_marinara_sauce",
+      "display_name": "CookUnity - Mom's Meatballs with Marinara Sauce (Full Container - 2 Servings)",
+      "amount": 1,
+      "calories_kcal": 800,
+      "protein_g": 56,
+      "carbohydrate_g": 22,
+      "fat_g": 52
+    },
+    {
+      "id": "ajinomoto_karaage_fried_chicken",
+      "display_name": "Ajinomoto - Karaage (Modified)",
+      "amount": 2.25,
+      "calories_kcal": 382.5,
+      "protein_g": 27,
+      "carbohydrate_g": 20.25,
+      "fat_g": 20.25
+    }
+  ],
+  "totals": {
+    "calories_kcal": 1182.5,
+    "protein_g": 83,
+    "carbohydrate_g": 42.25,
+    "fat_g": 72.25
+  }
+}
