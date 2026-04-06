@@ -1,0 +1,37 @@
+{
+  "entries": [
+    {
+      "id": "cu_southern_soul_gumbo",
+      "display_name": "CookUnity - Southern Soul Gumbo (Modified)",
+      "amount": 1,
+      "calories_kcal": 500,
+      "protein_g": 25,
+      "carbohydrate_g": 18,
+      "fat_g": 37
+    },
+    {
+      "id": "just_bare_roasted_chicken_breast_bites_spicy",
+      "display_name": "Just Bare - Roasted Boneless Skinless Chicken Breast Bites (Spicy, Half Bag)",
+      "amount": 3,
+      "calories_kcal": 360,
+      "protein_g": 60,
+      "carbohydrate_g": 6,
+      "fat_g": 12
+    },
+    {
+      "id": "red_baron_singles_supreme_deep_dish_pizza",
+      "display_name": "Red Baron - Singles Deep Dish Pizza (Supreme)",
+      "amount": 1,
+      "calories_kcal": 420,
+      "protein_g": 16,
+      "carbohydrate_g": 50,
+      "fat_g": 18
+    }
+  ],
+  "totals": {
+    "calories_kcal": 1280,
+    "protein_g": 101,
+    "carbohydrate_g": 74,
+    "fat_g": 67
+  }
+}
