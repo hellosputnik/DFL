@@ -1,0 +1,37 @@
+{
+  "entries": [
+    {
+      "id": "cu_chicken_madras_curry",
+      "display_name": "CookUnity - Chicken Madras Curry (Modified)",
+      "amount": 1,
+      "calories_kcal": 500,
+      "protein_g": 41,
+      "carbohydrate_g": 11,
+      "fat_g": 34
+    },
+    {
+      "id": "cu_lemon_baked_tilapia_with_cajun_cream_sauce",
+      "display_name": "CookUnity - Lemon Baked Tilapia with Cajun Cream Sauce (Modified)",
+      "amount": 1,
+      "calories_kcal": 240,
+      "protein_g": 45,
+      "carbohydrate_g": 2,
+      "fat_g": 6
+    },
+    {
+      "id": "yoshinoya_sukiyaki",
+      "display_name": "Yoshinoya - Sukiyaki",
+      "amount": 1,
+      "calories_kcal": 270,
+      "protein_g": 13,
+      "carbohydrate_g": 20,
+      "fat_g": 16
+    }
+  ],
+  "totals": {
+    "calories_kcal": 1010,
+    "protein_g": 99,
+    "carbohydrate_g": 33,
+    "fat_g": 56
+  }
+}

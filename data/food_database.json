@@ -42116,6 +42116,40 @@
       "Onion"
     ]
   },
+  "yoshinoya_sukiyaki": {
+    "brand": "Yoshinoya",
+    "product_name": "Sukiyaki",
+    "flavor": null,
+    "calories_kcal": 270,
+    "protein_g": 13,
+    "carbohydrate_g": 20,
+    "fat_g": 16,
+    "total_fat_g": 16,
+    "saturated_fat_g": 7,
+    "trans_fat_g": 0,
+    "cholesterol_mg": 40,
+    "sodium_mg": 700,
+    "dietary_fiber_g": 4,
+    "total_sugars_g": 6,
+    "added_sugars_g": 0,
+    "vitamin_d_mcg": 0,
+    "calcium_mg": 19,
+    "iron_mg": 1,
+    "potassium_mg": 42,
+    "serving_size": 170,
+    "serving_unit": "g",
+    "servings_per_container": 1,
+    "total_weight_oz": 6,
+    "ingredients": [
+      "Beef",
+      "Water",
+      "Gyusuki Sauce",
+      "Udon Noodle",
+      "Napa Cabbage",
+      "Onion",
+      "Beef Soup"
+    ]
+  },
   "safe_catch_spicy_ahi_yellowfin_tuna": {
     "brand": "Safe Catch",
     "product_name": "Wild Ahi Yellowfin Tuna",
