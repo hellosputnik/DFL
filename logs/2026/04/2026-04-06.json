@@ -26,12 +26,48 @@
       "protein_g": 13,
       "carbohydrate_g": 20,
       "fat_g": 16
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    },
+    {
+      "id": "rp_quesadilla_chipotle_chicken",
+      "display_name": "Rise & Puff - Quesadilla (Chipotle Chicken)",
+      "amount": 1,
+      "calories_kcal": 300,
+      "protein_g": 20,
+      "carbohydrate_g": 21,
+      "fat_g": 16
+    },
+    {
+      "id": "tob_edamame_ranch",
+      "display_name": "The Only Bean - Crunchy Roasted Edamame (Ranch)",
+      "amount": 1,
+      "calories_kcal": 125,
+      "protein_g": 11,
+      "carbohydrate_g": 7,
+      "fat_g": 6
+    },
+    {
+      "id": "nestle_kitkat_mini_japan_white",
+      "display_name": "KitKat - Mini (White Chocolate)",
+      "amount": 2,
+      "calories_kcal": 136,
+      "protein_g": 0.6,
+      "carbohydrate_g": 15.6,
+      "fat_g": 8.4
     }
   ],
   "totals": {
-    "calories_kcal": 1010,
-    "protein_g": 99,
-    "carbohydrate_g": 33,
-    "fat_g": 56
+    "calories_kcal": 1801,
+    "protein_g": 172.6,
+    "carbohydrate_g": 84.6,
+    "fat_g": 89.9
   }
 }

@@ -124,6 +124,8 @@ def get_shared_head(title: str) -> str:
         body.dark-mode .badge {{ background: var(--bg); color: var(--muted); }}
         .tag-modified {{ display: inline-block; padding: 0.15rem 0.4rem; border-radius: 4px; font-size: 0.65rem; font-weight: 700; text-transform: uppercase; background: #f0f9ff; color: #0369a1; margin-left: 0.5rem; vertical-align: middle; border: 1px solid #e0f2fe; }}
         .dark-mode .tag-modified {{ background: #0c4a6e; color: #7dd3fc; border-color: #0ea5e9; }}
+        .tag-flavor {{ display: inline-block; padding: 0.15rem 0.4rem; border-radius: 4px; font-size: 0.65rem; font-weight: 700; text-transform: uppercase; background: #f8fafc; color: #475569; margin-left: 0.5rem; vertical-align: middle; border: 1px solid #e2e8f0; }}
+        .dark-mode .tag-flavor {{ background: #334155; color: #cbd5e1; border-color: #475569; }}
     </style>
     <script>
         if (localStorage.getItem('theme') === 'dark') {{
@@ -229,14 +231,16 @@ def run_dashboard_generation(date_str: str = None, output_directory: str = ".") 
             database_entry.get("calories_kcal", 0),
         )
         product = format_title(database_entry.get("product_name", ""))
+        flavor_tag = ""
         if database_entry.get("flavor"):
-            product += f" ({format_title(database_entry['flavor'])})"
+            flavor_tag = f'<span class="tag-flavor">{format_title(database_entry["flavor"])}</span>'
+        
         escaped_brand = html.escape(str(database_entry.get("brand", "")))
         escaped_product = html.escape(product)
         inventory_rows_list.append(f"""
             <tr class='inventory-row' data-calories='{calories}' data-protein='{protein}' data-carbohydrate='{carbohydrate}' data-fat='{fat}' onclick='toggleProjection(this)' style='cursor: pointer;'>
                 <td class='text-center'><span class='badge'>{escaped_brand}</span></td>
-                <td style='font-weight: 500;'>{escaped_product}</td>
+                <td style='font-weight: 500;'>{escaped_product}{flavor_tag}</td>
                 <td class='text-center'>{calories}</td>
                 <td class='text-center'>{protein}g</td>
                 <td class='text-center'>{carbohydrate}g</td>
@@ -274,15 +278,16 @@ def run_dashboard_generation(date_str: str = None, output_directory: str = ".") 
                 product_name = product_name.replace("(Modified)", "").strip()
 
             product = format_title(product_name)
+            flavor_tag = ""
             if (
                 database_entry.get("flavor")
                 and database_entry.get("flavor").lower() not in product.lower()
             ):
-                product += f" ({format_title(database_entry['flavor'])})"
+                flavor_tag = f'<span class="tag-flavor">{format_title(database_entry["flavor"])}</span>'
 
             escaped_brand = html.escape(str(brand))
             escaped_product = html.escape(product)
-            product_html = f"<span style='font-weight: 500;'>{escaped_product}</span>"
+            product_html = f"<span style='font-weight: 500;'>{escaped_product}</span>{flavor_tag}"
             if is_modified:
                 product_html += "<span class='tag-modified'>Modified</span>"
             log_rows_list.append(
@@ -488,7 +493,7 @@ def run_database_generation(output_directory: str = ".") -> None:
         rows_list.append(f"""
             <tr class="food-row" data-search="{escaped_search}">
                 <td class="text-center"><span class="badge">{escaped_brand}</span></td>
-                <td><div style="font-weight: 600;">{escaped_product}</div>{f'<div style="font-size: 0.75rem; color: var(--muted);">{escaped_flavor}</div>' if flavor else ''}</td>
+                <td><div style="font-weight: 600;">{escaped_product}{f'<span class="tag-flavor">{escaped_flavor}</span>' if flavor else ''}</div></td>
                 <td class="text-center">{calories}</td>
                 <td class="text-center">{protein}g</td>
                 <td class="text-center">{carbohydrate}g</td>
@@ -629,15 +634,16 @@ def run_history_generation(output_directory: str = ".", limit: int = None) -> No
                 product_name = product_name.replace("(Modified)", "").strip()
 
             product = format_title(product_name)
+            flavor_tag = ""
             if (
                 database_entry.get("flavor")
                 and database_entry.get("flavor").lower() not in product.lower()
             ):
-                product += f" ({format_title(database_entry['flavor'])})"
+                flavor_tag = f'<span class="tag-flavor">{format_title(database_entry["flavor"])}</span>'
 
             tag = '<span class="tag-modified">Modified</span>' if is_modified else ""
             table_rows_list.append(
-                f"<tr><td class='text-center'><span class='badge'>{brand}</span></td><td><span style='font-weight:600'>{product}</span>{tag}</td><td class='text-center'>{entry['calories_kcal']}</td><td class='text-center'>{entry['protein_g']}g</td><td class='text-center'>{entry['carbohydrate_g']}g</td><td class='text-center'>{entry['fat_g']}g</td></tr>"
+                f"<tr><td class='text-center'><span class='badge'>{brand}</span></td><td><span style='font-weight:600'>{product}</span>{flavor_tag}{tag}</td><td class='text-center'>{entry['calories_kcal']}</td><td class='text-center'>{entry['protein_g']}g</td><td class='text-center'>{entry['carbohydrate_g']}g</td><td class='text-center'>{entry['fat_g']}g</td></tr>"
             )
         table_rows = "\n".join(table_rows_list)
 
