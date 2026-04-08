@@ -35,12 +35,30 @@
       "protein_g": 20,
       "carbohydrate_g": 21,
       "fat_g": 16
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    },
+    {
+      "id": "just_bare_lightly_breaded_chicken_breast_fillets_spicy",
+      "display_name": "Just Bare - Lightly Breaded Chicken Breast Fillets (Spicy)",
+      "amount": 2,
+      "calories_kcal": 420,
+      "protein_g": 44,
+      "carbohydrate_g": 28,
+      "fat_g": 16
     }
   ],
   "totals": {
-    "calories_kcal": 1200,
-    "protein_g": 93,
-    "carbohydrate_g": 68,
-    "fat_g": 64.5
+    "calories_kcal": 1850,
+    "protein_g": 179,
+    "carbohydrate_g": 104,
+    "fat_g": 84
   }
 }
