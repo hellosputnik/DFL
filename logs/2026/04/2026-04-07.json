@@ -1,0 +1,46 @@
+{
+  "entries": [
+    {
+      "id": "cu_al_pastor_pork_burrito_bowl",
+      "display_name": "CookUnity - Al Pastor Pork Burrito Bowl (Modified)",
+      "amount": 1,
+      "calories_kcal": 500,
+      "protein_g": 40,
+      "carbohydrate_g": 24,
+      "fat_g": 28
+    },
+    {
+      "id": "rp_quesadilla_ooey_gooey_cheese",
+      "display_name": "Rise & Puff - Quesadilla (Ooey Gooey Cheese)",
+      "amount": 1,
+      "calories_kcal": 300,
+      "protein_g": 12,
+      "carbohydrate_g": 22,
+      "fat_g": 19
+    },
+    {
+      "id": "safe_catch_spicy_ahi_yellowfin_tuna",
+      "display_name": "Safe Catch - Wild Ahi Yellowfin Tuna (Spicy Ahi)",
+      "amount": 1,
+      "calories_kcal": 100,
+      "protein_g": 21,
+      "carbohydrate_g": 1,
+      "fat_g": 1.5
+    },
+    {
+      "id": "rp_quesadilla_chipotle_chicken",
+      "display_name": "Rise & Puff - Quesadilla (Chipotle Chicken)",
+      "amount": 1,
+      "calories_kcal": 300,
+      "protein_g": 20,
+      "carbohydrate_g": 21,
+      "fat_g": 16
+    }
+  ],
+  "totals": {
+    "calories_kcal": 1200,
+    "protein_g": 93,
+    "carbohydrate_g": 68,
+    "fat_g": 64.5
+  }
+}
