@@ -1,7 +1,7 @@
 [
   {
     "id": "fairlife_core_power_elite_vanilla",
-    "quantity": 8,
+    "quantity": 7,
     "unit": "bottle"
   },
   {
@@ -18,5 +18,15 @@
     "id": "rp_quesadilla_turkey_bacon_sausage",
     "quantity": 1,
     "unit": "quesadilla"
+  },
+  {
+    "id": "rp_quesadilla_chipotle_chicken",
+    "quantity": 4,
+    "unit": "quesadilla"
+  },
+  {
+    "id": "just_bare_roasted_chicken_breast_bites_spicy",
+    "quantity": 3,
+    "unit": "serving"
   }
 ]

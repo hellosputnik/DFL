@@ -17,12 +17,48 @@
       "protein_g": 0.6,
       "carbohydrate_g": 15.6,
       "fat_g": 8.4
+    },
+    {
+      "id": "rp_quesadilla_chipotle_chicken",
+      "display_name": "Rise & Puff - Quesadilla (Chipotle Chicken)",
+      "amount": 1,
+      "calories_kcal": 300,
+      "protein_g": 20,
+      "carbohydrate_g": 21,
+      "fat_g": 16
+    },
+    {
+      "id": "just_bare_roasted_chicken_breast_bites_spicy",
+      "display_name": "Just Bare - Roasted Boneless Skinless Chicken Breast Bites (Spicy, Half Bag)",
+      "amount": 3,
+      "calories_kcal": 360,
+      "protein_g": 60,
+      "carbohydrate_g": 6,
+      "fat_g": 12
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    },
+    {
+      "id": "rp_quesadilla_chipotle_chicken",
+      "display_name": "Rise & Puff - Quesadilla (Chipotle Chicken)",
+      "amount": 1,
+      "calories_kcal": 300,
+      "protein_g": 20,
+      "carbohydrate_g": 21,
+      "fat_g": 16
     }
   ],
   "totals": {
-    "calories_kcal": 556,
-    "protein_g": 44.6,
-    "carbohydrate_g": 43.6,
-    "fat_g": 24.4
+    "calories_kcal": 1746,
+    "protein_g": 186.6,
+    "carbohydrate_g": 99.6,
+    "fat_g": 71.9
   }
 }
