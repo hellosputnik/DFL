@@ -1,0 +1,28 @@
+{
+  "entries": [
+    {
+      "id": "just_bare_lightly_breaded_chicken_breast_fillets_spicy",
+      "display_name": "Just Bare - Lightly Breaded Chicken Breast Fillets (Spicy)",
+      "amount": 2,
+      "calories_kcal": 420,
+      "protein_g": 44,
+      "carbohydrate_g": 28,
+      "fat_g": 16
+    },
+    {
+      "id": "nestle_kitkat_mini_japan_white",
+      "display_name": "KitKat - Mini (White Chocolate)",
+      "amount": 2,
+      "calories_kcal": 136,
+      "protein_g": 0.6,
+      "carbohydrate_g": 15.6,
+      "fat_g": 8.4
+    }
+  ],
+  "totals": {
+    "calories_kcal": 556,
+    "protein_g": 44.6,
+    "carbohydrate_g": 43.6,
+    "fat_g": 24.4
+  }
+}
