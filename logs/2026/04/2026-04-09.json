@@ -1,0 +1,55 @@
+{
+  "entries": [
+    {
+      "id": "nestle_kitkat_mini_japan_white",
+      "display_name": "KitKat - Mini (White Chocolate)",
+      "amount": 2,
+      "calories_kcal": 136,
+      "protein_g": 0.6,
+      "carbohydrate_g": 15.6,
+      "fat_g": 8.4
+    },
+    {
+      "id": "rp_quesadilla_chipotle_chicken",
+      "display_name": "Rise & Puff - Quesadilla (Chipotle Chicken)",
+      "amount": 1,
+      "calories_kcal": 300,
+      "protein_g": 20,
+      "carbohydrate_g": 21,
+      "fat_g": 16
+    },
+    {
+      "id": "just_bare_roasted_chicken_breast_bites_spicy",
+      "display_name": "Just Bare - Roasted Boneless Skinless Chicken Breast Bites (Spicy, Half Bag)",
+      "amount": 3,
+      "calories_kcal": 360,
+      "protein_g": 60,
+      "carbohydrate_g": 6,
+      "fat_g": 12
+    },
+    {
+      "id": "tob_edamame_ranch",
+      "display_name": "The Only Bean - Crunchy Roasted Edamame (Ranch)",
+      "amount": 1,
+      "calories_kcal": 125,
+      "protein_g": 11,
+      "carbohydrate_g": 7,
+      "fat_g": 6
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    }
+  ],
+  "totals": {
+    "calories_kcal": 1151,
+    "protein_g": 133.6,
+    "carbohydrate_g": 57.6,
+    "fat_g": 45.9
+  }
+}
