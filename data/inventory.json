@@ -1,27 +1,12 @@
 [
   {
     "id": "fairlife_core_power_elite_vanilla",
-    "quantity": 5,
+    "quantity": 4,
     "unit": "bottle"
-  },
-  {
-    "id": "rp_quesadilla_dry_aged_pepperoni_pizza",
-    "quantity": 1,
-    "unit": "quesadilla"
   },
   {
     "id": "rp_quesadilla_pesto_goat_cheese",
     "quantity": 1,
-    "unit": "quesadilla"
-  },
-  {
-    "id": "rp_quesadilla_turkey_bacon_sausage",
-    "quantity": 1,
-    "unit": "quesadilla"
-  },
-  {
-    "id": "rp_quesadilla_chipotle_chicken",
-    "quantity": 2,
     "unit": "quesadilla"
   }
 ]
