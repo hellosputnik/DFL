@@ -35,12 +35,39 @@
       "protein_g": 42,
       "carbohydrate_g": 8,
       "fat_g": 3.5
+    },
+    {
+      "id": "tob_edamame_ranch",
+      "display_name": "The Only Bean - Crunchy Roasted Edamame (Ranch)",
+      "amount": 1,
+      "calories_kcal": 125,
+      "protein_g": 11,
+      "carbohydrate_g": 7,
+      "fat_g": 6
+    },
+    {
+      "id": "rp_quesadilla_pesto_goat_cheese",
+      "display_name": "Rise & Puff - Quesadilla (Pesto & Goat Cheese)",
+      "amount": 1,
+      "calories_kcal": 250,
+      "protein_g": 10,
+      "carbohydrate_g": 20,
+      "fat_g": 14
+    },
+    {
+      "id": "barebells_protein_bar_cookies_caramel",
+      "display_name": "Barebells - Protein Bar (Cookies & Caramel)",
+      "amount": 1,
+      "calories_kcal": 210,
+      "protein_g": 20,
+      "carbohydrate_g": 21,
+      "fat_g": 7
     }
   ],
   "totals": {
-    "calories_kcal": 1026,
-    "protein_g": 122.6,
-    "carbohydrate_g": 50.6,
-    "fat_g": 39.9
+    "calories_kcal": 1611,
+    "protein_g": 163.6,
+    "carbohydrate_g": 98.6,
+    "fat_g": 66.9
   }
 }
