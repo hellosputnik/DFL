@@ -17,12 +17,48 @@
       "protein_g": 0,
       "carbohydrate_g": 0,
       "fat_g": 0
+    },
+    {
+      "id": "reeses_peanut_butter_cups_oreo_milk_chocolate_white_creme_1_4oz",
+      "display_name": "Reese's - Peanut Butter Cups (Oreo Milk Chocolate & White Creme)",
+      "amount": 1,
+      "calories_kcal": 200,
+      "protein_g": 4,
+      "carbohydrate_g": 24,
+      "fat_g": 11
+    },
+    {
+      "id": "just_bare_roasted_chicken_breast_bites_spicy",
+      "display_name": "Just Bare - Roasted Boneless Skinless Chicken Breast Bites (Spicy, Modified)",
+      "amount": 4,
+      "calories_kcal": 480,
+      "protein_g": 80,
+      "carbohydrate_g": 8,
+      "fat_g": 16
+    },
+    {
+      "id": "rp_quesadilla_ham_egg_cheese",
+      "display_name": "Rise & Puff - Quesadilla (Ham, Egg & Cheese)",
+      "amount": 1,
+      "calories_kcal": 290,
+      "protein_g": 20,
+      "carbohydrate_g": 32,
+      "fat_g": 11
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
     }
   ],
   "totals": {
-    "calories_kcal": 410,
-    "protein_g": 19,
-    "carbohydrate_g": 27,
-    "fat_g": 24
+    "calories_kcal": 1610,
+    "protein_g": 165,
+    "carbohydrate_g": 99,
+    "fat_g": 65.5
   }
 }
