@@ -1,0 +1,28 @@
+{
+  "entries": [
+    {
+      "id": "panera_bread_turkey_cheddar_country_rustic_sourdough_half",
+      "display_name": "Panera Bread - Turkey & Cheddar on Country Rustic Sourdough (Half)",
+      "amount": 1,
+      "calories_kcal": 390,
+      "protein_g": 19,
+      "carbohydrate_g": 27,
+      "fat_g": 24
+    },
+    {
+      "id": "caffe_macs_americano",
+      "display_name": "Caffe Macs - Iced Americano (Black)",
+      "amount": 2,
+      "calories_kcal": 20,
+      "protein_g": 0,
+      "carbohydrate_g": 0,
+      "fat_g": 0
+    }
+  ],
+  "totals": {
+    "calories_kcal": 410,
+    "protein_g": 19,
+    "carbohydrate_g": 27,
+    "fat_g": 24
+  }
+}

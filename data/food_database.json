@@ -43061,5 +43061,26 @@
     ],
     "source": "https://www.hersheyland.com/products/reeses-oreo-milk-chocolate-peanut-butter-cups-1-4-oz.html",
     "source_type": "primary"
+  },
+  "panera_bread_turkey_cheddar_country_rustic_sourdough_half": {
+    "brand": "Panera Bread",
+    "product_name": "Turkey & Cheddar on Country Rustic Sourdough",
+    "flavor": null,
+    "calories_kcal": 390,
+    "protein_g": 19,
+    "carbohydrate_g": 27,
+    "fat_g": 24,
+    "total_fat_g": 24,
+    "saturated_fat_g": 6,
+    "trans_fat_g": 0,
+    "cholesterol_mg": 60,
+    "sodium_mg": 1010,
+    "dietary_fiber_g": 1,
+    "total_sugars_g": 3,
+    "serving_size": 0.5,
+    "serving_unit": "sandwich",
+    "servings_per_container": 1,
+    "source": "https://www.panerabread.com/content/dam/panerabread/documents/c3-26-nutrition-guide.pdf",
+    "source_type": "primary"
   }
 }
