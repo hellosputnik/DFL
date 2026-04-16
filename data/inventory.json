@@ -6,12 +6,37 @@
   },
   {
     "id": "just_bare_roasted_chicken_breast_bites_spicy",
-    "quantity": 0,
+    "quantity": 1,
     "unit": "bag"
   },
   {
     "id": "just_bare_lightly_breaded_chicken_breast_fillets_spicy",
-    "quantity": 1.67,
+    "quantity": 1,
     "unit": "bag"
+  },
+  {
+    "id": "rp_quesadilla_chipotle_chicken",
+    "quantity": 8,
+    "unit": "quesadilla"
+  },
+  {
+    "id": "rp_quesadilla_beef_brisket",
+    "quantity": 8,
+    "unit": "quesadilla"
+  },
+  {
+    "id": "rp_quesadilla_breakfast_turkey_sausage",
+    "quantity": 3,
+    "unit": "quesadilla"
+  },
+  {
+    "id": "rp_quesadilla_ham_egg_cheese",
+    "quantity": 3,
+    "unit": "quesadilla"
+  },
+  {
+    "id": "rp_quesadilla_turkey_bacon_sausage",
+    "quantity": 2,
+    "unit": "quesadilla"
   }
 ]

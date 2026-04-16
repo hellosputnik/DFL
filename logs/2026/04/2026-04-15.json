@@ -1,0 +1,37 @@
+{
+  "entries": [
+    {
+      "id": "just_bare_lightly_breaded_chicken_breast_fillets_spicy",
+      "display_name": "Just Bare - Lightly Breaded Chicken Breast Fillets (Spicy)",
+      "amount": 4,
+      "calories_kcal": 840,
+      "protein_g": 88,
+      "carbohydrate_g": 56,
+      "fat_g": 32
+    },
+    {
+      "id": "meiji_hello_panda_chocolate_2_2oz_bag",
+      "display_name": "Meiji - Hello Panda (Chocolate, 2.2oz Bag)",
+      "amount": 1,
+      "calories_kcal": 320,
+      "protein_g": 4,
+      "carbohydrate_g": 38,
+      "fat_g": 18
+    },
+    {
+      "id": "annies_organic_ketchup",
+      "display_name": "Annie's - Organic Ketchup",
+      "amount": 2,
+      "calories_kcal": 40,
+      "protein_g": 0,
+      "carbohydrate_g": 10,
+      "fat_g": 0
+    }
+  ],
+  "totals": {
+    "calories_kcal": 1200,
+    "protein_g": 92,
+    "carbohydrate_g": 104,
+    "fat_g": 50
+  }
+}
