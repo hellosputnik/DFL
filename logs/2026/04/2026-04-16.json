@@ -1,0 +1,37 @@
+{
+  "entries": [
+    {
+      "id": "caffe_macs_tomato_chicken_bowl_walnut_quinoa_salad",
+      "display_name": "Caffe Macs - Tomato Chicken Bowl Over Walnut-Quinoa Salad (Modified)",
+      "amount": 1,
+      "calories_kcal": 420,
+      "protein_g": 29,
+      "carbohydrate_g": 8,
+      "fat_g": 26
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    },
+    {
+      "id": "caffe_macs_americano",
+      "display_name": "Caffe Macs - Iced Americano (Black)",
+      "amount": 1,
+      "calories_kcal": 10,
+      "protein_g": 0,
+      "carbohydrate_g": 0,
+      "fat_g": 0
+    }
+  ],
+  "totals": {
+    "calories_kcal": 660,
+    "protein_g": 71,
+    "carbohydrate_g": 16,
+    "fat_g": 29.5
+  }
+}
