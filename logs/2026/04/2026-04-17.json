@@ -1,0 +1,46 @@
+{
+  "entries": [
+    {
+      "id": "dunkin_protein_iced_latte_sugar_free_vanilla_medium",
+      "display_name": "Dunkin' - Protein Iced Latte with Sugar Free Vanilla (Medium)",
+      "amount": 1,
+      "calories_kcal": 170,
+      "protein_g": 15,
+      "carbohydrate_g": 18,
+      "fat_g": 6
+    },
+    {
+      "id": "dunkin_zero_sunzest_medium",
+      "display_name": "Dunkin' - Dunkin' Zero (Sunzest, Medium)",
+      "amount": 1,
+      "calories_kcal": 20,
+      "protein_g": 0,
+      "carbohydrate_g": 9,
+      "fat_g": 0
+    },
+    {
+      "id": "dunkin_glazed_munchkins",
+      "display_name": "Dunkin' - Glazed Munchkins",
+      "amount": 2,
+      "calories_kcal": 120,
+      "protein_g": 2,
+      "carbohydrate_g": 14,
+      "fat_g": 6
+    },
+    {
+      "id": "rp_quesadilla_beef_brisket",
+      "display_name": "Rise & Puff - Quesadilla (Beef Brisket)",
+      "amount": 1,
+      "calories_kcal": 300,
+      "protein_g": 20,
+      "carbohydrate_g": 22,
+      "fat_g": 17
+    }
+  ],
+  "totals": {
+    "calories_kcal": 610,
+    "protein_g": 37,
+    "carbohydrate_g": 63,
+    "fat_g": 29
+  }
+}
