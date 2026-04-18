@@ -35,12 +35,30 @@
       "protein_g": 20,
       "carbohydrate_g": 22,
       "fat_g": 17
+    },
+    {
+      "id": "just_bare_lightly_breaded_chicken_breast_fillets_spicy",
+      "display_name": "Just Bare - Lightly Breaded Chicken Breast Fillets (Spicy)",
+      "amount": 2,
+      "calories_kcal": 420,
+      "protein_g": 44,
+      "carbohydrate_g": 28,
+      "fat_g": 16
+    },
+    {
+      "id": "annies_organic_ketchup",
+      "display_name": "Annie's - Organic Ketchup",
+      "amount": 1,
+      "calories_kcal": 20,
+      "protein_g": 0,
+      "carbohydrate_g": 5,
+      "fat_g": 0
     }
   ],
   "totals": {
-    "calories_kcal": 610,
-    "protein_g": 37,
-    "carbohydrate_g": 63,
-    "fat_g": 29
+    "calories_kcal": 1050,
+    "protein_g": 81,
+    "carbohydrate_g": 96,
+    "fat_g": 45
   }
 }
