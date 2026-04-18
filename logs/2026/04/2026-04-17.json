@@ -53,12 +53,30 @@
       "protein_g": 0,
       "carbohydrate_g": 5,
       "fat_g": 0
+    },
+    {
+      "id": "zc_lyfe_protein_pizza",
+      "display_name": "ZC Lyfe - Protein Pizza",
+      "amount": 0.5,
+      "calories_kcal": 310,
+      "protein_g": 24,
+      "carbohydrate_g": 2,
+      "fat_g": 24
+    },
+    {
+      "id": "just_bare_roasted_chicken_breast_bites_original",
+      "display_name": "Just Bare - Roasted Chicken Breast Bites (Original)",
+      "amount": 3,
+      "calories_kcal": 360,
+      "protein_g": 60,
+      "carbohydrate_g": 6,
+      "fat_g": 10.5
     }
   ],
   "totals": {
-    "calories_kcal": 1050,
-    "protein_g": 81,
-    "carbohydrate_g": 96,
-    "fat_g": 45
+    "calories_kcal": 1720,
+    "protein_g": 165,
+    "carbohydrate_g": 104,
+    "fat_g": 79.5
   }
 }
