@@ -1,0 +1,28 @@
+{
+  "entries": [
+    {
+      "id": "cape_cod_potato_chips_sea_salt_cracked_pepper",
+      "display_name": "Cape Cod - Potato Chips (Sea Salt & Cracked Pepper)",
+      "amount": 1,
+      "calories_kcal": 140,
+      "protein_g": 2,
+      "carbohydrate_g": 17,
+      "fat_g": 7
+    },
+    {
+      "id": "rp_quesadilla_beef_brisket",
+      "display_name": "Rise & Puff - Quesadilla (Beef Brisket)",
+      "amount": 1,
+      "calories_kcal": 300,
+      "protein_g": 20,
+      "carbohydrate_g": 22,
+      "fat_g": 17
+    }
+  ],
+  "totals": {
+    "calories_kcal": 440,
+    "protein_g": 22,
+    "carbohydrate_g": 39,
+    "fat_g": 24
+  }
+}
