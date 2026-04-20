@@ -28,13 +28,13 @@
       "fat_g": 6
     },
     {
-      "id": "reeses_peanut_butter_cups_oreo_milk_chocolate_white_creme_1_4oz",
-      "display_name": "Reese's - Peanut Butter Cups (Oreo Milk Chocolate & White Creme)",
+      "id": "reeses_peanut_butter_cup_oreo_milk_chocolate_white_creme",
+      "display_name": "Reese's - Peanut Butter Cup (Oreo Milk Chocolate & White Creme)",
       "amount": 1,
-      "calories_kcal": 200,
-      "protein_g": 4,
-      "carbohydrate_g": 24,
-      "fat_g": 11
+      "calories_kcal": 100,
+      "protein_g": 2,
+      "carbohydrate_g": 12,
+      "fat_g": 5.5
     },
     {
       "id": "just_bare_roasted_chicken_breast_bites_spicy",
@@ -74,9 +74,9 @@
     }
   ],
   "totals": {
-    "calories_kcal": 2085,
-    "protein_g": 175,
-    "carbohydrate_g": 163,
-    "fat_g": 85.5
+    "calories_kcal": 1985,
+    "protein_g": 173,
+    "carbohydrate_g": 151,
+    "fat_g": 80
   }
 }

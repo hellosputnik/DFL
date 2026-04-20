@@ -1,0 +1,82 @@
+{
+  "entries": [
+    {
+      "id": "cape_cod_potato_chips_sea_salt_cracked_pepper",
+      "display_name": "Cape Cod - Potato Chips (Sea Salt & Cracked Pepper)",
+      "amount": 1,
+      "calories_kcal": 140,
+      "protein_g": 2,
+      "carbohydrate_g": 17,
+      "fat_g": 7
+    },
+    {
+      "id": "red_baron_singles_supreme_deep_dish_pizza",
+      "display_name": "Red Baron - Singles Deep Dish Pizza (Supreme)",
+      "amount": 1,
+      "calories_kcal": 420,
+      "protein_g": 16,
+      "carbohydrate_g": 50,
+      "fat_g": 18
+    },
+    {
+      "id": "just_bare_roasted_chicken_breast_bites_original",
+      "display_name": "Just Bare - Roasted Chicken Breast Bites (Original)",
+      "amount": 3,
+      "calories_kcal": 360,
+      "protein_g": 60,
+      "carbohydrate_g": 6,
+      "fat_g": 10.5
+    },
+    {
+      "id": "reeses_peanut_butter_cup_oreo_milk_chocolate_white_creme",
+      "display_name": "Reese's - Peanut Butter Cup (Oreo Milk Chocolate & White Creme)",
+      "amount": 2,
+      "calories_kcal": 200,
+      "protein_g": 4,
+      "carbohydrate_g": 24,
+      "fat_g": 11
+    },
+    {
+      "id": "tob_edamame_ranch",
+      "display_name": "The Only Bean - Crunchy Roasted Edamame (Ranch)",
+      "amount": 1,
+      "calories_kcal": 125,
+      "protein_g": 11,
+      "carbohydrate_g": 7,
+      "fat_g": 6
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    },
+    {
+      "id": "just_bare_lightly_breaded_chicken_breast_fillets_spicy",
+      "display_name": "Just Bare - Lightly Breaded Chicken Breast Fillets (Spicy)",
+      "amount": 2,
+      "calories_kcal": 420,
+      "protein_g": 44,
+      "carbohydrate_g": 28,
+      "fat_g": 16
+    },
+    {
+      "id": "annies_organic_ketchup",
+      "display_name": "Annie's - Organic Ketchup",
+      "amount": 2,
+      "calories_kcal": 40,
+      "protein_g": 0,
+      "carbohydrate_g": 10,
+      "fat_g": 0
+    }
+  ],
+  "totals": {
+    "calories_kcal": 1935,
+    "protein_g": 179,
+    "carbohydrate_g": 150,
+    "fat_g": 72
+  }
+}

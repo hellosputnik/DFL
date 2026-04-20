@@ -1,5 +1,10 @@
 [
   {
+    "id": "fairlife_core_power_elite_vanilla",
+    "quantity": 11,
+    "unit": "bottle"
+  },
+  {
     "id": "just_bare_roasted_chicken_breast_bites_spicy",
     "quantity": 1,
     "unit": "bag"
