@@ -1,0 +1,37 @@
+{
+  "entries": [
+    {
+      "id": "cape_cod_potato_chips_sea_salt_cracked_pepper",
+      "display_name": "Cape Cod - Potato Chips (Sea Salt & Cracked Pepper)",
+      "amount": 1,
+      "calories_kcal": 140,
+      "protein_g": 2,
+      "carbohydrate_g": 17,
+      "fat_g": 7
+    },
+    {
+      "id": "rp_quesadilla_beef_brisket",
+      "display_name": "Rise & Puff - Quesadilla (Beef Brisket)",
+      "amount": 2,
+      "calories_kcal": 600,
+      "protein_g": 40,
+      "carbohydrate_g": 44,
+      "fat_g": 34
+    },
+    {
+      "id": "reeses_peanut_butter_cup_oreo_milk_chocolate_white_creme",
+      "display_name": "Reese's - Peanut Butter Cup (Oreo Milk Chocolate & White Creme)",
+      "amount": 1,
+      "calories_kcal": 100,
+      "protein_g": 2,
+      "carbohydrate_g": 12,
+      "fat_g": 5.5
+    }
+  ],
+  "totals": {
+    "calories_kcal": 840,
+    "protein_g": 44,
+    "carbohydrate_g": 73,
+    "fat_g": 46.5
+  }
+}
