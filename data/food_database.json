@@ -2383,6 +2383,42 @@
       "eggs"
     ]
   },
+  "caffe_macs_ginger_pork": {
+    "brand": "Caffe Macs",
+    "product_name": "Ginger Pork",
+    "calories_kcal": 680,
+    "protein_g": 34,
+    "carbohydrate_g": 57,
+    "fat_g": 31,
+    "serving_size": 1,
+    "serving_unit": "meal",
+    "servings_per_container": 1,
+    "ingredients": [
+      "Pork shoulder (pork)",
+      "Tamari (soy)",
+      "Ginger",
+      "Honey",
+      "Sugar",
+      "Sake (alcohol)",
+      "Mirin (alcohol)",
+      "Salt",
+      "Pepper",
+      "Eggs",
+      "Dark soy sauce (soy, wheat, gluten)",
+      "Red cabbage",
+      "Green cabbage",
+      "Napa cabbage",
+      "Baby spinach",
+      "Carrots",
+      "Sesame seeds (sesame)",
+      "Mayonnaise (eggs, soy)",
+      "Dijon mustard",
+      "Nishiki rice",
+      "Sunflower oil"
+    ],
+    "source_type": "estimated_from_ingredients",
+    "derivation": "Estimated from the Apple Park Cafe menu description and ingredient list in the provided screenshots, calibrated against existing Caffe Macs pork-and-rice meal entries already tracked in this repository."
+  },
   "caffe_macs_americano": {
     "brand": "Caffe Macs",
     "product_name": "Iced Americano",
@@ -2394,6 +2430,20 @@
     "serving_size": 1,
     "serving_unit": "drink",
     "ingredients": ["espresso", "water", "ice"]
+  },
+  "caffe_macs_vegan_miso_soup": {
+    "brand": "Caffe Macs",
+    "product_name": "Vegan Miso Soup",
+    "calories_kcal": 45,
+    "protein_g": 3,
+    "carbohydrate_g": 4,
+    "fat_g": 1.5,
+    "serving_size": 1,
+    "serving_unit": "cup",
+    "servings_per_container": 1,
+    "ingredients": ["Scallions", "Miso paste (soy)", "Tofu (soy)"],
+    "source_type": "estimated_from_ingredients",
+    "derivation": "Estimated from the Apple Park Cafe menu description and ingredient list in the provided screenshots, using a standard small cup of tofu miso soup as the serving baseline."
   },
   "slate_ultra_vanilla": {
     "brand": "Slate",

@@ -1,0 +1,82 @@
+{
+  "entries": [
+    {
+      "id": "caffe_macs_ginger_pork",
+      "display_name": "Caffe Macs - Ginger Pork",
+      "amount": 1,
+      "calories_kcal": 680,
+      "protein_g": 34,
+      "carbohydrate_g": 57,
+      "fat_g": 31
+    },
+    {
+      "id": "caffe_macs_vegan_miso_soup",
+      "display_name": "Caffe Macs - Vegan Miso Soup",
+      "amount": 1,
+      "calories_kcal": 45,
+      "protein_g": 3,
+      "carbohydrate_g": 4,
+      "fat_g": 1.5
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    },
+    {
+      "id": "caffe_macs_americano",
+      "display_name": "Caffe Macs - Iced Americano (Black)",
+      "amount": 1,
+      "calories_kcal": 10,
+      "protein_g": 0,
+      "carbohydrate_g": 0,
+      "fat_g": 0
+    },
+    {
+      "id": "tob_edamame_ranch",
+      "display_name": "The Only Bean - Crunchy Roasted Edamame (Ranch)",
+      "amount": 1,
+      "calories_kcal": 125,
+      "protein_g": 11,
+      "carbohydrate_g": 7,
+      "fat_g": 6
+    },
+    {
+      "id": "just_bare_lightly_breaded_chicken_breast_fillets_spicy",
+      "display_name": "Just Bare - Lightly Breaded Chicken Breast Fillets (Spicy)",
+      "amount": 2,
+      "calories_kcal": 420,
+      "protein_g": 44,
+      "carbohydrate_g": 28,
+      "fat_g": 16
+    },
+    {
+      "id": "annies_organic_ketchup",
+      "display_name": "Annie's - Organic Ketchup",
+      "amount": 1,
+      "calories_kcal": 20,
+      "protein_g": 0,
+      "carbohydrate_g": 5,
+      "fat_g": 0
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    }
+  ],
+  "totals": {
+    "calories_kcal": 1760,
+    "protein_g": 176,
+    "carbohydrate_g": 117,
+    "fat_g": 61.5
+  }
+}
