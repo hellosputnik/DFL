@@ -1,0 +1,37 @@
+{
+  "entries": [
+    {
+      "id": "kc_teatime_extra_rich_coffee_latte",
+      "display_name": "Kuang Chuan - Tea Time Rich Caffe Latte (Coffee)",
+      "amount": 1,
+      "calories_kcal": 180,
+      "protein_g": 7,
+      "carbohydrate_g": 30,
+      "fat_g": 3.5
+    },
+    {
+      "id": "rp_quesadilla_beef_brisket",
+      "display_name": "Rise & Puff - Quesadilla (Beef Brisket)",
+      "amount": 1,
+      "calories_kcal": 300,
+      "protein_g": 20,
+      "carbohydrate_g": 22,
+      "fat_g": 17
+    },
+    {
+      "id": "lenny_larrys_fitzels_taco_tuesday_3oz",
+      "display_name": "Lenny & Larry's - Fitzels (Taco Tuesday) (Modified)",
+      "amount": 0.5,
+      "calories_kcal": 190,
+      "protein_g": 10,
+      "carbohydrate_g": 19.5,
+      "fat_g": 7
+    }
+  ],
+  "totals": {
+    "calories_kcal": 670,
+    "protein_g": 37,
+    "carbohydrate_g": 71.5,
+    "fat_g": 27.5
+  }
+}
