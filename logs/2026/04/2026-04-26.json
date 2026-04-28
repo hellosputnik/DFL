@@ -1,0 +1,82 @@
+{
+  "entries": [
+    {
+      "id": "fairlife_nutrition_plan_chocolate",
+      "display_name": "Fairlife - Nutrition Plan (Chocolate)",
+      "amount": 1,
+      "calories_kcal": 150,
+      "protein_g": 30,
+      "carbohydrate_g": 4,
+      "fat_g": 2.5
+    },
+    {
+      "id": "rp_quesadilla_beef_brisket",
+      "display_name": "Rise & Puff - Quesadilla (Beef Brisket)",
+      "amount": 2,
+      "calories_kcal": 600,
+      "protein_g": 40,
+      "carbohydrate_g": 44,
+      "fat_g": 34
+    },
+    {
+      "id": "just_bare_lightly_breaded_chicken_breast_fillets_spicy",
+      "display_name": "Just Bare - Lightly Breaded Chicken Breast Fillets (Spicy)",
+      "amount": 1,
+      "calories_kcal": 210,
+      "protein_g": 22,
+      "carbohydrate_g": 14,
+      "fat_g": 8
+    },
+    {
+      "id": "just_bare_lightly_breaded_chicken_breast_strips_spicy",
+      "display_name": "Just Bare - Lightly Breaded Chicken Breast Strips (Spicy)",
+      "amount": 2,
+      "calories_kcal": 340,
+      "protein_g": 34,
+      "carbohydrate_g": 22,
+      "fat_g": 12
+    },
+    {
+      "id": "tob_edamame_buffalo",
+      "display_name": "The Only Bean - Crunchy Roasted Edamame (Buffalo)",
+      "amount": 1,
+      "calories_kcal": 122,
+      "protein_g": 11,
+      "carbohydrate_g": 7,
+      "fat_g": 6
+    },
+    {
+      "id": "pockets_chocolates_ube_dubai_style_pistachios",
+      "display_name": "Pocket's Chocolates - Dubai Style Pistachios (Ube)",
+      "amount": 2,
+      "calories_kcal": 300,
+      "protein_g": 10,
+      "carbohydrate_g": 20,
+      "fat_g": 20
+    },
+    {
+      "id": "fairlife_nutrition_plan_chocolate",
+      "display_name": "Fairlife - Nutrition Plan (Chocolate)",
+      "amount": 1,
+      "calories_kcal": 150,
+      "protein_g": 30,
+      "carbohydrate_g": 4,
+      "fat_g": 2.5
+    },
+    {
+      "id": "heinz_tomato_ketchup",
+      "display_name": "Heinz - Tomato Ketchup",
+      "amount": 1,
+      "calories_kcal": 20,
+      "protein_g": 0,
+      "carbohydrate_g": 5,
+      "fat_g": 0
+    }
+  ],
+  "totals": {
+    "calories_kcal": 1892,
+    "protein_g": 177,
+    "carbohydrate_g": 120,
+    "fat_g": 85
+  }
+}
