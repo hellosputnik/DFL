@@ -5,6 +5,11 @@
     "unit": "bottle"
   },
   {
+    "id": "fairlife_nutrition_plan_chocolate",
+    "quantity": 20,
+    "unit": "bottle"
+  },
+  {
     "id": "just_bare_roasted_chicken_breast_bites_spicy",
     "quantity": 1,
     "unit": "bag"
