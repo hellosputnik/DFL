@@ -1,27 +1,17 @@
 [
   {
     "id": "fairlife_core_power_elite_vanilla",
-    "quantity": 7,
+    "quantity": 6,
     "unit": "bottle"
   },
   {
     "id": "fairlife_nutrition_plan_chocolate",
-    "quantity": 20,
+    "quantity": 17,
     "unit": "bottle"
   },
   {
-    "id": "just_bare_roasted_chicken_breast_bites_spicy",
-    "quantity": 1,
-    "unit": "bag"
-  },
-  {
     "id": "rp_quesadilla_chipotle_chicken",
-    "quantity": 8,
-    "unit": "quesadilla"
-  },
-  {
-    "id": "rp_quesadilla_beef_brisket",
-    "quantity": 2,
+    "quantity": 6,
     "unit": "quesadilla"
   },
   {

@@ -1,0 +1,55 @@
+{
+  "entries": [
+    {
+      "id": "rp_quesadilla_chipotle_chicken",
+      "display_name": "Rise & Puff - Quesadilla (Chipotle Chicken)",
+      "amount": 1,
+      "calories_kcal": 300,
+      "protein_g": 20,
+      "carbohydrate_g": 21,
+      "fat_g": 16
+    },
+    {
+      "id": "365_organic_cage_free_liquid_egg_whites",
+      "display_name": "365 by Whole Foods Market - Organic Cage Free Liquid Egg Whites",
+      "amount": "3/4 cup",
+      "calories_kcal": 100,
+      "protein_g": 20,
+      "carbohydrate_g": 0,
+      "fat_g": 0
+    },
+    {
+      "id": "amazon_grocery_hot_italian_sausage",
+      "display_name": "Amazon Fresh - Hot Italian Sausage Links",
+      "amount": "2 links",
+      "calories_kcal": 560,
+      "protein_g": 28,
+      "carbohydrate_g": 4,
+      "fat_g": 48
+    },
+    {
+      "id": "just_bare_lightly_breaded_chicken_breast_strips_spicy",
+      "display_name": "Just Bare - Lightly Breaded Chicken Breast Strips (Spicy)",
+      "amount": 3,
+      "calories_kcal": 510,
+      "protein_g": 51,
+      "carbohydrate_g": 33,
+      "fat_g": 18
+    },
+    {
+      "id": "fairlife_nutrition_plan_chocolate",
+      "display_name": "Fairlife - Nutrition Plan (Chocolate)",
+      "amount": 1,
+      "calories_kcal": 150,
+      "protein_g": 30,
+      "carbohydrate_g": 4,
+      "fat_g": 2.5
+    }
+  ],
+  "totals": {
+    "calories_kcal": 1620,
+    "protein_g": 149,
+    "carbohydrate_g": 62,
+    "fat_g": 84.5
+  }
+}

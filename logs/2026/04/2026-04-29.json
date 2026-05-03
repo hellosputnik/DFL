@@ -1,0 +1,91 @@
+{
+  "entries": [
+    {
+      "id": "fairlife_nutrition_plan_chocolate",
+      "display_name": "Fairlife - Nutrition Plan (Chocolate)",
+      "amount": 1,
+      "calories_kcal": 150,
+      "protein_g": 30,
+      "carbohydrate_g": 4,
+      "fat_g": 2.5
+    },
+    {
+      "id": "caffe_macs_americano",
+      "display_name": "Caffe Macs - Iced Americano (Black)",
+      "amount": 1,
+      "calories_kcal": 10,
+      "protein_g": 0,
+      "carbohydrate_g": 0,
+      "fat_g": 0
+    },
+    {
+      "id": "caffe_macs_spicy_basil_chicken",
+      "display_name": "Caffe Macs - Spicy Basil Chicken",
+      "amount": 1,
+      "calories_kcal": 500,
+      "protein_g": 32,
+      "carbohydrate_g": 50,
+      "fat_g": 19
+    },
+    {
+      "id": "sokusa_happy_shrimp_chips_garlic_butter",
+      "display_name": "SoKusa - Happy Shrimp Chips (Garlic & Butter)",
+      "amount": 1,
+      "calories_kcal": 160,
+      "protein_g": 1,
+      "carbohydrate_g": 20,
+      "fat_g": 9
+    },
+    {
+      "id": "rp_quesadilla_beef_brisket",
+      "display_name": "Rise & Puff - Quesadilla (Beef Brisket)",
+      "amount": 1,
+      "calories_kcal": 300,
+      "protein_g": 20,
+      "carbohydrate_g": 22,
+      "fat_g": 17
+    },
+    {
+      "id": "safe_catch_ahi_wild_yellowfin_tuna_5oz",
+      "display_name": "Safe Catch - Wild Ahi Yellowfin Tuna",
+      "amount": 1,
+      "calories_kcal": 180,
+      "protein_g": 42.5,
+      "carbohydrate_g": 0,
+      "fat_g": 1
+    },
+    {
+      "id": "sokusa_happy_shrimp_chips_garlic_butter",
+      "display_name": "SoKusa - Happy Shrimp Chips (Garlic & Butter)",
+      "amount": 1,
+      "calories_kcal": 160,
+      "protein_g": 1,
+      "carbohydrate_g": 20,
+      "fat_g": 9
+    },
+    {
+      "id": "just_bare_lightly_breaded_chicken_breast_strips_spicy",
+      "display_name": "Just Bare - Lightly Breaded Chicken Breast Strips (Spicy)",
+      "amount": 2,
+      "calories_kcal": 340,
+      "protein_g": 34,
+      "carbohydrate_g": 22,
+      "fat_g": 12
+    },
+    {
+      "id": "heinz_tomato_ketchup",
+      "display_name": "Heinz - Tomato Ketchup",
+      "amount": 1,
+      "calories_kcal": 20,
+      "protein_g": 0,
+      "carbohydrate_g": 5,
+      "fat_g": 0
+    }
+  ],
+  "totals": {
+    "calories_kcal": 1820,
+    "protein_g": 160.5,
+    "carbohydrate_g": 143,
+    "fat_g": 69.5
+  }
+}
