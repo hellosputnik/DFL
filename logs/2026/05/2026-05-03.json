@@ -8,12 +8,39 @@
       "protein_g": 45,
       "carbohydrate_g": 30,
       "fat_g": 26.25
+    },
+    {
+      "id": "sabatinos_breakfast_bites_chicken_maple",
+      "display_name": "Sabatino's - Breakfast Bites (Chicken & Maple)",
+      "amount": "1/2 bag",
+      "calories_kcal": 385,
+      "protein_g": 38.5,
+      "carbohydrate_g": 8.25,
+      "fat_g": 22
+    },
+    {
+      "id": "miyako_premium_berkshire_pork_potstickers",
+      "display_name": "Miyako Premium - Berkshire Pork Potstickers",
+      "amount": 2,
+      "calories_kcal": 260,
+      "protein_g": 12,
+      "carbohydrate_g": 16,
+      "fat_g": 16
+    },
+    {
+      "id": "sokusa_happy_shrimp_chips_garlic_butter",
+      "display_name": "SoKusa - Happy Shrimp Chips (Garlic & Butter)",
+      "amount": 1,
+      "calories_kcal": 160,
+      "protein_g": 1,
+      "carbohydrate_g": 20,
+      "fat_g": 9
     }
   ],
   "totals": {
-    "calories_kcal": 525,
-    "protein_g": 45,
-    "carbohydrate_g": 30,
-    "fat_g": 26.25
+    "calories_kcal": 1330,
+    "protein_g": 96.5,
+    "carbohydrate_g": 74.25,
+    "fat_g": 73.25
   }
 }

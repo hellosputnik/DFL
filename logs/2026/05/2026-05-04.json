@@ -1,0 +1,55 @@
+{
+  "entries": [
+    {
+      "id": "aidells_chicken_meatballs_teriyaki_pineapple",
+      "display_name": "Aidells - Chicken Meatballs (Teriyaki & Pineapple)",
+      "amount": "1/2 bag",
+      "calories_kcal": 525,
+      "protein_g": 45,
+      "carbohydrate_g": 30,
+      "fat_g": 26.25
+    },
+    {
+      "id": "sabatinos_breakfast_bites_chicken_maple",
+      "display_name": "Sabatino's - Breakfast Bites (Chicken & Maple)",
+      "amount": "1/2 bag",
+      "calories_kcal": 385,
+      "protein_g": 38.5,
+      "carbohydrate_g": 8.25,
+      "fat_g": 22
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    },
+    {
+      "id": "reeses_take5_chocolate_peanut_butter_king_size_candy_bar_2_25oz",
+      "display_name": "Reese's - TAKE5 Chocolate Peanut Butter King Size Candy Bar",
+      "amount": 1,
+      "calories_kcal": 310,
+      "protein_g": 4,
+      "carbohydrate_g": 40,
+      "fat_g": 16
+    },
+    {
+      "id": "hostess_donettes_churro_mini_donuts",
+      "display_name": "Hostess - Donettes Mini Donuts (Churro)",
+      "amount": 5,
+      "calories_kcal": 416.67,
+      "protein_g": 3.33,
+      "carbohydrate_g": 65,
+      "fat_g": 16.67
+    }
+  ],
+  "totals": {
+    "calories_kcal": 1866.67,
+    "protein_g": 132.83,
+    "carbohydrate_g": 151.25,
+    "fat_g": 84.42
+  }
+}

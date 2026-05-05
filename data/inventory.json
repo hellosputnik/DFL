@@ -1,7 +1,7 @@
 [
   {
     "id": "fairlife_core_power_elite_vanilla",
-    "quantity": 6,
+    "quantity": 5,
     "unit": "bottle"
   },
   {
@@ -31,7 +31,12 @@
   },
   {
     "id": "aidells_chicken_meatballs_teriyaki_pineapple",
-    "quantity": 1.5,
+    "quantity": 1,
     "unit": "bag"
+  },
+  {
+    "id": "miyako_premium_berkshire_pork_potstickers",
+    "quantity": 3,
+    "unit": "serving"
   }
 ]
