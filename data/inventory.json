@@ -6,12 +6,12 @@
   },
   {
     "id": "fairlife_nutrition_plan_chocolate",
-    "quantity": 17,
+    "quantity": 13,
     "unit": "bottle"
   },
   {
     "id": "rp_quesadilla_chipotle_chicken",
-    "quantity": 6,
+    "quantity": 4,
     "unit": "quesadilla"
   },
   {
@@ -28,11 +28,6 @@
     "id": "rp_quesadilla_turkey_bacon_sausage",
     "quantity": 1,
     "unit": "quesadilla"
-  },
-  {
-    "id": "aidells_chicken_meatballs_teriyaki_pineapple",
-    "quantity": 1,
-    "unit": "bag"
   },
   {
     "id": "miyako_premium_berkshire_pork_potstickers",

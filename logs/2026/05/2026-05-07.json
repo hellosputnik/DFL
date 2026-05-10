@@ -1,0 +1,73 @@
+{
+  "entries": [
+    {
+      "id": "fairlife_nutrition_plan_chocolate",
+      "display_name": "Fairlife - Nutrition Plan (Chocolate)",
+      "amount": 1,
+      "calories_kcal": 150,
+      "protein_g": 30,
+      "carbohydrate_g": 4,
+      "fat_g": 2.5
+    },
+    {
+      "id": "caffe_macs_beef_burger",
+      "display_name": "Caffe Macs - Beef Burger (Modified)",
+      "amount": 1,
+      "calories_kcal": 680,
+      "protein_g": 51,
+      "carbohydrate_g": 23,
+      "fat_g": 43
+    },
+    {
+      "id": "caffe_macs_americano",
+      "display_name": "Caffe Macs - Iced Americano (Black)",
+      "amount": 1,
+      "calories_kcal": 10,
+      "protein_g": 0,
+      "carbohydrate_g": 0,
+      "fat_g": 0
+    },
+    {
+      "id": "aidells_chicken_meatballs_teriyaki_pineapple",
+      "display_name": "Aidells - Chicken Meatballs (Teriyaki & Pineapple)",
+      "amount": "1/2 bag",
+      "calories_kcal": 525,
+      "protein_g": 45,
+      "carbohydrate_g": 30,
+      "fat_g": 26.25
+    },
+    {
+      "id": "sokusa_happy_shrimp_chips_garlic_butter",
+      "display_name": "SoKusa - Happy Shrimp Chips (Garlic & Butter)",
+      "amount": 1,
+      "calories_kcal": 160,
+      "protein_g": 1,
+      "carbohydrate_g": 20,
+      "fat_g": 9
+    },
+    {
+      "id": "safe_catch_ahi_wild_yellowfin_tuna_5oz",
+      "display_name": "Safe Catch - Wild Ahi Yellowfin Tuna",
+      "amount": 1,
+      "calories_kcal": 180,
+      "protein_g": 42.5,
+      "carbohydrate_g": 0,
+      "fat_g": 1
+    },
+    {
+      "id": "ferrero_kinder_chocolate_4_bars",
+      "display_name": "Kinder - Chocolate (4 Bars)",
+      "amount": 1,
+      "calories_kcal": 480,
+      "protein_g": 8,
+      "carbohydrate_g": 44,
+      "fat_g": 28
+    }
+  ],
+  "totals": {
+    "calories_kcal": 2185,
+    "protein_g": 177.5,
+    "carbohydrate_g": 121,
+    "fat_g": 109.75
+  }
+}

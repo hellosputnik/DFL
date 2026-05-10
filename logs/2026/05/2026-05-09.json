@@ -1,0 +1,73 @@
+{
+  "entries": [
+    {
+      "id": "365_organic_cage_free_liquid_egg_whites",
+      "display_name": "365 by Whole Foods Market - Organic Cage Free Liquid Egg Whites",
+      "amount": "1 cup",
+      "calories_kcal": 133.33,
+      "protein_g": 26.67,
+      "carbohydrate_g": 0,
+      "fat_g": 0
+    },
+    {
+      "id": "amazon_grocery_hot_italian_sausage",
+      "display_name": "Amazon Fresh - Hot Italian Sausage Links",
+      "amount": "3 links",
+      "calories_kcal": 840,
+      "protein_g": 42,
+      "carbohydrate_g": 6,
+      "fat_g": 72
+    },
+    {
+      "id": "fairlife_nutrition_plan_chocolate",
+      "display_name": "Fairlife - Nutrition Plan (Chocolate)",
+      "amount": 1,
+      "calories_kcal": 150,
+      "protein_g": 30,
+      "carbohydrate_g": 4,
+      "fat_g": 2.5
+    },
+    {
+      "id": "ferrero_kinder_chocolate_4_bars",
+      "display_name": "Kinder - Chocolate (2 Bars)",
+      "amount": "2 bars",
+      "calories_kcal": 240,
+      "protein_g": 4,
+      "carbohydrate_g": 22,
+      "fat_g": 14
+    },
+    {
+      "id": "barebells_protein_bar_cookies_caramel",
+      "display_name": "Barebells - Protein Bar (Cookies & Caramel)",
+      "amount": 1,
+      "calories_kcal": 210,
+      "protein_g": 20,
+      "carbohydrate_g": 21,
+      "fat_g": 7
+    },
+    {
+      "id": "sokusa_happy_shrimp_chips_garlic_butter",
+      "display_name": "SoKusa - Happy Shrimp Chips (Garlic & Butter)",
+      "amount": 1,
+      "calories_kcal": 160,
+      "protein_g": 1,
+      "carbohydrate_g": 20,
+      "fat_g": 9
+    },
+    {
+      "id": "rp_quesadilla_chipotle_chicken",
+      "display_name": "Rise & Puff - Quesadilla (Chipotle Chicken)",
+      "amount": 1,
+      "calories_kcal": 300,
+      "protein_g": 20,
+      "carbohydrate_g": 21,
+      "fat_g": 16
+    }
+  ],
+  "totals": {
+    "calories_kcal": 2033.33,
+    "protein_g": 143.67,
+    "carbohydrate_g": 94,
+    "fat_g": 120.5
+  }
+}

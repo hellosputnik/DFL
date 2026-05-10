@@ -1,0 +1,73 @@
+{
+  "entries": [
+    {
+      "id": "reeses_take5_chocolate_peanut_butter_king_size_candy_bar_2_25oz",
+      "display_name": "Reese's - TAKE5 Bar",
+      "amount": 1,
+      "calories_kcal": 310,
+      "protein_g": 4,
+      "carbohydrate_g": 40,
+      "fat_g": 16
+    },
+    {
+      "id": "aidells_chicken_meatballs_teriyaki_pineapple",
+      "display_name": "Aidells - Chicken Meatballs (Teriyaki & Pineapple)",
+      "amount": "1/2 bag",
+      "calories_kcal": 525,
+      "protein_g": 45,
+      "carbohydrate_g": 30,
+      "fat_g": 26.25
+    },
+    {
+      "id": "fairlife_nutrition_plan_chocolate",
+      "display_name": "Fairlife - Nutrition Plan (Chocolate)",
+      "amount": 1,
+      "calories_kcal": 150,
+      "protein_g": 30,
+      "carbohydrate_g": 4,
+      "fat_g": 2.5
+    },
+    {
+      "id": "sweet_craft_dolceria_tiramisu_coffee_crust_4_2oz",
+      "display_name": "Sweet Craft Dolceria - Tiramisu With a Coffee Crust",
+      "amount": 1,
+      "calories_kcal": 334,
+      "protein_g": 6,
+      "carbohydrate_g": 34,
+      "fat_g": 20
+    },
+    {
+      "id": "rp_quesadilla_chipotle_chicken",
+      "display_name": "Rise & Puff - Quesadilla (Chipotle Chicken)",
+      "amount": 1,
+      "calories_kcal": 300,
+      "protein_g": 20,
+      "carbohydrate_g": 21,
+      "fat_g": 16
+    },
+    {
+      "id": "tob_edamame_buffalo",
+      "display_name": "The Only Bean - Crunchy Roasted Edamame (Buffalo)",
+      "amount": 1,
+      "calories_kcal": 122,
+      "protein_g": 11,
+      "carbohydrate_g": 7,
+      "fat_g": 6
+    },
+    {
+      "id": "barebells_protein_bar_cookies_cream",
+      "display_name": "Barebells - Protein Bar (Cookies & Cream)",
+      "amount": 1,
+      "calories_kcal": 200,
+      "protein_g": 20,
+      "carbohydrate_g": 20,
+      "fat_g": 7
+    }
+  ],
+  "totals": {
+    "calories_kcal": 1941,
+    "protein_g": 136,
+    "carbohydrate_g": 156,
+    "fat_g": 93.75
+  }
+}

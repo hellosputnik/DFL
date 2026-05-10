@@ -1,0 +1,64 @@
+{
+  "entries": [
+    {
+      "id": "jack_links_beef_original_0_625oz",
+      "display_name": "Jack Link's - Beef Jerky (Original)",
+      "amount": 1,
+      "calories_kcal": 50,
+      "protein_g": 7,
+      "carbohydrate_g": 4,
+      "fat_g": 1
+    },
+    {
+      "id": "fairlife_nutrition_plan_chocolate",
+      "display_name": "Fairlife - Nutrition Plan (Chocolate)",
+      "amount": 1,
+      "calories_kcal": 150,
+      "protein_g": 30,
+      "carbohydrate_g": 4,
+      "fat_g": 2.5
+    },
+    {
+      "id": "caffe_macs_mexican_style_shrimp_cocktail_salad",
+      "display_name": "Caffe Macs - Mexican-Style Shrimp Cocktail Salad",
+      "amount": 1,
+      "calories_kcal": 430,
+      "protein_g": 34,
+      "carbohydrate_g": 48,
+      "fat_g": 12
+    },
+    {
+      "id": "epl_street_corn_double_pollo_salad",
+      "display_name": "El Pollo Loco - Street Corn Double Pollo Salad (Modified)",
+      "amount": 1,
+      "calories_kcal": 390.26,
+      "protein_g": 52.7,
+      "carbohydrate_g": 16.05,
+      "fat_g": 14.66
+    },
+    {
+      "id": "epl_double_chicken_tostada",
+      "display_name": "El Pollo Loco - Double Chicken Tostada (Modified)",
+      "amount": 1,
+      "calories_kcal": 957.3,
+      "protein_g": 63.88,
+      "carbohydrate_g": 81.71,
+      "fat_g": 42.44
+    },
+    {
+      "id": "epl_individual_chips_and_salsa",
+      "display_name": "El Pollo Loco - Individual Chips and Salsa",
+      "amount": 1,
+      "calories_kcal": 205.18,
+      "protein_g": 2.51,
+      "carbohydrate_g": 23.24,
+      "fat_g": 11.48
+    }
+  ],
+  "totals": {
+    "calories_kcal": 2182.74,
+    "protein_g": 190.09,
+    "carbohydrate_g": 177,
+    "fat_g": 84.08
+  }
+}
