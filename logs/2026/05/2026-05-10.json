@@ -1,0 +1,64 @@
+{
+  "entries": [
+    {
+      "id": "sabatinos_breakfast_bites_chicken_maple",
+      "display_name": "Sabatino's - Breakfast Bites (Chicken & Maple)",
+      "amount": "1/2 bag",
+      "calories_kcal": 385,
+      "protein_g": 38.5,
+      "carbohydrate_g": 8.25,
+      "fat_g": 22
+    },
+    {
+      "id": "tob_edamame_sriracha",
+      "display_name": "The Only Bean - Crunchy Roasted Edamame (Sriracha)",
+      "amount": 1,
+      "calories_kcal": 117,
+      "protein_g": 11,
+      "carbohydrate_g": 7,
+      "fat_g": 6
+    },
+    {
+      "id": "ferrero_kinder_chocolate_4_bars",
+      "display_name": "Kinder - Chocolate (2 Bars)",
+      "amount": "2 bars",
+      "calories_kcal": 240,
+      "protein_g": 4,
+      "carbohydrate_g": 22,
+      "fat_g": 14
+    },
+    {
+      "id": "rp_quesadilla_ham_egg_cheese",
+      "display_name": "Rise & Puff - Quesadilla (Ham, Egg & Cheese)",
+      "amount": 1,
+      "calories_kcal": 290,
+      "protein_g": 20,
+      "carbohydrate_g": 32,
+      "fat_g": 11
+    },
+    {
+      "id": "fairlife_nutrition_plan_chocolate",
+      "display_name": "Fairlife - Nutrition Plan (Chocolate)",
+      "amount": 1,
+      "calories_kcal": 150,
+      "protein_g": 30,
+      "carbohydrate_g": 4,
+      "fat_g": 2.5
+    },
+    {
+      "id": "lays_classic_potato_chips_1oz",
+      "display_name": "Lay's - Classic Potato Chips",
+      "amount": 1,
+      "calories_kcal": 160,
+      "protein_g": 2,
+      "carbohydrate_g": 15,
+      "fat_g": 10
+    }
+  ],
+  "totals": {
+    "calories_kcal": 1342,
+    "protein_g": 105.5,
+    "carbohydrate_g": 88.25,
+    "fat_g": 65.5
+  }
+}

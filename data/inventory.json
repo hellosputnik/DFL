@@ -1,17 +1,17 @@
 [
   {
     "id": "fairlife_core_power_elite_vanilla",
-    "quantity": 5,
+    "quantity": 4,
     "unit": "bottle"
   },
   {
     "id": "fairlife_nutrition_plan_chocolate",
-    "quantity": 13,
+    "quantity": 12,
     "unit": "bottle"
   },
   {
     "id": "rp_quesadilla_chipotle_chicken",
-    "quantity": 4,
+    "quantity": 3,
     "unit": "quesadilla"
   },
   {
@@ -21,7 +21,7 @@
   },
   {
     "id": "rp_quesadilla_ham_egg_cheese",
-    "quantity": 3,
+    "quantity": 2,
     "unit": "quesadilla"
   },
   {
