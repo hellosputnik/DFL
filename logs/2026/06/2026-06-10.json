@@ -1,0 +1,73 @@
+{
+  "entries": [
+    {
+      "id": "red_bull_sugarfree_12_fl_oz",
+      "display_name": "Red Bull - Sugarfree Energy Drink",
+      "amount": "12 fl oz",
+      "calories_kcal": 10,
+      "protein_g": 0,
+      "carbohydrate_g": 3,
+      "fat_g": 0
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    },
+    {
+      "id": "rp_quesadilla_ham_egg_cheese",
+      "display_name": "Rise & Puff - Quesadilla (Ham, Egg & Cheese)",
+      "amount": 1,
+      "calories_kcal": 290,
+      "protein_g": 20,
+      "carbohydrate_g": 32,
+      "fat_g": 11
+    },
+    {
+      "id": "tob_edamame_ranch",
+      "display_name": "The Only Bean - Crunchy Roasted Edamame (Ranch)",
+      "amount": 1,
+      "calories_kcal": 125,
+      "protein_g": 11,
+      "carbohydrate_g": 7,
+      "fat_g": 6
+    },
+    {
+      "id": "cfa_chicken_sandwich",
+      "display_name": "Chick-fil-A - Chicken Sandwich (Original)",
+      "amount": 1,
+      "calories_kcal": 420,
+      "protein_g": 29,
+      "carbohydrate_g": 41,
+      "fat_g": 18
+    },
+    {
+      "id": "cfa_spicy_chicken_sandwich",
+      "display_name": "Chick-fil-A - Chicken Sandwich (Spicy)",
+      "amount": 1,
+      "calories_kcal": 450,
+      "protein_g": 28,
+      "carbohydrate_g": 45,
+      "fat_g": 19
+    },
+    {
+      "id": "cfa_nuggets_8ct",
+      "display_name": "Chick-fil-A - Chick-fil-A Nuggets (8-count)",
+      "amount": 1,
+      "calories_kcal": 250,
+      "protein_g": 27,
+      "carbohydrate_g": 11,
+      "fat_g": 11
+    }
+  ],
+  "totals": {
+    "calories_kcal": 1775,
+    "protein_g": 157,
+    "carbohydrate_g": 147,
+    "fat_g": 68.5
+  }
+}

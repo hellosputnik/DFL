@@ -1,7 +1,7 @@
 [
   {
     "id": "fairlife_core_power_elite_vanilla",
-    "quantity": 4,
+    "quantity": 3,
     "unit": "bottle"
   },
   {
@@ -21,7 +21,7 @@
   },
   {
     "id": "rp_quesadilla_ham_egg_cheese",
-    "quantity": 2,
+    "quantity": 1,
     "unit": "quesadilla"
   },
   {
@@ -33,5 +33,10 @@
     "id": "miyako_premium_berkshire_pork_potstickers",
     "quantity": 3,
     "unit": "serving"
+  },
+  {
+    "id": "safe_catch_ahi_wild_yellowfin_tuna_5oz",
+    "quantity": 7,
+    "unit": "can"
   }
 ]
