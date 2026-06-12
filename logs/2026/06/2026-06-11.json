@@ -1,0 +1,82 @@
+{
+  "entries": [
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    },
+    {
+      "id": "bk_whopper_jr",
+      "display_name": "Burger King - Whopper Jr.",
+      "amount": 1,
+      "calories_kcal": 330,
+      "protein_g": 15,
+      "carbohydrate_g": 31,
+      "fat_g": 19
+    },
+    {
+      "id": "bk_whopper_jr",
+      "display_name": "Burger King - Whopper Jr. (Modified)",
+      "amount": 1,
+      "calories_kcal": 210,
+      "protein_g": 11,
+      "carbohydrate_g": 7,
+      "fat_g": 17
+    },
+    {
+      "id": "bk_taco",
+      "display_name": "Burger King - Taco",
+      "amount": 2,
+      "calories_kcal": 340,
+      "protein_g": 12,
+      "carbohydrate_g": 38,
+      "fat_g": 18
+    },
+    {
+      "id": "bk_mozzarella_sticks_4pc",
+      "display_name": "Burger King - Mozzarella Sticks",
+      "amount": 1,
+      "calories_kcal": 290,
+      "protein_g": 12,
+      "carbohydrate_g": 26,
+      "fat_g": 15
+    },
+    {
+      "id": "bk_jalapeno_cheddar_bites_4pc",
+      "display_name": "Burger King - Jalapeno Cheddar Bites",
+      "amount": 1,
+      "calories_kcal": 220,
+      "protein_g": 6,
+      "carbohydrate_g": 22,
+      "fat_g": 12
+    },
+    {
+      "id": "caffe_macs_americano",
+      "display_name": "Caffe Macs - Iced Americano (Black)",
+      "amount": 2,
+      "calories_kcal": 20,
+      "protein_g": 0,
+      "carbohydrate_g": 0,
+      "fat_g": 0
+    },
+    {
+      "id": "caffe_macs_chicken_tostada",
+      "display_name": "Caffe Macs - Chicken Tostada",
+      "amount": 2,
+      "calories_kcal": 650,
+      "protein_g": 45,
+      "carbohydrate_g": 48,
+      "fat_g": 32
+    }
+  ],
+  "totals": {
+    "calories_kcal": 2290,
+    "protein_g": 143,
+    "carbohydrate_g": 180,
+    "fat_g": 116.5
+  }
+}

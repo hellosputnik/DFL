@@ -44335,5 +44335,80 @@
     "serving_size": 8,
     "serving_unit": "nuggets",
     "source": "https://www.chick-fil-a.com/menu/chick-fil-a-nuggets"
+  },
+  "bk_whopper_jr": {
+    "brand": "Burger King",
+    "product_name": "Whopper Jr.",
+    "flavor": null,
+    "calories_kcal": 330,
+    "protein_g": 15,
+    "carbohydrate_g": 31,
+    "fat_g": 19,
+    "serving_size": 1,
+    "serving_unit": "sandwich",
+    "source": "https://www.bk.com/nutrition-explorer",
+    "source_type": "primary"
+  },
+  "bk_taco": {
+    "brand": "Burger King",
+    "product_name": "Taco",
+    "flavor": null,
+    "calories_kcal": 170,
+    "protein_g": 6,
+    "carbohydrate_g": 19,
+    "fat_g": 9,
+    "serving_size": 1,
+    "serving_unit": "taco",
+    "source": "https://www.bk.com/nutrition-explorer",
+    "source_type": "primary"
+  },
+  "bk_mozzarella_sticks_4pc": {
+    "brand": "Burger King",
+    "product_name": "Mozzarella Sticks",
+    "flavor": null,
+    "calories_kcal": 290,
+    "protein_g": 12,
+    "carbohydrate_g": 26,
+    "fat_g": 15,
+    "serving_size": 4,
+    "serving_unit": "sticks",
+    "source": "https://www.bk.com/nutrition-explorer",
+    "source_type": "primary"
+  },
+  "bk_jalapeno_cheddar_bites_4pc": {
+    "brand": "Burger King",
+    "product_name": "Jalapeno Cheddar Bites",
+    "flavor": null,
+    "calories_kcal": 220,
+    "protein_g": 6,
+    "carbohydrate_g": 22,
+    "fat_g": 12,
+    "serving_size": 4,
+    "serving_unit": "bites",
+    "source": "https://www.bk.com/nutrition-explorer",
+    "source_type": "primary"
+  },
+  "caffe_macs_chicken_tostada": {
+    "brand": "Caffe Macs",
+    "product_name": "Chicken Tostada",
+    "flavor": null,
+    "calories_kcal": 325,
+    "protein_g": 22.5,
+    "carbohydrate_g": 24,
+    "fat_g": 16,
+    "total_fat_g": 16,
+    "serving_size": 1,
+    "serving_unit": "tostada",
+    "source": "User-provided photo",
+    "source_type": "estimated_from_photo",
+    "derivation": "Estimated from the user-provided Caffe Macs photo showing a fried tostada shell topped with shredded chicken, lettuce, pico de gallo, crema or sour cream, and cotija or queso fresco. Estimate uses a moderate cafeteria portion per tostada.",
+    "ingredients": [
+      "Fried tostada shell",
+      "Shredded chicken",
+      "Lettuce",
+      "Pico de gallo",
+      "Crema",
+      "Cotija cheese"
+    ]
   }
 }
