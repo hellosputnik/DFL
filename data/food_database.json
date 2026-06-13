@@ -44410,5 +44410,61 @@
       "Crema",
       "Cotija cheese"
     ]
+  },
+  "wendys_egg_cheese_biscuit": {
+    "brand": "Wendy's",
+    "product_name": "Egg & Cheese Biscuit",
+    "flavor": null,
+    "calories_kcal": 370,
+    "protein_g": 14,
+    "carbohydrate_g": 35,
+    "fat_g": 20,
+    "serving_size": 1,
+    "serving_unit": "biscuit",
+    "source": "https://order.wendys.com/category/133/biscuits",
+    "source_type": "estimated_macros_from_primary_calories",
+    "derivation": "Official Wendy's ordering page lists Egg & Cheese Biscuit at 370 Cal; macros are estimated from typical biscuit, egg, and American cheese components."
+  },
+  "wendys_sausage_biscuit": {
+    "brand": "Wendy's",
+    "product_name": "Sausage Biscuit",
+    "flavor": null,
+    "calories_kcal": 470,
+    "protein_g": 12,
+    "carbohydrate_g": 35,
+    "fat_g": 31,
+    "serving_size": 1,
+    "serving_unit": "biscuit",
+    "source": "https://order.wendys.com/category/133/biscuits",
+    "source_type": "estimated_macros_from_primary_calories",
+    "derivation": "Official Wendy's ordering page lists Sausage Biscuit at 470 Cal; macros are estimated from typical biscuit and sausage patty components."
+  },
+  "wendys_jalapeno_sausage_egg_cheese_biscuit": {
+    "brand": "Wendy's",
+    "product_name": "Jalapeno Sausage, Egg, And Cheese Biscuit",
+    "flavor": "Jalapeno",
+    "calories_kcal": 600,
+    "protein_g": 21,
+    "carbohydrate_g": 36,
+    "fat_g": 41,
+    "serving_size": 1,
+    "serving_unit": "biscuit",
+    "source": "https://order.wendys.com/category/133/biscuits",
+    "source_type": "estimated_macros_from_primary_calories",
+    "derivation": "Official Wendy's ordering page lists Jalapeno Sausage, Egg, and Cheese Biscuit at 600 Cal; macros are estimated from typical biscuit, sausage, egg, cheese, and jalapeno sauce components."
+  },
+  "wendys_seasoned_potatoes_small": {
+    "brand": "Wendy's",
+    "product_name": "Seasoned Potatoes",
+    "flavor": null,
+    "calories_kcal": 280,
+    "protein_g": 4,
+    "carbohydrate_g": 43,
+    "fat_g": 11,
+    "serving_size": 1,
+    "serving_unit": "small",
+    "source": "https://order.wendys.com/category/894/sides-and-sweets",
+    "source_type": "estimated_macros_from_primary_calories",
+    "derivation": "Official Wendy's ordering page lists Seasoned Potatoes at 280-510 Cal; this row uses the small 280 Cal serving. Macros are estimated from typical seasoned fried potato wedges."
   }
 }

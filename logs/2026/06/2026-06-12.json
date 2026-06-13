@@ -1,0 +1,46 @@
+{
+  "entries": [
+    {
+      "id": "wendys_egg_cheese_biscuit",
+      "display_name": "Wendy's - Egg & Cheese Biscuit",
+      "amount": 1,
+      "calories_kcal": 370,
+      "protein_g": 14,
+      "carbohydrate_g": 35,
+      "fat_g": 20
+    },
+    {
+      "id": "wendys_sausage_biscuit",
+      "display_name": "Wendy's - Sausage Biscuit",
+      "amount": 1,
+      "calories_kcal": 470,
+      "protein_g": 12,
+      "carbohydrate_g": 35,
+      "fat_g": 31
+    },
+    {
+      "id": "wendys_jalapeno_sausage_egg_cheese_biscuit",
+      "display_name": "Wendy's - Jalapeno Sausage, Egg, And Cheese Biscuit",
+      "amount": 1,
+      "calories_kcal": 600,
+      "protein_g": 21,
+      "carbohydrate_g": 36,
+      "fat_g": 41
+    },
+    {
+      "id": "wendys_seasoned_potatoes_small",
+      "display_name": "Wendy's - Seasoned Potatoes (Modified)",
+      "amount": 0.5,
+      "calories_kcal": 140,
+      "protein_g": 2,
+      "carbohydrate_g": 21.5,
+      "fat_g": 5.5
+    }
+  ],
+  "totals": {
+    "calories_kcal": 1580,
+    "protein_g": 49,
+    "carbohydrate_g": 127.5,
+    "fat_g": 97.5
+  }
+}
