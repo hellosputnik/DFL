@@ -11,7 +11,7 @@
   },
   {
     "id": "rp_quesadilla_chipotle_chicken",
-    "quantity": 3,
+    "quantity": 1,
     "unit": "quesadilla"
   },
   {
@@ -21,11 +21,6 @@
   },
   {
     "id": "rp_quesadilla_ham_egg_cheese",
-    "quantity": 1,
-    "unit": "quesadilla"
-  },
-  {
-    "id": "rp_quesadilla_turkey_bacon_sausage",
     "quantity": 1,
     "unit": "quesadilla"
   },
