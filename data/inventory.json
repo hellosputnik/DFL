@@ -1,7 +1,7 @@
 [
   {
     "id": "fairlife_core_power_elite_vanilla",
-    "quantity": 23,
+    "quantity": 22,
     "unit": "bottle"
   },
   {
@@ -31,7 +31,7 @@
   },
   {
     "id": "safe_catch_ahi_wild_yellowfin_tuna_5oz",
-    "quantity": 7,
+    "quantity": 6,
     "unit": "can"
   }
 ]
