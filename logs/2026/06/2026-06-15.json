@@ -1,0 +1,55 @@
+{
+  "entries": [
+    {
+      "id": "menraku_shoyu_tonkotsu_taste_ramen_bowl",
+      "display_name": "Menraku - Shoyu Tonkotsu Taste Ramen Bowl",
+      "amount": 1,
+      "calories_kcal": 380,
+      "protein_g": 8,
+      "carbohydrate_g": 45,
+      "fat_g": 19
+    },
+    {
+      "id": "cooper_farms_herb_roasted_turkey_breast",
+      "display_name": "Cooper Farms - Herb Roasted Turkey Breast",
+      "amount": 6,
+      "calories_kcal": 360,
+      "protein_g": 72,
+      "carbohydrate_g": 6,
+      "fat_g": 3
+    },
+    {
+      "id": "seven_select_mini_powdered_donuts_6ct",
+      "display_name": "7-Select - Mini Powdered Donuts (Powdered)",
+      "amount": 1,
+      "calories_kcal": 460,
+      "protein_g": 4,
+      "carbohydrate_g": 70,
+      "fat_g": 22
+    },
+    {
+      "id": "rp_quesadilla_breakfast_turkey_sausage",
+      "display_name": "Rise & Puff - Quesadilla (Breakfast Turkey Sausage)",
+      "amount": 1,
+      "calories_kcal": 300,
+      "protein_g": 20,
+      "carbohydrate_g": 21,
+      "fat_g": 14
+    },
+    {
+      "id": "barebells_protein_bar_cookies_cream",
+      "display_name": "Barebells - Protein Bar (Cookies & Cream)",
+      "amount": 1,
+      "calories_kcal": 200,
+      "protein_g": 20,
+      "carbohydrate_g": 20,
+      "fat_g": 7
+    }
+  ],
+  "totals": {
+    "calories_kcal": 1700,
+    "protein_g": 124,
+    "carbohydrate_g": 162,
+    "fat_g": 65
+  }
+}
