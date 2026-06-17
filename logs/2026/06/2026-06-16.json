@@ -1,0 +1,64 @@
+{
+  "entries": [
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    },
+    {
+      "id": "red_bull_sugarfree_12_fl_oz",
+      "display_name": "Red Bull - Sugarfree Energy Drink",
+      "amount": "12 fl oz",
+      "calories_kcal": 10,
+      "protein_g": 0,
+      "carbohydrate_g": 3,
+      "fat_g": 0
+    },
+    {
+      "id": "caffe_macs_americano",
+      "display_name": "Caffe Macs - Iced Americano (Black)",
+      "amount": 1,
+      "calories_kcal": 10,
+      "protein_g": 0,
+      "carbohydrate_g": 0,
+      "fat_g": 0
+    },
+    {
+      "id": "caffe_macs_crispy_chicken_caesar_salad",
+      "display_name": "Caffe Macs - Crispy Chicken Caesar Salad (Modified)",
+      "amount": 1,
+      "calories_kcal": 650,
+      "protein_g": 45,
+      "carbohydrate_g": 38,
+      "fat_g": 34
+    },
+    {
+      "id": "rp_quesadilla_breakfast_turkey_sausage",
+      "display_name": "Rise & Puff - Quesadilla (Breakfast Turkey Sausage)",
+      "amount": 1,
+      "calories_kcal": 300,
+      "protein_g": 20,
+      "carbohydrate_g": 21,
+      "fat_g": 14
+    },
+    {
+      "id": "rp_quesadilla_beef_brisket",
+      "display_name": "Rise & Puff - Quesadilla (Beef Brisket)",
+      "amount": 2,
+      "calories_kcal": 600,
+      "protein_g": 40,
+      "carbohydrate_g": 44,
+      "fat_g": 34
+    }
+  ],
+  "totals": {
+    "calories_kcal": 1800,
+    "protein_g": 147,
+    "carbohydrate_g": 114,
+    "fat_g": 85.5
+  }
+}
