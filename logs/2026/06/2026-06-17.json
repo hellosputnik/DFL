@@ -1,0 +1,64 @@
+{
+  "entries": [
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    },
+    {
+      "id": "one_hersheys_double_chocolate_protein_bar",
+      "display_name": "ONE - Protein Bar (HERSHEY'S Double Chocolate)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 18,
+      "carbohydrate_g": 25,
+      "fat_g": 9
+    },
+    {
+      "id": "rp_quesadilla_beef_brisket",
+      "display_name": "Rise & Puff - Quesadilla (Beef Brisket)",
+      "amount": 1,
+      "calories_kcal": 300,
+      "protein_g": 20,
+      "carbohydrate_g": 22,
+      "fat_g": 17
+    },
+    {
+      "id": "rp_quesadilla_breakfast_turkey_sausage",
+      "display_name": "Rise & Puff - Quesadilla (Breakfast Turkey Sausage)",
+      "amount": 1,
+      "calories_kcal": 300,
+      "protein_g": 20,
+      "carbohydrate_g": 21,
+      "fat_g": 14
+    },
+    {
+      "id": "caffe_macs_vegan_miso_soup",
+      "display_name": "Caffe Macs - Vegan Miso Soup",
+      "amount": 1,
+      "calories_kcal": 45,
+      "protein_g": 3,
+      "carbohydrate_g": 4,
+      "fat_g": 1.5
+    },
+    {
+      "id": "caffe_macs_pork_kakuni",
+      "display_name": "Caffe Macs - Pork Kakuni",
+      "amount": 1,
+      "calories_kcal": 720,
+      "protein_g": 36,
+      "carbohydrate_g": 62,
+      "fat_g": 34
+    }
+  ],
+  "totals": {
+    "calories_kcal": 1825,
+    "protein_g": 139,
+    "carbohydrate_g": 142,
+    "fat_g": 79
+  }
+}
