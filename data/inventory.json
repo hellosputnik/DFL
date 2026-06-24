@@ -1,18 +1,13 @@
 [
   {
     "id": "fairlife_core_power_elite_vanilla",
-    "quantity": 17,
+    "quantity": 16,
     "unit": "bottle"
   },
   {
     "id": "fairlife_nutrition_plan_chocolate",
-    "quantity": 12,
+    "quantity": 11,
     "unit": "bottle"
-  },
-  {
-    "id": "rp_quesadilla_ham_egg_cheese",
-    "quantity": 1,
-    "unit": "quesadilla"
   },
   {
     "id": "miyako_premium_berkshire_pork_potstickers",
