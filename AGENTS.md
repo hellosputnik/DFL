@@ -59,7 +59,7 @@ Daily consumption records.
   }
 - `totals`: { `calories_kcal`, `protein_g`, `carbohydrate_g`, `fat_g` }
 
-## Instructions for Gemini CLI
+## Instructions for Agents
 
 1.  **Logging Food**:
     - When I eat something, check `data/food_database.json` by ID or attributes.
