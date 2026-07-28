@@ -1,12 +1,12 @@
 [
   {
     "id": "fairlife_core_power_elite_vanilla",
-    "quantity": 16,
+    "quantity": 15,
     "unit": "bottle"
   },
   {
     "id": "fairlife_nutrition_plan_chocolate",
-    "quantity": 9,
+    "quantity": 7,
     "unit": "bottle"
   },
   {
@@ -16,7 +16,7 @@
   },
   {
     "id": "safe_catch_ahi_wild_yellowfin_tuna_5oz",
-    "quantity": 6,
+    "quantity": 5,
     "unit": "can"
   }
 ]
