@@ -26,12 +26,39 @@
       "protein_g": 3.2,
       "carbohydrate_g": 29.4,
       "fat_g": 19.8
+    },
+    {
+      "id": "rp_quesadilla_beef_brisket",
+      "display_name": "Rise & Puff - Quesadilla (Beef Brisket)",
+      "amount": 1,
+      "calories_kcal": 300,
+      "protein_g": 20,
+      "carbohydrate_g": 22,
+      "fat_g": 17
+    },
+    {
+      "id": "rp_quesadilla_uncured_pepperoni",
+      "display_name": "Rise & Puff - Quesadilla (Uncured Pepperoni)",
+      "amount": 1,
+      "calories_kcal": 300,
+      "protein_g": 14,
+      "carbohydrate_g": 24,
+      "fat_g": 16
+    },
+    {
+      "id": "lays_classic_potato_chips_1oz",
+      "display_name": "Lay's - Classic Potato Chips",
+      "amount": 1,
+      "calories_kcal": 160,
+      "protein_g": 2,
+      "carbohydrate_g": 15,
+      "fat_g": 10
     }
   ],
   "totals": {
-    "calories_kcal": 909,
-    "protein_g": 37.2,
-    "carbohydrate_g": 75.4,
-    "fat_g": 52.8
+    "calories_kcal": 1669,
+    "protein_g": 73.2,
+    "carbohydrate_g": 136.4,
+    "fat_g": 95.8
   }
 }
