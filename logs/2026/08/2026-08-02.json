@@ -1,0 +1,37 @@
+{
+  "entries": [
+    {
+      "id": "nongshim_tonkotsu_ramen_kuromayu_big_bowl",
+      "display_name": "Nongshim - Tonkotsu Ramen with Kuromayu Noodle Big Bowl",
+      "amount": 1,
+      "calories_kcal": 460,
+      "protein_g": 9,
+      "carbohydrate_g": 62,
+      "fat_g": 19
+    },
+    {
+      "id": "kibun_kamaboko_aka_red",
+      "display_name": "Kibun - Kamaboko Fish Cake (Red)",
+      "amount": 1.76,
+      "calories_kcal": 106,
+      "protein_g": 10.6,
+      "carbohydrate_g": 15.9,
+      "fat_g": 0.9
+    },
+    {
+      "id": "chomps_beef_stick_taco",
+      "display_name": "Chomps - Beef Stick (Taco)",
+      "amount": 1,
+      "calories_kcal": 100,
+      "protein_g": 10,
+      "carbohydrate_g": 0,
+      "fat_g": 7
+    }
+  ],
+  "totals": {
+    "calories_kcal": 666,
+    "protein_g": 29.6,
+    "carbohydrate_g": 77.9,
+    "fat_g": 26.9
+  }
+}
