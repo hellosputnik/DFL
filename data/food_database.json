@@ -2840,6 +2840,31 @@
       "pickle spear"
     ]
   },
+  "caffe_macs_chocolate_chip_cookie": {
+    "brand": "Caffe Macs",
+    "product_name": "Chocolate Chip Cookie",
+    "flavor": null,
+    "calories_kcal": 200,
+    "protein_g": 2,
+    "carbohydrate_g": 25,
+    "fat_g": 10,
+    "total_fat_g": 10,
+    "serving_size": 1,
+    "serving_unit": "cookie",
+    "servings_per_container": 1,
+    "source": "Comparable 1.5 oz cafeteria chocolate chip cookie nutrition reference",
+    "source_type": "estimated_from_similar_product",
+    "derivation": "Caffe Macs-specific nutrition was unavailable; estimated from a comparable 1.5 oz cafeteria chocolate chip cookie reference.",
+    "ingredients": [
+      "Wheat Flour",
+      "Sugar",
+      "Butter",
+      "Chocolate Chips",
+      "Eggs",
+      "Leavening",
+      "Salt"
+    ]
+  },
   "caffe_macs_black_peppercorn_steak": {
     "brand": "Caffe Macs",
     "product_name": "Black Peppercorn Steak",
