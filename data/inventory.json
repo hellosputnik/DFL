@@ -1,18 +1,13 @@
 [
   {
     "id": "fairlife_core_power_elite_vanilla",
-    "quantity": 15,
+    "quantity": 14,
     "unit": "bottle"
   },
   {
     "id": "fairlife_nutrition_plan_chocolate",
-    "quantity": 5,
+    "quantity": 4,
     "unit": "bottle"
-  },
-  {
-    "id": "miyako_premium_berkshire_pork_potstickers",
-    "quantity": 3,
-    "unit": "serving"
   },
   {
     "id": "safe_catch_ahi_wild_yellowfin_tuna_5oz",

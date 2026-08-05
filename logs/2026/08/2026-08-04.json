@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "id": "fairlife_nutrition_plan_chocolate",
+      "display_name": "Fairlife - Nutrition Plan (Chocolate)",
+      "amount": 1,
+      "calories_kcal": 150,
+      "protein_g": 30,
+      "carbohydrate_g": 4,
+      "fat_g": 2.5
+    },
+    {
       "id": "caffe_macs_beef_burger",
       "display_name": "Caffe Macs - Beef Burger (Modified)",
       "amount": 1,
@@ -29,9 +38,9 @@
     }
   ],
   "totals": {
-    "calories_kcal": 830,
-    "protein_g": 53,
-    "carbohydrate_g": 30,
-    "fat_g": 53
+    "calories_kcal": 980,
+    "protein_g": 83,
+    "carbohydrate_g": 34,
+    "fat_g": 55.5
   }
 }
