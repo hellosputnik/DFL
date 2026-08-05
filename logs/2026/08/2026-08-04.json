@@ -35,12 +35,39 @@
       "protein_g": 0,
       "carbohydrate_g": 0,
       "fat_g": 0
+    },
+    {
+      "id": "rp_quesadilla_chipotle_chicken",
+      "display_name": "Rise & Puff - Quesadilla (Chipotle Chicken)",
+      "amount": 1,
+      "calories_kcal": 300,
+      "protein_g": 20,
+      "carbohydrate_g": 21,
+      "fat_g": 16
+    },
+    {
+      "id": "rp_quesadilla_beef_brisket",
+      "display_name": "Rise & Puff - Quesadilla (Beef Brisket)",
+      "amount": 1,
+      "calories_kcal": 300,
+      "protein_g": 20,
+      "carbohydrate_g": 22,
+      "fat_g": 17
+    },
+    {
+      "id": "tob_edamame_ranch",
+      "display_name": "The Only Bean - Crunchy Roasted Edamame (Ranch)",
+      "amount": 1,
+      "calories_kcal": 125,
+      "protein_g": 11,
+      "carbohydrate_g": 7,
+      "fat_g": 6
     }
   ],
   "totals": {
-    "calories_kcal": 980,
-    "protein_g": 83,
-    "carbohydrate_g": 34,
-    "fat_g": 55.5
+    "calories_kcal": 1705,
+    "protein_g": 134,
+    "carbohydrate_g": 84,
+    "fat_g": 94.5
   }
 }
