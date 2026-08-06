@@ -1,0 +1,73 @@
+{
+  "entries": [
+    {
+      "id": "fairlife_nutrition_plan_chocolate",
+      "display_name": "Fairlife - Nutrition Plan (Chocolate)",
+      "amount": 1,
+      "calories_kcal": 150,
+      "protein_g": 30,
+      "carbohydrate_g": 4,
+      "fat_g": 2.5
+    },
+    {
+      "id": "caffe_macs_pork_with_daikon_radish_salsa",
+      "display_name": "Caffe Macs - Pork with Daikon Radish Salsa",
+      "amount": 1,
+      "calories_kcal": 720,
+      "protein_g": 36,
+      "carbohydrate_g": 62,
+      "fat_g": 34
+    },
+    {
+      "id": "caffe_macs_katsuo_broth_miso_soup",
+      "display_name": "Caffe Macs - Katsuo Broth Miso Soup",
+      "amount": 1,
+      "calories_kcal": 50,
+      "protein_g": 4,
+      "carbohydrate_g": 5,
+      "fat_g": 2
+    },
+    {
+      "id": "caffe_macs_americano",
+      "display_name": "Caffe Macs - Iced Americano (Black)",
+      "amount": 1,
+      "calories_kcal": 10,
+      "protein_g": 0,
+      "carbohydrate_g": 0,
+      "fat_g": 0
+    },
+    {
+      "id": "oishi_potato_fries_tomato_ketchup_50g",
+      "display_name": "Oishi - Potato Fries (Tomato Ketchup)",
+      "amount": 0.5,
+      "calories_kcal": 125,
+      "protein_g": 1.65,
+      "carbohydrate_g": 16.65,
+      "fat_g": 5.85
+    },
+    {
+      "id": "rp_quesadilla_chipotle_chicken",
+      "display_name": "Rise & Puff - Quesadilla (Chipotle Chicken)",
+      "amount": 1,
+      "calories_kcal": 300,
+      "protein_g": 20,
+      "carbohydrate_g": 21,
+      "fat_g": 16
+    },
+    {
+      "id": "rp_quesadilla_pepperoni_pizza",
+      "display_name": "Rise & Puff - Quesadilla (Pepperoni Pizza)",
+      "amount": 1,
+      "calories_kcal": 300,
+      "protein_g": 14,
+      "carbohydrate_g": 24,
+      "fat_g": 16
+    }
+  ],
+  "totals": {
+    "calories_kcal": 1655,
+    "protein_g": 105.65,
+    "carbohydrate_g": 132.65,
+    "fat_g": 76.35
+  }
+}

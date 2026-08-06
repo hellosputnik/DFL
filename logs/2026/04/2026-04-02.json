@@ -19,11 +19,11 @@
       "fat_g": 16
     },
     {
-      "id": "rp_quesadilla_dry_aged_pepperoni_pizza",
-      "display_name": "Rise & Puff - Quesadilla (Dry-Aged Pepperoni Pizza)",
+      "id": "rp_quesadilla_pepperoni_pizza",
+      "display_name": "Rise & Puff - Quesadilla (Pepperoni Pizza)",
       "amount": 1,
       "calories_kcal": 300,
-      "protein_g": 15,
+      "protein_g": 14,
       "carbohydrate_g": 24,
       "fat_g": 16
     },
@@ -75,7 +75,7 @@
   ],
   "totals": {
     "calories_kcal": 2095.0,
-    "protein_g": 145.2,
+    "protein_g": 144.2,
     "carbohydrate_g": 125.6,
     "fat_g": 114.7
   }
