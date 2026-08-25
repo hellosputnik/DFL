@@ -17,12 +17,30 @@
       "protein_g": 12,
       "carbohydrate_g": 20,
       "fat_g": 15
+    },
+    {
+      "id": "just_bare_roasted_chicken_breast_bites_spicy",
+      "display_name": "Just Bare - Roasted Boneless Skinless Chicken Breast Bites (Spicy)",
+      "amount": 3,
+      "calories_kcal": 360,
+      "protein_g": 60,
+      "carbohydrate_g": 6,
+      "fat_g": 12
+    },
+    {
+      "id": "just_bare_lightly_breaded_chicken_breast_fillets_spicy",
+      "display_name": "Just Bare - Lightly Breaded Chicken Breast Fillets (Spicy)",
+      "amount": 2,
+      "calories_kcal": 420,
+      "protein_g": 44,
+      "carbohydrate_g": 28,
+      "fat_g": 16
     }
   ],
   "totals": {
-    "calories_kcal": 410,
-    "protein_g": 34,
-    "carbohydrate_g": 33,
-    "fat_g": 17.5
+    "calories_kcal": 1190,
+    "protein_g": 138,
+    "carbohydrate_g": 67,
+    "fat_g": 45.5
   }
 }
