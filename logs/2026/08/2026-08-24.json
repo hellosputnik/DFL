@@ -35,12 +35,21 @@
       "protein_g": 44,
       "carbohydrate_g": 28,
       "fat_g": 16
+    },
+    {
+      "id": "fairlife_core_power_elite_chocolate",
+      "display_name": "Fairlife - Core Power Elite (Chocolate)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 9,
+      "fat_g": 3.5
     }
   ],
   "totals": {
-    "calories_kcal": 1190,
-    "protein_g": 138,
-    "carbohydrate_g": 67,
-    "fat_g": 45.5
+    "calories_kcal": 1420,
+    "protein_g": 180,
+    "carbohydrate_g": 76,
+    "fat_g": 49
   }
 }
