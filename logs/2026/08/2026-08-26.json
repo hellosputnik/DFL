@@ -1,0 +1,64 @@
+{
+  "entries": [
+    {
+      "id": "fairlife_core_power_elite_chocolate",
+      "display_name": "Fairlife - Core Power Elite (Chocolate)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 9,
+      "fat_g": 3.5
+    },
+    {
+      "id": "caffe_macs_pork_with_teppan_sauce",
+      "display_name": "Caffe Macs - Pork with Teppan Sauce",
+      "amount": 1,
+      "calories_kcal": 710,
+      "protein_g": 40,
+      "carbohydrate_g": 58,
+      "fat_g": 34
+    },
+    {
+      "id": "caffe_macs_katsuo_broth_miso_soup",
+      "display_name": "Caffe Macs - Katsuo Broth Miso Soup",
+      "amount": 1,
+      "calories_kcal": 50,
+      "protein_g": 4,
+      "carbohydrate_g": 5,
+      "fat_g": 2
+    },
+    {
+      "id": "caffe_macs_americano",
+      "display_name": "Caffe Macs - Iced Americano (Black)",
+      "amount": 1,
+      "calories_kcal": 10,
+      "protein_g": 0,
+      "carbohydrate_g": 0,
+      "fat_g": 0
+    },
+    {
+      "id": "caffe_macs_nitro_cold_brew",
+      "display_name": "Caffe Macs - Nitro Cold Brew (Black)",
+      "amount": 1,
+      "calories_kcal": 5,
+      "protein_g": 0,
+      "carbohydrate_g": 0,
+      "fat_g": 0
+    },
+    {
+      "id": "lipton_diet_green_tea_citrus",
+      "display_name": "Lipton - Diet Green Tea (Citrus)",
+      "amount": 1,
+      "calories_kcal": 5,
+      "protein_g": 0,
+      "carbohydrate_g": 0,
+      "fat_g": 0
+    }
+  ],
+  "totals": {
+    "calories_kcal": 1010,
+    "protein_g": 86,
+    "carbohydrate_g": 72,
+    "fat_g": 39.5
+  }
+}
