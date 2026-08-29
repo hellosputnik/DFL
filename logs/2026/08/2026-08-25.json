@@ -1,0 +1,82 @@
+{
+  "entries": [
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    },
+    {
+      "id": "caffe_macs_beef_burger",
+      "display_name": "Caffe Macs - Beef Burger (Modified)",
+      "amount": 1,
+      "calories_kcal": 610,
+      "protein_g": 51,
+      "carbohydrate_g": 5,
+      "fat_g": 43
+    },
+    {
+      "id": "caffe_macs_americano",
+      "display_name": "Caffe Macs - Iced Americano (Black)",
+      "amount": 2,
+      "calories_kcal": 20,
+      "protein_g": 0,
+      "carbohydrate_g": 0,
+      "fat_g": 0
+    },
+    {
+      "id": "lipton_zero_sugar_iced_tea_green_tea_citrus",
+      "display_name": "Lipton - Zero Sugar Iced Tea (Green Tea Citrus)",
+      "amount": 1,
+      "calories_kcal": 5,
+      "protein_g": 0,
+      "carbohydrate_g": 0,
+      "fat_g": 0
+    },
+    {
+      "id": "aplenty_mochi_ice_cream_cookies_and_cream_7_5oz",
+      "display_name": "Aplenty - Mochi Ice Cream (Cookies and Cream)",
+      "amount": 3,
+      "calories_kcal": 240,
+      "protein_g": 3,
+      "carbohydrate_g": 45,
+      "fat_g": 6
+    },
+    {
+      "id": "safe_catch_ahi_wild_yellowfin_tuna_5oz",
+      "display_name": "Safe Catch - Wild Ahi Yellowfin Tuna",
+      "amount": 1,
+      "calories_kcal": 180,
+      "protein_g": 42.5,
+      "carbohydrate_g": 0,
+      "fat_g": 1
+    },
+    {
+      "id": "just_bare_lightly_breaded_chicken_breast_fillets_spicy",
+      "display_name": "Just Bare - Lightly Breaded Chicken Breast Fillets (Spicy)",
+      "amount": 2,
+      "calories_kcal": 420,
+      "protein_g": 44,
+      "carbohydrate_g": 28,
+      "fat_g": 16
+    },
+    {
+      "id": "heinz_organic_ketchup",
+      "display_name": "Heinz - Organic Tomato Ketchup",
+      "amount": 1,
+      "calories_kcal": 20,
+      "protein_g": 0,
+      "carbohydrate_g": 5,
+      "fat_g": 0
+    }
+  ],
+  "totals": {
+    "calories_kcal": 1725,
+    "protein_g": 182.5,
+    "carbohydrate_g": 91,
+    "fat_g": 69.5
+  }
+}
