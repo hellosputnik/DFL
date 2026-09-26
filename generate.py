@@ -126,6 +126,18 @@ def get_shared_head(title: str) -> str:
         .dark-mode .tag-modified {{ background: #0c4a6e; color: #7dd3fc; border-color: #0ea5e9; }}
         .tag-flavor {{ display: inline-block; padding: 0.15rem 0.4rem; border-radius: 4px; font-size: 0.65rem; font-weight: 700; text-transform: uppercase; background: #f8fafc; color: #475569; margin-left: 0.5rem; vertical-align: middle; border: 1px solid #e2e8f0; }}
         .dark-mode .tag-flavor {{ background: #334155; color: #cbd5e1; border-color: #475569; }}
+
+        /* Mobile-only refinements. Desktop rendering is unchanged: the
+           .table-scroll wrapper only takes effect when content overflows,
+           and the rules below apply only under 640px. */
+        .table-scroll {{ overflow-x: auto; -webkit-overflow-scrolling: touch; }}
+        @media (max-width: 640px) {{
+            body {{ padding: 1rem; }}
+            header {{ flex-wrap: wrap; row-gap: 0.75rem; }}
+            th, td {{ padding: 0.625rem 0.5rem; }}
+            .grid {{ gap: 1rem; margin-bottom: 1.5rem; }}
+            h2 {{ margin-top: 1.5rem; }}
+        }}
     </style>
     <script>
         if (localStorage.getItem('theme') === 'dark') {{
@@ -308,7 +320,7 @@ def run_dashboard_generation(date_str: str = None, output_directory: str = ".") 
         .progress-bg {{ background: var(--border); height: 6px; border-radius: 3px; overflow: hidden; margin-top: 0.2rem; }}
         .progress-fill {{ background: var(--primary); height: 100%; transition: width 0.3s ease, background 0.3s ease; }}
         .tooltip {{ visibility: hidden; width: 130px; background-color: #1e293b; color: #fff; text-align: left; border-radius: 6px; padding: 8px 10px; position: absolute; z-index: 10; bottom: 140%; right: 0; opacity: 0; transition: opacity 0.2s; font-size: 0.7rem; text-transform: none; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); pointer-events: none; }}
-        .info-icon:hover .tooltip {{ visibility: visible; opacity: 1; }}
+        .info-icon:hover .tooltip, .info-icon:focus .tooltip, .info-icon:focus-within .tooltip, .info-icon.tooltip-open .tooltip {{ visibility: visible; opacity: 1; }}
         input[type=number]::-webkit-inner-spin-button {{ -webkit-appearance: none; margin: 0; }}
         .editable-goal {{ border: 1px solid transparent; background: transparent; color: inherit; font: inherit; width: 100%; padding: 0; margin: 0; text-align: left; cursor: pointer; }}
         .editable-goal:hover {{ color: var(--primary); }}
@@ -330,7 +342,7 @@ def run_dashboard_generation(date_str: str = None, output_directory: str = ".") 
 
         <div class="grid">
             <div class="card" id="card-calories">
-                <div class="stat-label">Calories <div class="info-icon" style="cursor:help; position:relative; display:inline-flex; align-items:center;"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg><div class="tooltip" id="calories-tooltip">
+                <div class="stat-label">Calories <div class="info-icon" tabindex="0" role="button" aria-label="Calorie goal details" onclick="this.classList.toggle('tooltip-open')" style="cursor:help; position:relative; display:inline-flex; align-items:center;"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg><div class="tooltip" id="calories-tooltip">
                     <div style="display: flex; justify-content: space-between; margin-bottom: 4px;"><span>Phase</span> <b style="text-transform: capitalize;">{goals.get('phase', 'cut')}</b></div>
                     <div style="display: flex; justify-content: space-between;"><span>Goal</span> <b>{goals['calories_target']}</b></div>
                     <div style="display: flex; justify-content: space-between;"><span>Maintenance</span> <b>{goals['calories_maintenance']}</b></div>
@@ -359,8 +371,8 @@ def run_dashboard_generation(date_str: str = None, output_directory: str = ".") 
             </div>
         </div>
 
-        <section><h2>Today's Log</h2><table id="log-table"><thead><tr><th class="text-center">Brand</th><th>Product</th><th class="text-center">Calories</th><th class="text-center">Protein</th><th class="text-center">Carbohydrate</th><th class="text-center">Fat</th></tr></thead><tbody>{log_rows_html}</tbody></table></section>
-        <section style="margin-top: 2rem;"><h2>Current Inventory</h2><table id="inventory-table"><thead><tr><th class='text-center'>Brand</th><th>Product</th><th class='text-center'>Calories</th><th class='text-center'>Protein</th><th class='text-center'>Carbohydrate</th><th class='text-center'>Fat</th></tr></thead><tbody>{inventory_rows_html}</tbody></table></section>
+        <section><h2>Today's Log</h2><div class="table-scroll"><table id="log-table"><thead><tr><th class="text-center">Brand</th><th>Product</th><th class="text-center">Calories</th><th class="text-center">Protein</th><th class="text-center">Carbohydrate</th><th class="text-center">Fat</th></tr></thead><tbody>{log_rows_html}</tbody></table></div></section>
+        <section style="margin-top: 2rem;"><h2>Current Inventory</h2><div class="table-scroll"><table id="inventory-table"><thead><tr><th class='text-center'>Brand</th><th>Product</th><th class='text-center'>Calories</th><th class='text-center'>Protein</th><th class='text-center'>Carbohydrate</th><th class='text-center'>Fat</th></tr></thead><tbody>{inventory_rows_html}</tbody></table></div></section>
     </div>
 
     <script>
@@ -528,7 +540,7 @@ def run_database_generation(output_directory: str = ".") -> None:
             <div class="control-group"><label>Filter by Brand</label><select id="brand-filter" onchange="filterTable()"><option value="">All Brands</option>{" ".join([f'<option value="{brand}">{brand}</option>' for brand in sorted(list(set(value.get('brand', 'N/A') for value in database.values())))])}</select></div>
             <div class="control-group"><label>Sort By</label><select id="sort-by" onchange="sortTable()"><option value="0">Brand</option><option value="1">Product</option><option value="2">Calories</option><option value="3" selected>Protein</option><option value="4">Carbohydrate</option><option value="5">Fat</option></select></div>
         </div>
-        <table id="food-table"><thead><tr><th class="text-center">Brand</th><th>Product</th><th class="text-center">Calories</th><th class="text-center">Protein</th><th class="text-center">Carbohydrate</th><th class="text-center">Fat</th></tr></thead><tbody>{rows_html}</tbody></table>
+        <div class="table-scroll"><table id="food-table"><thead><tr><th class="text-center">Brand</th><th>Product</th><th class="text-center">Calories</th><th class="text-center">Protein</th><th class="text-center">Carbohydrate</th><th class="text-center">Fat</th></tr></thead><tbody>{rows_html}</tbody></table></div>
         <div id="empty-state" class="empty-state">No items match your search criteria.</div>
     </div>
     <script>
@@ -656,7 +668,7 @@ def run_history_generation(output_directory: str = ".", limit: int = None) -> No
                         <div class="stat-group"><span class="stat-label">Protein</span><span class="stat-val">{protein}g</span></div>
                     </div>
                 </div>
-                <div class="details"><table><thead><tr><th class="text-center">Brand</th><th>Product</th><th class="text-center">Calories</th><th class="text-center">Protein</th><th class="text-center">Carbohydrate</th><th class="text-center">Fat</th></tr></thead><tbody>{table_rows}</tbody></table></div>
+                <div class="details"><div class="table-scroll"><table><thead><tr><th class="text-center">Brand</th><th>Product</th><th class="text-center">Calories</th><th class="text-center">Protein</th><th class="text-center">Carbohydrate</th><th class="text-center">Fat</th></tr></thead><tbody>{table_rows}</tbody></table></div></div>
             </div>""")
     items_html = "\n".join(items_list)
 
