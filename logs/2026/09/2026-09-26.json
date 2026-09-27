@@ -35,12 +35,39 @@
       "protein_g": 11,
       "carbohydrate_g": 7,
       "fat_g": 6
+    },
+    {
+      "id": "rp_quesadilla_beef_brisket",
+      "display_name": "Rise & Puff - Quesadilla (Beef Brisket)",
+      "amount": 1,
+      "calories_kcal": 300,
+      "protein_g": 20,
+      "carbohydrate_g": 22,
+      "fat_g": 17
+    },
+    {
+      "id": "rp_quesadilla_pepperoni_pizza",
+      "display_name": "Rise & Puff - Quesadilla (Pepperoni Pizza)",
+      "amount": 1,
+      "calories_kcal": 300,
+      "protein_g": 14,
+      "carbohydrate_g": 24,
+      "fat_g": 16
+    },
+    {
+      "id": "rp_quesadilla_beef_brisket",
+      "display_name": "Rise & Puff - Quesadilla (Beef Brisket)",
+      "amount": 1,
+      "calories_kcal": 300,
+      "protein_g": 20,
+      "carbohydrate_g": 22,
+      "fat_g": 17
     }
   ],
   "totals": {
-    "calories_kcal": 787,
-    "protein_g": 97,
-    "carbohydrate_g": 48,
-    "fat_g": 25.5
+    "calories_kcal": 1687,
+    "protein_g": 151,
+    "carbohydrate_g": 116,
+    "fat_g": 75.5
   }
 }
