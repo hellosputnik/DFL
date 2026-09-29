@@ -1,0 +1,55 @@
+{
+  "entries": [
+    {
+      "id": "v8_energy_diet_strawberry_lemonade",
+      "display_name": "V8 - Energy (Diet Strawberry Lemonade)",
+      "amount": 1,
+      "calories_kcal": 10,
+      "protein_g": 0,
+      "carbohydrate_g": 2,
+      "fat_g": 0
+    },
+    {
+      "id": "rp_quesadilla_beef_brisket",
+      "display_name": "Rise & Puff - Quesadilla (Beef Brisket)",
+      "amount": 1,
+      "calories_kcal": 300,
+      "protein_g": 20,
+      "carbohydrate_g": 22,
+      "fat_g": 17
+    },
+    {
+      "id": "rp_quesadilla_pepperoni_pizza",
+      "display_name": "Rise & Puff - Quesadilla (Pepperoni Pizza)",
+      "amount": 1,
+      "calories_kcal": 300,
+      "protein_g": 14,
+      "carbohydrate_g": 24,
+      "fat_g": 16
+    },
+    {
+      "id": "just_bare_lightly_breaded_chicken_breast_fillets_spicy",
+      "display_name": "Just Bare - Lightly Breaded Chicken Breast Fillets (Spicy)",
+      "amount": 2,
+      "calories_kcal": 420,
+      "protein_g": 44,
+      "carbohydrate_g": 28,
+      "fat_g": 16
+    },
+    {
+      "id": "heinz_organic_ketchup",
+      "display_name": "Heinz - Organic Tomato Ketchup",
+      "amount": 1,
+      "calories_kcal": 20,
+      "protein_g": 0,
+      "carbohydrate_g": 5,
+      "fat_g": 0
+    }
+  ],
+  "totals": {
+    "calories_kcal": 1050,
+    "protein_g": 78,
+    "carbohydrate_g": 81,
+    "fat_g": 49
+  }
+}

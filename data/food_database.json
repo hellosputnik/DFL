@@ -42546,7 +42546,7 @@
       "White vinegar",
       "Vegan mayonnaise (soy)",
       "Cilantro",
-      "Jalapeños",
+      "Jalape\u00f1os",
       "Basil",
       "Salt",
       "Pepper"
@@ -45196,7 +45196,7 @@
   "starbucks_coffee_protein_caffe_mocha": {
     "brand": "Starbucks",
     "product_name": "Coffee & Protein",
-    "flavor": "Caffè Mocha",
+    "flavor": "Caff\u00e8 Mocha",
     "calories_kcal": 150,
     "protein_g": 22,
     "carbohydrate_g": 13,
@@ -45219,7 +45219,7 @@
     "total_weight_oz": 12,
     "source": "User-provided package photo; https://www.heb.com/product-detail/starbucks-coffee-22g-protein-caff-mocha/16117528",
     "source_type": "secondary",
-    "derivation": "The photo's dark brown Caffè Mocha packaging and 22g-protein callout identify this 12 fl oz bottle. Exact nutrition facts and ingredients were transcribed from the matching H-E-B product listing for UPC 00098100101482.",
+    "derivation": "The photo's dark brown Caff\u00e8 Mocha packaging and 22g-protein callout identify this 12 fl oz bottle. Exact nutrition facts and ingredients were transcribed from the matching H-E-B product listing for UPC 00098100101482.",
     "ingredients": [
       "Brewed Starbucks Coffee (Water, Coffee)",
       "Reduced-Fat Milk",
@@ -45490,6 +45490,46 @@
       "Acesulfame Potassium",
       "Citrus Pectin",
       "Calcium Disodium EDTA"
+    ]
+  },
+  "v8_energy_diet_strawberry_lemonade": {
+    "brand": "V8",
+    "product_name": "Energy",
+    "flavor": "Diet Strawberry Lemonade",
+    "calories_kcal": 10,
+    "protein_g": 0,
+    "carbohydrate_g": 2,
+    "fat_g": 0,
+    "total_fat_g": 0,
+    "saturated_fat_g": 0,
+    "trans_fat_g": 0,
+    "cholesterol_mg": 0,
+    "sodium_mg": 15,
+    "dietary_fiber_g": 0,
+    "total_sugars_g": 2,
+    "added_sugars_g": 0,
+    "vitamin_d_mcg": 0,
+    "calcium_mg": 10,
+    "iron_mg": 0,
+    "potassium_mg": 20,
+    "serving_size": 1,
+    "serving_unit": "can",
+    "servings_per_container": 1,
+    "total_weight_oz": 8,
+    "ingredients": [
+      "Water",
+      "Vegetable Juice (Water and Concentrated Juice of Sweet Potatoes)",
+      "Fruit Juice (Water and Concentrated Juices of Apples, Lemons, Strawberries)",
+      "Natural Flavoring",
+      "Citric Acid",
+      "Malic Acid",
+      "Caffeine from Black and Green Tea",
+      "Vitamin C (Ascorbic Acid)",
+      "Sucralose",
+      "Niacinamide (Vitamin B3)",
+      "Pyridoxine Hydrochloride (Vitamin B6)",
+      "Watermelon Juice Concentrate",
+      "Cyanocobalamin (Vitamin B12)"
     ]
   }
 }
