@@ -17,7 +17,57 @@
       "fat_g": 0,
       "id": "caffe_macs_americano",
       "protein_g": 0
+    },
+    {
+      "id": "just_bare_lightly_breaded_chicken_breast_fillets_spicy",
+      "display_name": "Just Bare - Lightly Breaded Chicken Breast Fillets (Spicy)",
+      "amount": 2,
+      "calories_kcal": 420,
+      "protein_g": 44,
+      "carbohydrate_g": 28,
+      "fat_g": 16
+    },
+    {
+      "id": "heinz_organic_ketchup",
+      "display_name": "Heinz - Organic Tomato Ketchup",
+      "amount": 1,
+      "calories_kcal": 20,
+      "protein_g": 0,
+      "carbohydrate_g": 5,
+      "fat_g": 0
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    },
+    {
+      "id": "tob_edamame_ranch",
+      "display_name": "The Only Bean - Crunchy Roasted Edamame (Ranch)",
+      "amount": 1,
+      "calories_kcal": 125,
+      "protein_g": 11,
+      "carbohydrate_g": 7,
+      "fat_g": 6
+    },
+    {
+      "id": "chomps_sea_salt_beef_stick",
+      "display_name": "Chomps - Beef Stick (Sea Salt)",
+      "amount": 1,
+      "calories_kcal": 100,
+      "protein_g": 10,
+      "carbohydrate_g": 0,
+      "fat_g": 7
     }
   ],
-  "totals": { "calories_kcal": 875, "carbohydrate_g": 60, "fat_g": 42, "protein_g": 52 }
+  "totals": {
+    "calories_kcal": 1770,
+    "protein_g": 159,
+    "carbohydrate_g": 108,
+    "fat_g": 74.5
+  }
 }
