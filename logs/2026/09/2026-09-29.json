@@ -1,0 +1,23 @@
+{
+  "entries": [
+    {
+      "amount": 1,
+      "calories_kcal": 855,
+      "carbohydrate_g": 60,
+      "display_name": "Caffe Macs - Pork Chile Verde (Modified)",
+      "fat_g": 42,
+      "id": "caffe_macs_pork_chile_verde",
+      "protein_g": 52
+    },
+    {
+      "amount": 2,
+      "calories_kcal": 20,
+      "carbohydrate_g": 0,
+      "display_name": "Caffe Macs - Iced Americano (Black)",
+      "fat_g": 0,
+      "id": "caffe_macs_americano",
+      "protein_g": 0
+    }
+  ],
+  "totals": { "calories_kcal": 875, "carbohydrate_g": 60, "fat_g": 42, "protein_g": 52 }
+}
