@@ -17,12 +17,48 @@
       "protein_g": 0,
       "carbohydrate_g": 0,
       "fat_g": 0
+    },
+    {
+      "id": "just_bare_lightly_breaded_chicken_breast_fillets_spicy",
+      "display_name": "Just Bare - Lightly Breaded Chicken Breast Fillets (Spicy)",
+      "amount": 2,
+      "calories_kcal": 420,
+      "protein_g": 44,
+      "carbohydrate_g": 28,
+      "fat_g": 16
+    },
+    {
+      "id": "heinz_organic_ketchup",
+      "display_name": "Heinz - Organic Tomato Ketchup",
+      "amount": 1,
+      "calories_kcal": 20,
+      "protein_g": 0,
+      "carbohydrate_g": 5,
+      "fat_g": 0
+    },
+    {
+      "id": "tob_edamame_ranch",
+      "display_name": "The Only Bean - Crunchy Roasted Edamame (Ranch)",
+      "amount": 1,
+      "calories_kcal": 125,
+      "protein_g": 11,
+      "carbohydrate_g": 7,
+      "fat_g": 6
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
     }
   ],
   "totals": {
-    "calories_kcal": 1145,
-    "protein_g": 64,
-    "carbohydrate_g": 125,
-    "fat_g": 42
+    "calories_kcal": 1940,
+    "protein_g": 161,
+    "carbohydrate_g": 173,
+    "fat_g": 67.5
   }
 }
