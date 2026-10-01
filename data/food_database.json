@@ -2776,6 +2776,31 @@
     "serving_unit": "drink",
     "ingredients": ["espresso", "water", "ice"]
   },
+  "caffe_macs_steak_burrito": {
+    "brand": "Caffe Macs",
+    "product_name": "Steak Burrito",
+    "flavor": null,
+    "calories_kcal": 1125,
+    "protein_g": 64,
+    "carbohydrate_g": 125,
+    "fat_g": 42,
+    "total_fat_g": 42,
+    "serving_size": 1,
+    "serving_unit": "burrito",
+    "servings_per_container": 1,
+    "estimated": true,
+    "ingredients": [
+      "flour tortilla",
+      "spanish rice",
+      "refried pinto beans",
+      "grilled steak",
+      "shredded cheese",
+      "lettuce",
+      "tomatoes",
+      "tortilla chips (side)",
+      "hot salsa"
+    ]
+  },
   "caffe_macs_vegan_miso_soup": {
     "brand": "Caffe Macs",
     "product_name": "Vegan Miso Soup",

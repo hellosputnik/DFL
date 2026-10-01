@@ -1,0 +1,28 @@
+{
+  "entries": [
+    {
+      "id": "caffe_macs_steak_burrito",
+      "display_name": "Caffe Macs - Steak Burrito",
+      "amount": 1,
+      "calories_kcal": 1125,
+      "protein_g": 64,
+      "carbohydrate_g": 125,
+      "fat_g": 42
+    },
+    {
+      "id": "caffe_macs_americano",
+      "display_name": "Caffe Macs - Iced Americano (Black)",
+      "amount": 2,
+      "calories_kcal": 20,
+      "protein_g": 0,
+      "carbohydrate_g": 0,
+      "fat_g": 0
+    }
+  ],
+  "totals": {
+    "calories_kcal": 1145,
+    "protein_g": 64,
+    "carbohydrate_g": 125,
+    "fat_g": 42
+  }
+}
