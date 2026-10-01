@@ -45641,11 +45641,26 @@
     "servings_per_container": 1,
     "estimated": true,
     "ingredients": [
-      "marinated roasted chicken thighs",
-      "cilantro rice",
-      "aji verde sauce",
-      "roasted broccoli",
-      "roasted carrots"
+      "chicken thighs",
+      "smoked paprika",
+      "garlic",
+      "orange juice",
+      "cumin",
+      "lemons",
+      "limes",
+      "oregano",
+      "cayenne",
+      "red pepper",
+      "sunflower oil",
+      "salt",
+      "pepper",
+      "aji verde sauce (mayonnaise, cotija cheese, aji amarillo, cilantro, jalapenos, garlic, lime juice)",
+      "jasmine rice",
+      "green onions",
+      "extra-virgin olive oil",
+      "baby carrots",
+      "baby spinach",
+      "broccoli"
     ]
   }
 }

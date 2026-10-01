@@ -3,12 +3,12 @@
   "entries": [
     {
       "id": "caffe_macs_chicken_cilantro_rice",
-      "display_name": "Caffe Macs - Chicken with Cilantro Rice",
+      "display_name": "Caffe Macs - Chicken with Cilantro Rice (Modified)",
       "amount": 1,
-      "calories_kcal": 990,
-      "protein_g": 61,
-      "carbohydrate_g": 65,
-      "fat_g": 56
+      "calories_kcal": 785,
+      "protein_g": 57,
+      "carbohydrate_g": 20,
+      "fat_g": 55
     },
     {
       "id": "v8_energy_diet_strawberry_lemonade",
@@ -21,9 +21,9 @@
     }
   ],
   "totals": {
-    "calories_kcal": 1000,
-    "protein_g": 61,
-    "carbohydrate_g": 67,
-    "fat_g": 56
+    "calories_kcal": 795,
+    "protein_g": 57,
+    "carbohydrate_g": 22,
+    "fat_g": 55
   }
 }
