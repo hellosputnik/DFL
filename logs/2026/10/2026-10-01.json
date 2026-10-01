@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-01",
+  "entries": [
+    {
+      "id": "caffe_macs_chicken_cilantro_rice",
+      "display_name": "Caffe Macs - Chicken with Cilantro Rice",
+      "amount": 1,
+      "calories_kcal": 990,
+      "protein_g": 61,
+      "carbohydrate_g": 65,
+      "fat_g": 56
+    },
+    {
+      "id": "v8_energy_diet_strawberry_lemonade",
+      "display_name": "V8 - Energy (Diet Strawberry Lemonade)",
+      "amount": 1,
+      "calories_kcal": 10,
+      "protein_g": 0,
+      "carbohydrate_g": 2,
+      "fat_g": 0
+    }
+  ],
+  "totals": {
+    "calories_kcal": 1000,
+    "protein_g": 61,
+    "carbohydrate_g": 67,
+    "fat_g": 56
+  }
+}
