@@ -18,12 +18,39 @@
       "protein_g": 0,
       "carbohydrate_g": 2,
       "fat_g": 0
+    },
+    {
+      "id": "tomo_sushi_crunchy_lobster_roll",
+      "display_name": "Tomo Sushi - Crunchy Lobster Roll",
+      "amount": 1,
+      "calories_kcal": 620,
+      "protein_g": 25,
+      "carbohydrate_g": 72,
+      "fat_g": 28
+    },
+    {
+      "id": "tomo_sushi_golden_philadelphia_roll",
+      "display_name": "Tomo Sushi - Golden Philadelphia Roll",
+      "amount": 1,
+      "calories_kcal": 550,
+      "protein_g": 28,
+      "carbohydrate_g": 55,
+      "fat_g": 24
+    },
+    {
+      "id": "tomo_sushi_spicy_tuna_roll",
+      "display_name": "Tomo Sushi - Spicy Tuna Roll",
+      "amount": 1,
+      "calories_kcal": 290,
+      "protein_g": 24,
+      "carbohydrate_g": 35,
+      "fat_g": 7
     }
   ],
   "totals": {
-    "calories_kcal": 795,
-    "protein_g": 57,
-    "carbohydrate_g": 22,
-    "fat_g": 55
+    "calories_kcal": 2255,
+    "protein_g": 134,
+    "carbohydrate_g": 184,
+    "fat_g": 114
   }
 }

@@ -45662,5 +45662,50 @@
       "baby spinach",
       "broccoli"
     ]
+  },
+  "tomo_sushi_crunchy_lobster_roll": {
+    "brand": "Tomo Sushi",
+    "product_name": "Crunchy Lobster Roll",
+    "flavor": null,
+    "calories_kcal": 620,
+    "protein_g": 25,
+    "carbohydrate_g": 72,
+    "fat_g": 28,
+    "total_fat_g": 28,
+    "serving_size": 1,
+    "serving_unit": "roll",
+    "servings_per_container": 1,
+    "estimated": true,
+    "ingredients": ["lobster tempura", "sushi rice", "mayonnaise", "eel sauce", "avocado", "nori"]
+  },
+  "tomo_sushi_golden_philadelphia_roll": {
+    "brand": "Tomo Sushi",
+    "product_name": "Golden Philadelphia Roll",
+    "flavor": null,
+    "calories_kcal": 550,
+    "protein_g": 28,
+    "carbohydrate_g": 55,
+    "fat_g": 24,
+    "total_fat_g": 24,
+    "serving_size": 1,
+    "serving_unit": "roll",
+    "servings_per_container": 1,
+    "estimated": true,
+    "ingredients": ["salmon", "cream cheese", "avocado", "sushi rice", "nori"]
+  },
+  "tomo_sushi_spicy_tuna_roll": {
+    "brand": "Tomo Sushi",
+    "product_name": "Spicy Tuna Roll",
+    "flavor": null,
+    "calories_kcal": 290,
+    "protein_g": 24,
+    "carbohydrate_g": 35,
+    "fat_g": 7,
+    "total_fat_g": 7,
+    "serving_size": 1,
+    "serving_unit": "roll",
+    "servings_per_container": 1,
+    "estimated": true,
+    "ingredients": ["tuna", "spicy mayonnaise", "sushi rice", "nori"]
   }
 }
