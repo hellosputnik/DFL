@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-02",
+  "entries": [
+    {
+      "amount": 2,
+      "calories_kcal": 420,
+      "carbohydrate_g": 28,
+      "display_name": "Just Bare - Lightly Breaded Chicken Breast Fillets Spicy",
+      "fat_g": 16,
+      "id": "just_bare_lightly_breaded_chicken_breast_fillets_spicy",
+      "protein_g": 44
+    },
+    {
+      "amount": 2,
+      "calories_kcal": 600,
+      "carbohydrate_g": 44,
+      "display_name": "Rise & Puff - Quesadilla Beef Brisket",
+      "fat_g": 34,
+      "id": "rp_quesadilla_beef_brisket",
+      "protein_g": 40
+    }
+  ],
+  "totals": { "calories_kcal": 1020, "carbohydrate_g": 72, "fat_g": 50, "protein_g": 84 }
+}
