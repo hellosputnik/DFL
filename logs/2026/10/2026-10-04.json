@@ -11,19 +11,37 @@
       "protein_g": 40
     },
     {
-      "amount": 1,
-      "calories_kcal": 350,
-      "carbohydrate_g": 44,
+      "amount": 2,
+      "calories_kcal": 700,
+      "carbohydrate_g": 88,
       "display_name": "Wuming Xiaozu - Rice Crisps (Spicy)",
-      "fat_g": 17,
+      "fat_g": 34,
       "id": "wumingxiaozu_rice_crisps_spicy",
-      "protein_g": 6
+      "protein_g": 12
+    },
+    {
+      "id": "just_bare_roasted_chicken_breast_bites_spicy",
+      "display_name": "Just Bare - Roasted Chicken Breast Bites Spicy",
+      "amount": 3,
+      "calories_kcal": 360,
+      "protein_g": 60,
+      "carbohydrate_g": 6,
+      "fat_g": 12
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
     }
   ],
   "totals": {
-    "calories_kcal": 950,
-    "protein_g": 46,
-    "carbohydrate_g": 88,
-    "fat_g": 51
+    "calories_kcal": 1890,
+    "protein_g": 154,
+    "carbohydrate_g": 146,
+    "fat_g": 83.5
   }
 }
