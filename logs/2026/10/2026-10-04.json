@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-04",
+  "entries": [
+    {
+      "amount": 2,
+      "calories_kcal": 600,
+      "carbohydrate_g": 44,
+      "display_name": "Rise & Puff - Quesadilla Beef Brisket",
+      "fat_g": 34,
+      "id": "rp_quesadilla_beef_brisket",
+      "protein_g": 40
+    },
+    {
+      "amount": 1,
+      "calories_kcal": 350,
+      "carbohydrate_g": 44,
+      "display_name": "Wumingxiaozu - Rice Crisps (Spicy)",
+      "fat_g": 17,
+      "id": "wumingxiaozu_rice_crisps_spicy",
+      "protein_g": 6
+    }
+  ],
+  "totals": {
+    "calories_kcal": 950,
+    "protein_g": 46,
+    "carbohydrate_g": 88,
+    "fat_g": 51
+  }
+}
