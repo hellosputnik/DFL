@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-06",
+  "entries": [
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    }
+  ],
+  "totals": {
+    "calories_kcal": 230,
+    "protein_g": 42,
+    "carbohydrate_g": 8,
+    "fat_g": 3.5
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-05",
+  "entries": [
+    {
+      "amount": 1,
+      "calories_kcal": 350,
+      "carbohydrate_g": 44,
+      "display_name": "Wuming Xiaozu - Rice Crisps (Spicy)",
+      "fat_g": 17,
+      "id": "wumingxiaozu_rice_crisps_spicy",
+      "protein_g": 6
+    },
+    {
+      "id": "just_bare_roasted_chicken_breast_bites_spicy",
+      "display_name": "Just Bare - Roasted Boneless Skinless Chicken Breast Bites (Spicy)",
+      "amount": 3,
+      "calories_kcal": 360,
+      "protein_g": 60,
+      "carbohydrate_g": 6,
+      "fat_g": 12
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    },
+    {
+      "id": "tob_edamame_ranch",
+      "display_name": "The Only Bean - Crunchy Roasted Edamame (Ranch)",
+      "amount": 1,
+      "calories_kcal": 125,
+      "protein_g": 11,
+      "carbohydrate_g": 7,
+      "fat_g": 6
+    },
+    {
+      "id": "heinz_organic_ketchup",
+      "display_name": "Heinz - Organic Tomato Ketchup",
+      "amount": 1,
+      "calories_kcal": 20,
+      "protein_g": 0,
+      "carbohydrate_g": 5,
+      "fat_g": 0
+    }
+  ],
+  "totals": {
+    "calories_kcal": 1085,
+    "protein_g": 119,
+    "carbohydrate_g": 70,
+    "fat_g": 38.5
+  }
+}
