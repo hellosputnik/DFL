@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-07",
+  "entries": [
+    {
+      "amount": 1,
+      "calories_kcal": 230,
+      "carbohydrate_g": 9,
+      "display_name": "Fairlife - Core Power Elite (Chocolate)",
+      "fat_g": 3.5,
+      "id": "fairlife_core_power_elite_chocolate",
+      "protein_g": 42
+    },
+    {
+      "amount": 1,
+      "calories_kcal": 730,
+      "carbohydrate_g": 55,
+      "display_name": "Apple Park Caffè - Chicken with Sriracha Aioli (Estimated)",
+      "fat_g": 25,
+      "id": "apple_park_caffe_chicken_sriracha_aioli",
+      "protein_g": 55
+    },
+    {
+      "amount": 1,
+      "calories_kcal": 550,
+      "carbohydrate_g": 75,
+      "display_name": "Apple Park Caffè - Apple Cobbler with Vanilla Ice Cream (Estimated)",
+      "fat_g": 22,
+      "id": "apple_park_caffe_apple_cobbler_ice_cream",
+      "protein_g": 6
+    }
+  ],
+  "totals": { "calories_kcal": 1510, "carbohydrate_g": 139, "fat_g": 50.5, "protein_g": 103 }
+}
