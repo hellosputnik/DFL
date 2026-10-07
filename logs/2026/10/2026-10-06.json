@@ -9,12 +9,75 @@
       "protein_g": 42,
       "carbohydrate_g": 8,
       "fat_g": 3.5
+    },
+    {
+      "id": "caffe_macs_beef_burger",
+      "display_name": "Caffe Macs - Beef Burger (Modified)",
+      "amount": 1,
+      "calories_kcal": 700,
+      "protein_g": 51,
+      "carbohydrate_g": 28,
+      "fat_g": 43
+    },
+    {
+      "id": "caffe_macs_americano",
+      "display_name": "Caffe Macs - Iced Americano",
+      "amount": 2,
+      "calories_kcal": 20,
+      "protein_g": 0,
+      "carbohydrate_g": 0,
+      "fat_g": 0
+    },
+    {
+      "id": "natures_garden_probiotic_yoggies_mango_peach",
+      "display_name": "Nature's Garden - Probiotic Yoggies (Mango-Peach)",
+      "amount": 1,
+      "calories_kcal": 80,
+      "protein_g": 0,
+      "carbohydrate_g": 15,
+      "fat_g": 2.5
+    },
+    {
+      "id": "wumingxiaozu_rice_crisps_spicy",
+      "display_name": "Wuming Xiaozu - Rice Crisps (Spicy)",
+      "amount": 1,
+      "calories_kcal": 350,
+      "protein_g": 6,
+      "carbohydrate_g": 44,
+      "fat_g": 17
+    },
+    {
+      "id": "safe_catch_ahi_wild_yellowfin_tuna_5oz",
+      "display_name": "Safe Catch - Wild Ahi Yellowfin Tuna",
+      "amount": 1,
+      "calories_kcal": 180,
+      "protein_g": 42.5,
+      "carbohydrate_g": 0,
+      "fat_g": 1
+    },
+    {
+      "id": "fairlife_core_power_elite_vanilla",
+      "display_name": "Fairlife - Core Power Elite (Vanilla)",
+      "amount": 1,
+      "calories_kcal": 230,
+      "protein_g": 42,
+      "carbohydrate_g": 8,
+      "fat_g": 3.5
+    },
+    {
+      "id": "tob_edamame_ranch",
+      "display_name": "The Only Bean - Crunchy Roasted Edamame (Ranch)",
+      "amount": 1,
+      "calories_kcal": 125,
+      "protein_g": 11,
+      "carbohydrate_g": 7,
+      "fat_g": 6
     }
   ],
   "totals": {
-    "calories_kcal": 230,
-    "protein_g": 42,
-    "carbohydrate_g": 8,
-    "fat_g": 3.5
+    "calories_kcal": 1915,
+    "protein_g": 194.5,
+    "carbohydrate_g": 110,
+    "fat_g": 76.5
   }
 }
